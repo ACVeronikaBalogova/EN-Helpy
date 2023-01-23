@@ -14,31 +14,31 @@ ms.author: v-pejano
 
 # Statutory statements
 
-Společnosti musí vytvořit účetní závěrku v souladu se zákonem o účetnictví č. 563/1991.  Musí vytvořit rozvahu a výkaz zisků a ztrát.
-Tato funkce poskytuje následující výkazy:
+Companies must prepare financial statements in accordance with the Accounting Act No. 563/1991.  They must produce a balance sheet and a profit and loss account.
+This function provides the following statements:
 
-- Rozvaha
-- Výkaz zisku a ztráty
+- Balance Sheet
+- Profit and Loss Account
 
-Tyto výkazy používají účetní schémata s definovanou strukturou statutárních výkazů.
+These statements use Account Schedule with a defined structure of statutory statements.
 
-V tabulce **Název účetního schématu** je v české verzi přidáno nové pole:
+In the table **Account Schedule name** a new field has been added in the Czech version:
 
-- **Typ účetního schématu** – Rozvaha nebo Výkaz zisku a ztrát
+- **Account Schedule Type** – Balance Sheet or Profit and Loss Account
 
-V **řádku účetních schémat** jsou v české verzi přidána nová pole:
+New fields have been added to the **Account Schedule line** in the Czech version:
 
-- **Korekce řady** – odkaz na jiný řádek pro sestavení Rozvahy
-- **Typ Aktivní/Pasivní** – Aktiva nebo pasiva pro sestavení Rozvahy
-- **Vypočti** – Vždy, Nikdy, Při kladné, Při záporné
+- **Row Correction** – link to another line for the preparation of the Balance Sheet
+- **Asset/Liabilities type** – Assets or Liabilities for the preparation of the Balance Sheet
+- **Calculate** - Always, Never, Positive, Negative
 
-Rozvaha a Výkaz zisků a ztrát jsou často připravovány v šablonách souborů aplikace Excel s potřebným vzhledem pro vytištění výkazu. Uživatelé chtějí mít možnost mapovat definované účetní schémata do připravených šablon aplikace Excel.
+The Balance Sheet and Profit and Loss Statement are often prepared in Excel file templates with the necessary appearance for printing the statement. Users want to be able to map defined Account Schedule to prepared Excel templates.
 
-Z výše uvedených důvodů tato funkce poskytuje nové nastavení šablon aplikace Excel a mapování položek výkazů. Na základě tohoto nastavení mohou uživatelé exportovat data účetních schémat do souboru aplikace Excel.
+For the above reasons, this feature provides new Excel template settings and statement entries mapping. Based on these settings, users can export Account Schedules data to an Excel file.
 
-## Viz Také
+## See Also
 
-[Základní lokalizační balíček pro Česko](ui-extensions-core-localization-pack-cz.md)  
-[České lokální funkcionality](czech-local-functionality.md)  
-[Statutární informace o společnosti](statutory-company-information.md)  
+[Core Localization Pack for Czech Republic](ui-extensions-core-localization-pack-cz.md)  
+[Czech Local Functionality](czech-local-functionality.md)  
+[Company Statutory Information](statutory-company-information.md)  
 [Finance](../../finance.md)  
