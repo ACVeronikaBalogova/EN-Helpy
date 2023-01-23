@@ -14,23 +14,23 @@ ms.author: v-pejano
 
 # VAT statement
 
-Výkaz DPH obsahuje řadu vylepšení a možností:
+The VAT statement contains a number of improvements and options:
 
-- Doplněno Nastaven stat. vykazování s obecným nastavením pro vykazování DPH.
-- Doplněny dvě nové řádkové operace v poli typ (Dělení řad a Násobení řad).
-- Doplněno nastavení pro DPH ze záloh.
-- Filtrovat položky DPH pro výkaz DPH dle režimu třístranného obchodu v EU. Tento krok je nutný, protože třístranný obchod (prostředník - 1 dlužník) v EU musí být veden na samostatných řádcích. 
-- Vytisknout výkaz DPH s novou možností zaokrouhlit vypočtené částky ve výkazu DPH na celé hodnoty.
-- Filtrovat data na základě Data DPH s použitím Období DPH.
-- Filtrovat data pro starší zaúčtovaná hlášení DPH.
-- Další typy výkazu DPH – Řádný, Následný, Dodatečný – podle § 43 část 1 Zákona o DPH 235/2004) plátce může předložit dodatečné hlášení o DPH (viz dále).
-- Exportovat výkaz DPH do souboru .xml.
-- Přidat komentáře a přílohy k exportu pro finanční úřad.
+- Stat. Reporting Setup with general settings for VAT reporting added.
+- Two new line operations in the type field (Row Division and Row Multiplication) added.
+- Settings for VAT on advances added.
+- Filter the VAT Entries for the VAT Statement according to the Intermediate Trade mode in the EU. This step is necessary because Intermediate Trade (intermediary - 1 debtor) in the EU must be recorded on separate lines.
+- Print the VAT Statement with a new option to round the calculated amounts in the VAT Statement to whole values.
+- Filter data based on VAT Date using VAT Period.
+- Filter data for older posted VAT Statements.
+- Other types of VAT Statement - Standard, Subsequent, Supplementary - according to Section 43 (1) of the VAT Act 235/2004) the taxpayer may submit a supplementary VAT Statement (see below).
+- Export VAT Statement into .xml file.
+- Add comments and attachments to the export for the tax office.
 
-## Viz Také
+## See also
 
-[Základní lokalizační balíček pro Česko](ui-extensions-core-localization-pack-cz.md)  
-[České lokální funkcionality](czech-local-functionality.md)  
-[Kontrolní hlášení DPH](how-to-create-vat-control-report.md)  
-[Datum DPH](how-to-setup-vat-date.md)  
+[Core Localization Pack for Czech Republic](ui-extensions-core-localization-pack-cz.md)  
+[Czech Local Functionality](czech-local-functionality.md)  
+[VAT Control Report](how-to-create-vat-control-report.md)  
+[VAT Date](how-to-setup-vat-date.md)  
 [Finance](../../finance.md)  

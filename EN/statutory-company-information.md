@@ -25,33 +25,40 @@ Users can define document footers in different languages. These footers can be u
 
 Additional company registration numbers and other registration information may be stored in the Company Information and used in documents.
 
-![Statutární informace o společnosti](Media/statutory-information.png)
+![Statuory Information about Company](Media/statutory-information.png)
 
 ## Addition of information about the company
-### Setting up additional company information 
+
+### Setting up additional company information
+
 1. Choose the ![Lightbulb that opens the Tell Me Feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information** , and then choose the related link.
-1. Na kartě Informací o společnosti v záložce **Obecné** vyplňte pole **Hlavní předmět podnikání** a **Kód výchozího bankovního účtu**.
-1. Po nastavení polí stránku zavřete.
-### Nastavení informací pro statutární vykazování  
-1. Vyberte ikonu ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Nastavení statutárního vykazování** a poté vyberte související odkaz.
-1. V Nastavení statutárního vykazování vyplňte pole **Hlavní předmět podnikání** a dále **Registrační informace**.
-1. Po nastavení polí kartu zavřete.
-### Založení zástupců společnosti
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Nastavení statutárního vykazování** a poté vyberte související odkaz.
-1. V Nastavení statutárního vykazování v záložce **Zástupce** vyberte číselnou řadu v poli **Čísla zástupců společnosti**.
-1. Po nastavení číselné řady, vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Zástupci společnosti** a poté vyberte související odkaz.
-1. Na přehledu Zástupců společnosti vyberte tlačítko **Nový**.
-1. Zadejte informace (Jméno, Příjmení, Funkce, Tel. číslo, Číslo zaměstnance) dle potřeby.
-1. Po založení potřebných zástupců přehled zavřete.
-### Založení zápatí dokumentů
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Zápatí dokumentů** a poté vyberte související odkaz.
-1. V přehledu Zápatí dokumentů vytvořte nové zápatí pro každou jazykovou mutaci, kterou budete používat.
-1. Na novém řádku vyplňte pole **Kód jazyka** jazyk, pro které budete zápatí definovat a dále do pole **Text zápatí** zadejte text, který se bude zobrazovat.
-1. Po nastavení zápatí stránku zavřete.
+2. On the Set up Company Information page  in **General** tab fill out **Primary Business Activity** and **Default Bank Account Code** fields.
+3. After setting the fields, close the page.
 
- 
-## Viz Také
+### Information settings for statutory reporting
 
-[České lokální funkcionality](czech-local-functionality.md)  
-[Statutární výkazy](statutory-statements.md)
+1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what do you want to do"), enter **Statutory Reporting Setup** , and then choose the related link.
+2. On the Statutory Reporting Setup page fill out the **Primary Business Activity** and then **Registration information** fields.
+3. After setting the fields, close the page.
+
+### Setting up company representatives
+
+1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what do you want to do"), enter **Statutory Reporting Setup** and then choose the related link.
+2. On the Statutory Reporting Setup **Representative** tab choose No. Series in the **Company Official Nos.** field.
+3. After setting up No. Series, Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what do you want to do"), enter **Company Officials** and then choose the related link.
+4. On the Company Officials list choose the button **New**.
+5. Enter the information (First name, Surname, Title, Phone number, Employee ID) as required.
+6. After Setting up needed Company Officials close the list.
+
+### etting up Document Footers
+
+1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what do you want to do"), enter **Document Footers** and then choose the related link.
+2. On the Document Footers list set up new footer for each language version that you will use.
+3. On new line fill out **Language Code** field for which you will define language footer and then **Footer text** field enter text that will be displayed.
+4. After Setting up Document Footers close the page.
+
+## See Also
+
+[Czech Local Functionality](czech-local-functionality.md)  
+[Statutory Statements](statutory-statements.md)
 [Finance](../../finance.md)
