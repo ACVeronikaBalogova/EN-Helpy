@@ -13,13 +13,14 @@ ms.author: v-pejano
 
 # Accounting schemes - extensions
 
-Pro jednu z nejvíce používaných oblastí aplikace pro analýzu a reporting vyžadují východoevropské země následující vylepšení funkcionality standardních účetních schémat:
-- Společný seznam výrazů – společný seznam výrazů obsahuje pojmenované řádky, které lze použít jako vzorce pro všechna účetní schémata. Toho je docíleno definováním jednoho účetního schématu jako společného seznamu výrazů s názvem Sdílené účetní schéma.
-- Ukládání výsledků (současný stav) analýzy - toto vylepšení umožňuje uživateli ukládat výsledky analýzy provedené pomocí účetních schémat.
-- Analýza vzorců – toto rozšíření umožňuje uživateli analyzovat výsledky vzorců. Analýza je nyní dostupná i pro Typ součtu - Vzorec. Analýza výsledku vzorce zobrazí uživateli nový formulář obsahující seznam prvků použitých pro výpočet a jejich popis.
-- Další zdroje dat - kromě toho, že uživatelé mohou provádět analýzu na základě položek v hlavní knize, mohou nyní provádět i analýzy na základě položek DPH, položek zákazníků, položek dodavatelů a položek ocenění.
+For one of the most used application areas for analysis and reporting, Eastern European countries require the following improvements to the functionality of standard accounting schemes:
 
-## Viz Také
+- Common expression list - the common expression list contains named rows that can be used as formulas for all Account Schedules. This is achieved by defining one Account Schedule as a common list of expressions called Shared Account Schedule.
+- Saving analysis results (current status) - this enhancement allows the user to save the results of an analysis performed using Account Schedules.
+- Formula Analysis - this extension allows the user to analyze the results of formulas. Analysis is now available for Sum Type - Formula. Analyzing a formula result will show the user a new form containing a list of elements used for the calculation and their description.
+- Additional data sources - in addition to being able to perform analysis based on G/L entries, users can now perform analysis based on VAT entries, customer entries, vendor entries and value entries.
 
-[Česká lokální funkcionalita](czech-local-functionality.md)  
+## See Also
+
+[Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)  
