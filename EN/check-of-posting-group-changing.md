@@ -6,22 +6,24 @@ author: v-pejano
 ms-service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Finance, Localization, CZ
-ms.date: 12/01/2020
+ms.date: 01/23/2023
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Control of account group changes - customer, supplier, goods, bank account
-Standardní funkcionalita byla doplněna o kontroly v případě požadavku na změnu účtoskupin u karet zákazníků, dodavatelů, zboží a bankovních účtů.
+# Control of posting group changes - customer, supplier, goods, bank account
 
-|Karta|Popis|
+The standard functionality has been upgraded to include checks in case of a request to change posting groups for customer, supplier, goods and bank accounts.
+
+|Tab|Description|
 |-|-|
-|Karta zákazníka|Na Kartě zákazníka změnit účto skupinu zákazníka. Pokud neexistují otevřené položky zákazníka, Účto skupinu zákazníka lze změnit. Pokud existují otevřené položky zákazníka, pak Účto skupinu zákazníka nelze  změnit.|
-|Karta dodavatele| Na Kartě dodavatele změnit účto skupinu dodavatele. Pokud neexistují otevřené položky dodavatele, pak Účto skupinu dodavatele lze změnit. Pokud existují otevřené položky dodavatele, pak Účto skupinu dodavatele nelze změnit.|
-|Karta zboží|Na Kartě zboží změnit účto skupinu zboží. Pokud existují otevřené položky zboží, pak Účto skupinu zboží nelze změnit. Pokud neexistují otevřené položky zboží a zároveň pokud existují nevyfakturované uzavřené položky, pak Účto skupinu zboží nelze změnit. Pokud neexistují otevřené položky zboží a zároveň neexistují nevyfakturované uzavřené položky zboží, pak lze účto skupinu změnit.|
-|Karta bankovního účtu|Na Kartě bankovního účtu změnit účto skupinu bankovního účtu. Pokud je Saldo nebo Saldo (LM) nenulové, pak nelze změnit účto skupinu bankovního účtu.|
-## Viz také
+|Customer tab|Change the customer's posting group on the Customer tab. If there are no open customer items, the Customer Posting Group can be changed. If there are open customer items, then the Customer Posting Group can't be changed.|
+|Supplier tab| Change the supplier's posting group on the Supplier tab. If there are no open supplier items, then the Supplier Posting Group can be changed. If there are open supplier entries, then the Supplier Posting Group cannot be changed.|
+|Item tab|On the Item Card, change the posting group of the item. If there are open goods items, then the Posting group can't be changed. If there are no open items and at the same time if there are uninvoiced closed items, then the Posting Group can't be changed. If there are no open goods items and there are no uninvoiced closed goods items, then the posting group can be changed.|
+|Bank account tab|Change the bank posting group on the Bank Account Card. If the Balance or Balance (LM) is non-zero, then the bank posting group can't be changed.|
 
-[Základní lokalizační balíček pro Česko](ui-extensions-core-localization-pack-cz.md)  
-[Česká lokální funkcionalita](czech-local-functionality.md)  
+## See also
+
+[Core localization pack extensions](ui-extensions-core-localization-pack-cz.md)  
+[Czech local functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)  
