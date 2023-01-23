@@ -12,31 +12,31 @@ ms.author: v-pejano
 ---
 
 
-# Date of VAT
+# VAT Date
 
-Datum DPH je důležité pro daňové doklady podle § 28 zákona o DPH 235/2004 Sb. Datum DPH se může lišit od data zaúčtování nebo data dokladu. Datum DPH je důležité pole pro vykazování DPH.
+The VAT Date is important for tax documents according to Section 28 of the VAT Act 235/2004 Coll. The VAT Date may differ from the date of posting or the date of the document. The VAT Date is an important field for VAT reporting.
 
-Tato funkce se zaměřuje na zlepšení následujících oblastí:
+This feature focuses on improving the following areas:
 
 ## Nastavení použití Data DPH
 
 - Obecné povolení používání Data DPH v systému.
 - Výběr způsobů, jakým systém bude zobrazovat výchozí hodnotu Data DPH v různých oblastech (Zúčtovací datum nebo Datum dokladu).
 - Období pro vykazování DPH a účetní období společnosti se mohou často lišit. Abychom umožnili uživatelům bezproblémově vykazovat a účtovat DPH podle období pro vykazování DPH a také vydávat interní a další statutární vykazování na základě účetních období, zavádí tato funkce nově Období DPH.
-- Povolit účtování DPH od/do – zadání časové období v polích od/do, aby se zabránilo chybám účtování do uzavřených účetních a DPH období.
+- Povolit účtování DPH od/do – zadání časové období v polích od/do, aby se zabránilo chybám účtování do uzavřených účetních a DPH období.Posting of transactions with a VAT Date 
 
-### Účtování transakcí s datem DPH  
+### Posting of transactions with a VAT Date   
 
-Aby uživatel zaúčtoval transakce s použitím Data DPH, musí být schopen zadat datum DPH v aplikaci do hlaviček dokladů a řádků deníku.
-Po zaúčtování je Datum DPH součástí zaúčtovaných dokladů, věcných položek a položek DPH.
+To post transactions using the VAT Date, the user must be able to enter the VAT Date in the application in the Document Headers and Journal Lines.
+After posting, the VAT Date is included in the posted documents, G/L entries and VAT Entries.
 
-### Výpočet a účtování vyrovnání DPH
+### Calculation and posting of VAT Settlement
 
-Systém filtruje položky DPH na základě data DPH (místo Zúčtovacího data) výběrem DPH období a připraví sestavu ukazující, které položky budou převedeny na účet vyrovnání DPH. Výtisk obsahuje také informace o datu DPH.
+The system filters the VAT entries based on the VAT date (instead of the Settlement Date) by selecting the VAT period and prepares a report showing which entries will be transferred to the VAT Settlement account. The printout also contains the VAT Date information.
 
-## Viz Také
+## See Also
 
-[Základní lokalizační balíček pro Česko](ui-extensions-core-localization-pack-cz.md)  
-[Kontrolní hlášení DPH](how-to-create-vat-control-report.md)  
-[Výkaz DPH](vat-statement.md)  
+[Core Localization Pack for Czech Republic](ui-extensions-core-localization-pack-cz.md)  
+[VAT Control Report](how-to-create-vat-control-report.md)  
+[VAT Statement](vat-statement.md)  
 [Finance](../../finance.md)  
