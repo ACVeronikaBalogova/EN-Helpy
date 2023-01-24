@@ -14,12 +14,12 @@ ms.author: v-pejano
 
 # Unreliable payer institute  
 
-Novela zákona o DPH 235/2004 (§ 106a) zavedla institut nespolehlivého plátce. Ministerstvo financí zveřejňuje elektronicky seznam nespolehlivých plátců.  
-Tato funkce využívá tuto službu k získání zveřejněných informací a ukazuje stav plátce na kartách dodavatelů a nákupních dokladech.  
-Ministerstvo financí také zveřejňuje informace o registrovaných bankovních účtech plátců (pouze tyto účty jsou povoleny pro platby). Informace o registrovaných bankovních účtech plátců jsou uloženy v Bankovních účtech dodavatele a používány v rámci platebního styku.
+The amendment to the VAT Act 235/2004 (§ 106a) introduced the institute of unreliable taxpayer. The Ministry of Finance publishes electronically a list of unreliable taxpayers.  
+This feature uses this service to retrieve disclosed information and show payer status on Vendor Cards and Purchase Documents.  
+The Ministry of Finance also publishes information on registered payer bank accounts (only these accounts are allowed for payments). Information on registered payer bank accounts is stored in the Vendor Bank Accounts and used in the payment.
 
-## Viz Také
+## See Also
 
-[Základní lokalizační balíček pro Česko](ui-extensions-core-localization-pack-cz.md)  
-[České lokální funkcionality](czech-local-functionality.md)  
+[Core Localization Pack for Czech Republic](ui-extensions-core-localization-pack-cz.md)  
+[Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)  

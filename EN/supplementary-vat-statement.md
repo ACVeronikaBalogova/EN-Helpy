@@ -14,14 +14,14 @@ ms.author: v-pejano
 
 # Additional VAT reporting  
 
-Podle § 43 část 1 zákona o DPH 235/2004 může plátce předložit dodatečné hlášení DPH. V případě, že chce uživatel provést dodatečné hlášení DPH, vybere si Typ hlášení – Dodatečné v rámci exportu výkazu.  
-Ve funkcionalitě Vypočítat a účtovat vyrovnání DPH je číslo dokladu uloženo do uzavíraných položek DPH jako Číslo daňového přiznání  pro další vyhledávání ve výkazu DPH a sestavách. Tato funkce umožňuje výpočet a tisk pro různé výkazy DPH zaúčtované a podané v jednom období DPH.
+According to § 43 part 1 of the VAT Act 235/2004, the taxpayer can submit an additional VAT report. If the users want to make an additional VAT report, they can select the Report Type - Additional in the report export.  
+In the Calculate and Post for VAT Settlement functionality, the Doc. No. is stored in the VAT closing entries as a Tax Return Number for further searching in the VAT statement and reports. This functionality allows calculation and printing for different VAT statements posted and submitted in the same VAT period.
 
-## Viz Také
+## See Also
 
-[Základní lokalizační balíček pro Česko](ui-extensions-core-localization-pack-cz.md)  
-[České lokální funkcionality](czech-local-functionality.md)  
-[Kontrolní hlášení DPH](how-to-create-vat-control-report.md)  
-[Datum DPH](how-to-setup-vat-date.md)  
-[Výkaz DPH](vat-statement.md)  
+[Core Localization Pack for Czech Republic](ui-extensions-core-localization-pack-cz.md)  
+[Czech Local Functionality](czech-local-functionality.md)  
+[VAT Control Report](how-to-create-vat-control-report.md)  
+[VAT Date](how-to-setup-vat-date.md)  
+[VAT Statement](vat-statement.md)  
 [Finance](../../finance.md)  

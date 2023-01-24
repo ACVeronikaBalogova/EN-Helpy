@@ -50,7 +50,7 @@ Additional company registration numbers and other registration information may b
 5. Enter the information (First name, Surname, Title, Phone number, Employee ID) as required.
 6. After Setting up needed Company Officials close the list.
 
-### etting up Document Footers
+### Setting up Document Footers
 
 1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what do you want to do"), enter **Document Footers** and then choose the related link.
 2. On the Document Footers list set up new footer for each language version that you will use.

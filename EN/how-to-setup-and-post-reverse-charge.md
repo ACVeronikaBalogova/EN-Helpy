@@ -13,10 +13,11 @@ ms.author: v-pejano
 
 
 # Tax reverse charge - setting up and accounting
-Slouží pro nastavení režimu přenesené daňové povinnosti a jeho vykazování. Nastavením Čísel sazebníku a Komodit  je zajištěno hlídání účtování faktur v odpovídajícím režimu (normální nebo přenesená daňová povinnost) a jejich správné výkaznictví v Kontrolním hlášení DPH. Jakmile je hlídání limitu dané komodity zapnuto (pole Kontrola PDP v Nastavení účtování DPH), pak je při překročení limitu (nastavení v číselníku Komodit) zobrazeno hlášení, že daná faktura musí být účtována v režimu. Kódy vykazované v kontrolním hlášení jsou nastaveny v číselníku Čísla sazebníku.  
 
-## Viz Také
+It is used to set up the Reverse Charge mode and its reporting. By setting the Tariff Numbers and Commodities, it is ensured that invoices are posted for in the appropriate mode (normal or reverse charge) and that they are correctly reported in the VAT Control Report. Once the commodity limit monitoring is enabled (Reverse Charge Check field in VAT Posting Setup), then if the limit is exceeded (Commodity dial setup), a message is displayed that the invoice must be posted in the mode. The codes reported in the control report are set in the Tariff Numbers dial.
 
-[Základní lokalizační balíček pro Česko](ui-extensions-core-localization-pack-cz.md)  
-[České lokální funkcionality](czech-local-functionality.md)  
+## See Also
+
+[Core Localization Pack for Czech Republic](ui-extensions-core-localization-pack-cz.md)  
+[Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)  
