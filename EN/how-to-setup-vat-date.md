@@ -18,14 +18,14 @@ The VAT Date is important for tax documents according to Section 28 of the VAT A
 
 This feature focuses on improving the following areas:
 
-## Nastavení použití Data DPH
+## Setting up the use of VAT Date
 
-- Obecné povolení používání Data DPH v systému.
-- Výběr způsobů, jakým systém bude zobrazovat výchozí hodnotu Data DPH v různých oblastech (Zúčtovací datum nebo Datum dokladu).
-- Období pro vykazování DPH a účetní období společnosti se mohou často lišit. Abychom umožnili uživatelům bezproblémově vykazovat a účtovat DPH podle období pro vykazování DPH a také vydávat interní a další statutární vykazování na základě účetních období, zavádí tato funkce nově Období DPH.
-- Povolit účtování DPH od/do – zadání časové období v polích od/do, aby se zabránilo chybám účtování do uzavřených účetních a DPH období.Posting of transactions with a VAT Date 
+- General permission to use VAT Date in the system.
+- Select how the system will display the default VAT Date value in different fields (Posting Date or Document Date).
+- The VAT reporting period and the company's accounting period may often differ. To enable users to effortlessly report and post for VAT based on VAT reporting periods, as well as issue internal and other statutory reporting based on accounting periods, this feature newly introduces VAT Periods.
+- Enable from/to VAT Posting - enter the time period in the from/to fields to avoid posting errors to closed accounting and VAT periods.
 
-### Posting of transactions with a VAT Date   
+### Posting of transactions with a VAT Date
 
 To post transactions using the VAT Date, the user must be able to enter the VAT Date in the application in the Document Headers and Journal Lines.
 After posting, the VAT Date is included in the posted documents, G/L entries and VAT Entries.
