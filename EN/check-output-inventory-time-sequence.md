@@ -6,22 +6,22 @@ author: v-pejano
 ms-service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Inventory, Localization, CZ
-ms.date: 12/01/2020
+ms.date: 01/24/2023
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
 # Inventory control - time sequence
-Standardní funkcionalita [!INCLUDE[d365fin](../../includes/d365fin_md.md)] byla doplněna o kontrolu časové návaznosti skladových operací. Po aktivaci kontroly je zabezpečeno, aby nebyl možný výdej zboží se zúčtovacím datem předcházejícím zúčtovacímu datu jeho příjmu.
+Standard Feature [!INCLUDE[d365fin](../../includes/d365fin_md.md)] was updated with a check of the time continuity of warehouse operations. Once the control is activated, it is ensured that items with a billing date prior to the billing date of receipt cannot be dispensed.
 
 ![Aktivace časové souslednosti pohybů](Media/time-sequence.png)
-## Aktivace kontroly výdeje v zásobách
+## Activation of the dispensing control in inventory
 
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Nastavení zásob** a poté vyberte související odkaz.
-2. Na kartě **Nastavení zásob** v záložce **Obecné** vyberte pole **Časová souslednost pohybů** a zapněte.
-3. Po nastavení můžete kartu zavřít.
+1. Select icon ![Lightbulb that opens feature Tell me](../../media/ui-search/search_small.png "Tell me what do you want to do"), enter **Inventory settings** and than choose related link.
+2. On the page **Inventory settings** in the tab **General** select field **Time sequence of movements** and turn on.
+3. After setting, you can close the tab.
 
-## Viz také
+## See also
 
-[Základní lokalizační balíček pro Česko](ui-extensions-core-localization-pack-cz.md)  
-[Česká lokální funkcionalita](czech-local-functionality.md)  
+[Core localization pack extensions](ui-extensions-core-localization-pack-cz.md)  
+[Czech local functionality](czech-local-functionality.md)  

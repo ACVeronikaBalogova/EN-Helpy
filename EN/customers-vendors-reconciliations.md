@@ -13,24 +13,23 @@ ms.author: v-pejano
 
 # Reconciliation of receivables and payables
 
-Na konci každého fiskálního roku (nebo jiného období, je-li požadováno) společnosti zasílají hlášení o stavu pohledávek zákazníkům a závazků dodavatelům, aby si navzájem sladili svoje záznamy. Zákazníci a dodavatelé buď hlášení potvrdí, nebo ho pošlou na základě svých vlastních informací s opravami zpět. Tato funkcionalita umožňuje uživatelům vytvořit sestavy odsouhlasení pohledávek a závazků v [!INCLUDE[d365fin](../../includes/d365fin_long_md.md)].
+At the end of each fiscal year (or other period, if required), companies send reports on the status of receivables to customers and payables to suppliers to match each other's entries. Customers and suppliers either confirm the report or send it back with corrections based on their own information. This feature allows users to create reconciliation reports for receivables and payables in [!INCLUDE[d365fin](../../includes/d365fin_long_md.md)].
 
-## Odsouhlasení salda Zákazníka
+## Reconciliation of Customer's balance
 
-Pro vygenerování hlášení o stavu pohledávek zákazníka použijte následující postup:
+Use the following procedure to generate a report on the status of customer receivables:
 
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Odsouhlasení salda Zákazníka** a poté vyberte související odkaz.
-2. Otevře se Vám okno **Odsouhlasení salda zákazníka**, kde vydefinujte parametry jako jsou Číslo zákazníka, tisk stavů účtu, datum vrácení, datum odsouhlasení a další dle vaší potřeby.
-3. Poté použijte funkci Náhled nebo Tisk pro vygenerování sestavy.
-4. Sestavu uložte a poté pošlete zákazníkovi.
+1. Select icon ![Lightbulb that opens Tell me feature](../../media/ui-search/search_small.png "Tell me what do you want to do"), enter **Customer Balance Reconciliation** and then choose related link. This will open the **Customer Balance Reconciliation** window where you can define parameters such as Customer Number, Print Account Balances, Refund Date, Reconciliation Date and more according to your needs.
+3. Then use the Preview or Print function to generate the report.
+4. Save the report and then send it to the customer.
 
-## Odsouhlasení salda Dodavatele 
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Odsouhlasení salda Dodavatele** a poté vyberte související odkaz.
-2. Otevře se Vám okno **Odsouhlasení salda dodavatele**, kde vydefinujte parametry jako jsou Číslo dodavatele, tisk stavů účtu, datum vrácení, datum odsouhlasení a další dle vaší potřeby.
-3. Poté použijte funkci Náhled nebo Tisk pro vygenerování sestavy.
-4. Sestavu uložte a poté pošlete dodavateli.
-## Viz také
+## Reconciliation of Vendor's balance 
+1.Select icon ![Lightbulb that opens Tell me feature](../../media/ui-search/search_small.png "Tell me what do you want to do"), enter **Vendor Balance Reconciliation** and then choose related link.
+2. This will open the **Vendor Balance Reconciliation** window where you can define parameters such as Vendor Number, Print Account Balances, Return Date, Reconciliation Date, and more according to your needs.
+3. Then use the Preview or Print function to generate the report.
+4. Save the report and then send it to the Vendor.
+## See also
 
-[Základní lokalizační balíček pro Česko](ui-extensions-core-localization-pack-cz.md)  
-[České lokální funkcionality](czech-local-functionality.md)  
+[Core localization pack extensions](ui-extensions-core-localization-pack-cz.md)  
+[Czech local functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)  
