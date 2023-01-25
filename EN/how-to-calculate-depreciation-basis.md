@@ -14,7 +14,7 @@ ms.author: v-pejano
 # Calculating depreciation of fixed assets
 
 Due to Czech law, it is necessary to calculate tax depreciation from the depreciable basis, which may differ from the Unit Cost. As required, the depreciation base, according to the Czech declining balance depreciation method for the second and subsequent year of the service life of the fixed asset, should be calculated according to the new formula defined by the Income Tax Act.
-Byly provedeny změny ve výpočtu odpisované částky pomocí metody zrychleného odpisování pro druhé a následující roky životnosti dlouhodobého majetku podle výše uvedeného vzorce. Daňové odpisy se počítají ročně a volba počet dní platnosti se doporučuje pro výpočet správné částky odpisu.
+Changes have been made to the calculation of the depreciation amount using the Declining Balance method for the second and subsequent years of the useful life of the fixed asset according to the above formula. Tax depreciation is calculated annually and the number of days option is recommended to calculate the correct depreciation amount.
 
 ## See Also
 
