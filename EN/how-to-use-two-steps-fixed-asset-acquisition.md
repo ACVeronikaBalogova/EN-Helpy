@@ -6,19 +6,19 @@ author: v-pejano
 ms-service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Fixed Asset, Localization, CZ
-ms.date: 03/01/2021
+ms.date: 01/25/2023
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
 # Two-step acquisition of fixed assets
 
-Při pořizování dlouhodobého majetku je nutno dle českého účetnictví provést dva kroky. Pokud společnost obdrží fakturu za pořízení dlouhodobého majetku, musí být zaúčtována. O Dlouhodobém majetku se účtuje už od okamžiku jeho prvního pořízení. Jak pořízení, tak i zařazení je vyžadováno a propojeno s Věcnými položkami. Dlouhodobý majetek není odpisován, dokud není zařazen.
+According to Czech accounting, two steps must be taken when acquiring fixed assets. If a company receives an invoice for the acquisition of fixed assets, it must be posted. Fixed assets are posted from the moment they are first acquired. Both the acquisition and the classification are required and linked to the G/L Entry. Fixed assets are not depreciated until they are classified.
 
-Pro tento postup použijte typ účtování **Vlastní 2** pro první krok (**Pořízení**) a typ účtování **Pořízení** dlouhodobého majetku pro krok druhý (**Zařazení**). Chcete-li začít používat tuto funkci, zaškrtněte políčko **Pořízení dlouhodobého majetku jako Vlastní 2** v **Nastavení DM**.
-Hodnota "Custom 2" je v Češtině přejmenovaná z "Vlastní 2" na "Pořízení" pro správnou identifikaci a intuitivnější porozumění.
+For this procedure, use the **Custom 2** posting type for the first step (**Acquisition**) and the fixed asset **Acquisition** posting type for the second step (**Classification**). To begin using this feature, check the **Acquisiton of Fixed Assets as Custom 2** box in **FA Setup**.
+The value "Custom 2" is renamed to "Acquisition" in Czech for proper identification and more intuitive understanding.
 
-## Viz Také
+## See Also
 
-[Dlouhodobý majetek pro Česko](ui-extensions-fixed-asset-localization-cz.md)  
-[Česká lokální funkcionalita](czech-local-functionality.md)  
+[Fixed Assets for Czech Republic](ui-extensions-fixed-asset-localization-cz.md)  
+[Czech Local Functionality](czech-local-functionality.md)  
