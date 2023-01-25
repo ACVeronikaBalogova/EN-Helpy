@@ -13,18 +13,17 @@ ms.author: v-pejano
 
 # Reconciliation of inventories against posting
 
-Vzhledem k tomu, že česká lokalizovaná aplikace obsahuje úpravy v účtování zásob, musí být matice **Odsouhlasení zásoby - finance** doplněna o speciální účty - účet zaokrouhlení zásob a účty změny stavu zásob nedokončené výroby.  
-Tyto úpravy byly provedeny v uživatelském rozhraní společně se změnami postupu výpočtu.
+Due to the fact that the Czech localized application contains modifications in inventory posting, the **Inventory Reconciliation - Finance** matrix must be supplemented with special accounts - inventory rounding account and work-in-progress inventory change accounts.  
+These modifications were made at user interface together with changes of calculation procedure.
 
-1. Pomocí vyhledávací funkce ![Žárovky, která otevře funkci Řekněte mi, co chcete dělat (Alt + Q)](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat (Alt + Q)") vyhledejte **Odsouhlasení zásoby - finance**.
-2. Na stránce **Odsouhlasení zásoby - finance** zadejte potřebné filtry.
-3. Klikněte na funkci **Zobrazit matici**.
-4. Na zobrazeném pohledu můžete vidět přidané účty.
+1. Use feature  ![Lightbulb that opens Tell me feature (Alt + Q)](../../media/ui-search/search_small.png "What do you want to do (Alt + Q)") search for  **Inventory reconciliation - finance**.
+2. At the page **Inventory reconciliation - finance** specify the necessary filters.
+3. Click at the feature **Show matrix**.
+4. In the view below, you can see the accounts that have been added.
 
 ![Inventory - G/L Reconciliation](Media/inventory_GL_reconciliation.png)
 
+## See also
 
-## Viz také
-
-[Základní lokalizační balíček pro Česko](ui-extensions-core-localization-pack-cz.md)  
-[Česká lokální funkcionalita](czech-local-functionality.md)  
+[Extension core localization pack](ui-extensions-core-localization-pack-cz.md)  
+[Czech local functionality](czech-local-functionality.md)  
