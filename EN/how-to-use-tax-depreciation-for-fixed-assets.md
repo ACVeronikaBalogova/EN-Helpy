@@ -13,7 +13,7 @@ ms.author: v-pejano
 
 # Tax depreciation of fixed assets
 
-The tax depreciation function calculates and posts tax depreciation on fixed assets in accordance with the Income Tax Act (Act No. 586/1992 §26 - §33). It contains special settings for tax depreciation groups, where you can enter the depreciation period and method, depreciation rates and coefficients for new tax depreciation methods for fixed assets.
+The tax depreciation functionality calculates and posts tax depreciation on fixed assets in accordance with the Income Tax Act (Act No. 586/1992 §26 - §33). It contains special settings for tax depreciation groups, where you can enter the depreciation period and method, depreciation rates and coefficients for new tax depreciation methods for fixed assets.
 
 Each tangible fixed asset belongs to a depreciation group. These groups determine the minimum depreciation period and the parameters used to calculate depreciation.
 The following methods of depreciating tangible fixed assets (FA) for tax purposes are available:

@@ -6,17 +6,17 @@ author: v-pejano
 ms-service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Fixed Asset, Localization, CZ
-ms.date: 03/01/2021
+ms.date: 01/25/2023
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
 # Calculating depreciation of fixed assets
 
-Vzhledem k českým právním předpisům je nutné vypočítávat daňové odpisy z odpisovatelného základu, který se může lišit od pořizovací ceny. Podle požadavků by měla být odpisová základna, podle české metody odpisování s klesajícím zůstatkem pro druhý a následující rok životnosti dlouhodobého majetku, vypočtena podle nového vzorce definovaného zákonem o dani z příjmu.
-Byly provedeny změny ve výpočtu odpisované částky pomocí metody zrychleného odpisování pro druhé a následující roky životnosti dlouhodobého majetku podle výše uvedeného vzorce. Daňové odpisy se počítají ročně a volba počet dní platnosti se doporučuje pro výpočet správné částky odpisu.
+Due to Czech law, it is necessary to calculate tax depreciation from the depreciable basis, which may differ from the Unit Cost. As required, the depreciation base, according to the Czech declining balance depreciation method for the second and subsequent year of the service life of the fixed asset, should be calculated according to the new formula defined by the Income Tax Act.
+Changes have been made to the calculation of the depreciation amount using the Declining Balance method for the second and subsequent years of the useful life of the fixed asset according to the above formula. Tax depreciation is calculated annually and the number of days option is recommended to calculate the correct depreciation amount.
 
-## Viz Také
+## See Also
 
-[Dlouhodobý majetek pro Česko](ui-extensions-fixed-asset-localization-cz.md)  
-[Česká lokální funkcionalita](czech-local-functionality.md)  
+[Fixed Assets for Czech Republic](ui-extensions-fixed-asset-localization-cz.md)  
+[Czech Local Functionality](czech-local-functionality.md)  
