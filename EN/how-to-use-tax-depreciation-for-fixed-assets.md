@@ -6,25 +6,25 @@ author: v-pejano
 ms-service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Fixed Asset, Localization, CZ
-ms.date: 03/01/2021
+ms.date: 01/25/2023
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
 # Tax depreciation of fixed assets
 
-Funkcionalita daňového odepisování dlouhodobého majetku počítá a účtuje daňové odpisy v souladu se Zákonem o dani z příjmu (Zákon č. 586/1992 §26 - §33). Obsahuje zvláštní nastavení pro daňové odpisové skupiny, kde lze zadávat dobu a metodu odepisování, odpisové sazby a koeficienty pro nové odpisové metody daňových odpisů dlouhodobého majetku.  
+The tax depreciation function calculates and posts tax depreciation on fixed assets in accordance with the Income Tax Act (Act No. 586/1992 §26 - §33). It contains special settings for tax depreciation groups, where you can enter the depreciation period and method, depreciation rates and coefficients for new tax depreciation methods for fixed assets.
 
-Každý dlouhodobý hmotný majetek náleží do odpisové skupiny. Tyto skupiny určují minimální dobu odpisu a parametry používané pro výpočet odpisů.
-K dispozici jsou následující metody odpisování dlouhodobého hmotného majetku (DM) pro daňové účely:
+Each tangible fixed asset belongs to a depreciation group. These groups determine the minimum depreciation period and the parameters used to calculate depreciation.
+The following methods of depreciating tangible fixed assets (FA) for tax purposes are available:
 
-- Lineární – tato metoda je založena na pořizovací hodnotě a procentu.
-- Zrychlené – tato metoda je založena na účetní hodnotě a koeficientu (klesající zůstatek).
-- Lineární pro nehmotný majetek - tato metoda je založena na pořizovací hodnotě a procentu.
+- Straight-Line - this method is based on Unit Cost and Percentage.
+- Declining-Balance - this method is based on Book Value and a Coefficient (declining balance).
+- Straight-line Intangible - this method is based on Unit Cost and Percentage.
 
-Každý dlouhodobý majetek je zařazen do určité odpisové skupiny. Tyto skupiny určují minimální dobu odepisování a parametry, které jsou využívány k výpočtu odpisů.
+Each fixed asset is assigned to a specific Depreciation group. These groups determine the minimum depreciation period and the parameters used to calculate depreciation.
 
-## Viz Také
+## See Also
 
-[Dlouhodobý majetek pro Česko](ui-extensions-fixed-asset-localization-cz.md)  
-[Česká lokální funkcionalita](czech-local-functionality.md)  
+[Fixed Assets for Czech Republic](ui-extensions-fixed-asset-localization-cz.md)  
+[Czech Local Functionality](czech-local-functionality.md)  
