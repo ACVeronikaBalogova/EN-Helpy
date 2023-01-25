@@ -6,16 +6,16 @@ author: v-pejano
 ms-service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Finance, Inventory, Localization, CZ
-ms.date: 01/31/2021
+ms.date: 01/25/2023
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
 # Posting of rounding in inventories
 
-Účet zaokrouhlení v zásobách umožňuje zaúčtovat všechny náklady ze zaokrouhlení na jiný finanční účet než je účet adjustace zásob.  Tato funkce umožňuje zaúčtovat částky zaokrouhlení na jiný účet než původní pořizovací cenu.
+The inventory rounding account allows all rounding costs to be posted to a financial account other than the inventory adjustment account. This feature allows to post rounding ampounts to an account other than original purchase price.
 
-## Viz Také
+## See also
 
-[Rozšířený lokalizační balíček pro Česko](ui-extensions-advanced-localization-pack-cz.md)  
-[Česká lokální funkcionalita](czech-local-functionality.md)
+[RExtensions advanced localization pack](ui-extensions-advanced-localization-pack-cz.md)  
+[Czech local functionality](czech-local-functionality.md)

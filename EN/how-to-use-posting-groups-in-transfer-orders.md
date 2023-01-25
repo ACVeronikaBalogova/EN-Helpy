@@ -15,7 +15,7 @@ ms.author: v-pejano
 
 Czech Accounting Standards require that transfers be posted with a prescribed Inventory Adjustment Account distinct from other journal entries.
 
-In Transfer Routes, a field has been added to allow you to specify a general business group account for accounting for deliveries and receiving. These settings are automatically copied to the Transfer Order based on the Transfer Route used. This functionality allows you to post different Transfer Orders with different general posting settings and at the same time you can set different posting compared to the Item Journal.  
+In Transfer Routes, a field has been added to allow you to specify a general business group account for accounting for deliveries and receiving. These settings are automatically copied to the Transfer Order based on the Transfer Route used. This functionality allows you to post different Transfer Orders with different general posting settings and at the same time you can set different posting compared to the G/L Journal.  
 
 ## Transfer Route Settings
 
@@ -23,10 +23,10 @@ First, set the General Sales Account Delivery and General Sales Account Receivin
 
 1. Use function ![Lightbulb that opens Tell me feature (Alt + Q)](../../media/ui-search/search_small.png "Tell me what do you want to do (Alt + Q)") search **Transfer Routes**.
 2. Select the desired combination of transfer locations and open **Special Transfer Details**.
-3. VFill in the required fields and the fields General trading account for delivery and General trading account for receipt.
+3. Fill in the required fields and the fields General trading account for delivery and General trading account for receipt.
 4. Confirm with Close.
 
-## Use 
+## Use
 
 When creating a Transfer Order, the set posting groups are automatically inserted from the Transfer Routes for the corresponding combination of warehouses between which the items are transferred.
 
@@ -35,7 +35,7 @@ When creating a Transfer Order, the set posting groups are automatically inserte
 3. Select the desired location in the **Transfer-from-code** and **Transfer-to-code** fields.
 4. According to the Transfer Route settings, the fields **General Sales Account Delivery** and **General Sales Account Receipt** are automatically pre-filled. The user can change these default account groups as needed.
 5. In the Transfer orders lines, fill required items and amount, which you want to transfer from one warehouse to another.
-6. Warehousman from first warehouse posts the delivery.
+6. Warehouseman from first warehouse posts the delivery.
 7. Warehouseman from second warehouse posts receiving.
 8. It is possible to check the validity of the posting in the Material Items.
 
