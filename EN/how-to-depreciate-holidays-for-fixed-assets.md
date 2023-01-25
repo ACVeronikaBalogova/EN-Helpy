@@ -6,23 +6,23 @@ author: v-pejano
 ms-service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Fixed Asset, Localization, CZ
-ms.date: 03/01/2021
+ms.date: 01/25/2023
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
 # Discontinuation of depreciation
 
-Funkcionalita Přerušení odepisování (na základě zákona o dani z příjmu Zákon č. 586/1992 §26 část 8) umožňuje přerušit odepisování pro vybraný dlouhodobý majetek a zadané období. Systém stanoví odpisový plán po skončení doby přerušení.
-K dispozici jsou následující metody odpisování dlouhodobého hmotného majetku pro daňové účely:  
+Depreciation interruption functionality (based on the Income Tax Act Act No.586/1992 §26 part 8) allows you to interrupt depreciation for selected fixed assets and the specified period. The system determines the depreciation plan at the end of the interruption period.
+The following methods of depreciation of tangible fixed assets for tax purposes are available:  
 
-- Lineární
-- Zrychlené
-- Lineární pro nehmotný majetek
+- Straight-Line
+- Declining-Balance
+- Straight-Line Intangible
 
-Uživatel může otevřít knihu odpisů DM a vyplnit pole **Přerušit odpisování** a **Přerušit odepisování do**. Pole **Zachovat poslední datum odpisu** určuje, zda chcete zachovat Plán odpisů.
+The user can open the FA Depreciation book and fill in **Interupt Depreciation** and **Keep Depr. Ending Date** fields determines whether to preserve the Depreciation Plan.
 
-## Viz Také
+## See Also
 
-[Dlouhodobý majetek pro Česko](ui-extensions-fixed-asset-localization-cz.md)  
-[Česká lokální funkcionalita](czech-local-functionality.md)  
+[Fixed Assets for Czech Republic](ui-extensions-fixed-asset-localization-cz.md)  
+[Czech Local Functionality](czech-local-functionality.md)  
