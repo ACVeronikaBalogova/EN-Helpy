@@ -6,20 +6,20 @@ author: v-pejano
 ms-service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Fixed Asset, Localization, CZ
-ms.date: 03/01/2021
+ms.date: 01/25/2023
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
 # Accounting for disposal of assets
 
-České účetní standardy vyžadují specifické účtování, když je hmotný majetek vyřazován nebo prodán. Po prodeji nebo zaúčtování vyřazení dlouhodobého majetku (DM), účtování o vyřazení majetku zajistí, že hodnota dlouhodobého majetku zůstane stejná jako hodnota  po odepsání.
+Czech accounting standards require specific posting when tangible assets are disposed of or sold. After the sale or posting of the disposal of a fixed asset (FA), posting of the disposal of the asset ensures that the value of the fixed asset remains the same as the value after the write-off.
 
-Dlouhodobý majetek zůstává nezměněn i po zařazení. Pokud je dlouhodobý majetek pravidelně odepisován, odečte se odpovídající částka z pořizovacích nákladů v okamžiku vyřazení. Částka salda je aktuální hodnota dlouhodobého majetku.
+Fixed assets remain unchanged after classification. If fixed assets are depreciated periodically, the corresponding amount is deducted from the cost of acquisition at the time of disposal. The balance amount is the current value of the fixed asset.
 
-V knize odpisů zaškrtněte políčko **Odpovídající věcné položky při vyřazení**, aby byla tato funkce funkční. Vyberte zaškrtávací políčko **Odpovídající položky DM při vyřazení**, pro zachování souladu mezi věcnými položkami a položkami DM.
+In the Depreciation book, check the box for **Matching G/L Entries on disposal** to make this feature functional. Select the **Match FA entry on disposal** checkbox to maintain consistency between G/L Entries and FA Entries.
 
-## Viz Také
+## See Also
 
-[Dlouhodobý majetek pro Česko](ui-extensions-fixed-asset-localization-cz.md)  
-[Česká lokální funkcionalita](czech-local-functionality.md)  
+[Fixed Assets for Czech Republic](ui-extensions-fixed-asset-localization-cz.md)  
+[Czech Local Functionality](czech-local-functionality.md)  
