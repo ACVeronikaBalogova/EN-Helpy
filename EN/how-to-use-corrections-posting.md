@@ -11,7 +11,7 @@ ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Corrective posting (Red Cancellation)
+# Corrective posting (Red Storno)
 
 According to the requirements of the legislation, costs and revenues are usually only charged to either the Debit or Credit G/L Account. Companies in Eastern Europe usually follow an accounting policy whereby certain inventory and financial transactions in the general ledger must be accounted for as adjustments. This is because auditors and financial authorities carry out accounting controls in accordance with this policy.  
 
