@@ -33,6 +33,6 @@ This functionality provides the following reports to meet the output requirement
 
 ## See Also
 
-[Basic localization package for the Czech Republic](ui-extensions-core-localization-pack-cz.md)  
-[Czech local functionality](czech-local-functionality.md)  
+[Core Localization Pack for Czech Republic](ui-extensions-core-localization-pack-cz.md)  
+[Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)  
