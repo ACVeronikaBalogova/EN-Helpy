@@ -6,84 +6,86 @@ author: v-pejano
 ms-service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Inventory, Localization, CZ
-ms.date: 12/01/2020
+ms.date: 02/15/2023
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Storage unit templates
+# Stock unit templates
 
-Nastavte šablony skladových jednotek, které bude možné využít v procesu vytváření nových skladových jednotek zboží.
+Set up stock unit templates that can be used in the process of creating new stock units of items.
 
-Šablony se definují pro kombinaci Kategorie zboží a Lokace a lze zde nastavit základní parametry skladové jednotky, jako je Systém doplnění, Způsob přiobjednání a další.
+Templates are defined for a combination of Item Category and Location and  basic stock unit parameters can be set here, such as Restocking System, Order Method and more.
 
-Šablony skladových jednotek je možné využít ve funkci, která vytváří nové skladové jednotky zboží. Při vytváření skladové jednotky funkcí jsou nastavení parametrů v šablonách automaticky kopírována do karet skladových jednotek.
+Stock unit templates can be used in a function that creates new stock units of items. When you create a stock unit with functions, the parameter settings in the templates are automatically copied to the stock unit tabs.
 
-## Vytvoření a nastavení šablon skladových jednotek
-### Vytvoření šablony konfigurace pro šablonu skladové jednotky
+## Create and set up stock unit templates
 
-Pro správné nastavení detailů karty skladové jednotky, například pro vybranou lokaci, je možné nutné nastavit obecné informace jako je Způsob přionjednání, Systém přiobjednání a další. 
+### Create a configuration template for a stock unit template
 
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Konfigurační šablony** a poté vyberte související odkaz.
-2. V panelu funkcí vyberte **Nový**.
-3. Do pole **Kód** zadejte kód pro skladovou jednotku.
-4. Do pole **Popis** vyplňte název pro šabolu.
-5. V poli **ID tabulky** vyberte tabulku 5700.
-6. V řádích vyberte typ **Pole** dále ve sloupečku **Název pole** vyberte pole z tabulky skladové jednotky, které chcete nastavovat. Do pole **Výchozí hodnota** zadejte, co má pole obsahovat.
-7. Po nastavená vybraných polí, bude systém dopňovat předdefinované hodnoty do karty skladové jednotky během využití šablony při vytváření skladové jednotky z šablony.
+In order to correctly set the details of the stock unit card, for example for a selected location, it is necessary to set general information such as the Ordering method, Ordering system, and others.
 
-![Skladové jednotky](Media/stockkeeping-unit.png)
-### Vytvoření šablony skladové jednotky
+1. Select the icon![Lightbulb to open the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do"), zadejte **Configuration templates** and then select related link.
+2. In the action bar select **New**.
+3. To the field **Code** edit code for stock unit.
+4. To the field **Description** edit title for template.
+5. In the field **ID of table** choose table 5700.
+6. In rows, select the type **Field** then in the **Field Name** column, select the field from the stock unit table that you want to set. In the **Default value** field, enter what the field should contain.
+Once the selected fields are set, the system will add the predefined values to the stock unit tab while using the template when creating a stock unit from the template.
 
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Šablony skladových jednotek** a poté vyberte související odkaz.
-2. V panelu funkcí vyberte **Nový**.
-3. V novém řádku vyplňte pole **Kód kategorie zboží** a do pole **Kód lokace** vyberte lokaci. Dále je možné vyplnit **Kód šablony konfigurace**, kde vyberte vytvořenou konfigurační šablonu skladové jednotky a poté se pole **Popis šablony konfigurace** automaticky doplní.
-5. Po vyplnění hodnot můžete přehled šablon můžete zavřít.
+![Stockkeeping unit](Media/stockkeeping-unit.png)
+
+### Create a stock unit template
+
+1. Select the icon![Lightbulb to open the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Stockkeeping unit templates** and then select related link.
+2. In action bar select **New**.
+3. In the new row enter field **Item Category Code** and to field **Location code** choose location. It is also possible to fill in **Configuration Template Code**, where you select the created configuration template of the stock unit and then the **Configuration Template Description** field is automatically filled in.
+4. After filling in the values, you can close the template overview.
   
-### Vytvoření skladové jednotky pomocí šablony
+### Create a stock unit using a template
 
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Zboží** a poté vyberte související odkaz.
-2. Vyberte kartu zboží, pro které je vytvořena šablona.
-3. Otevřete kartu zboží.
-4. Na kartě zboží použijte funkci **Sklad** - **Skladové jednotky**.
-5. Otevře se vám přehled **Skladových jednotek** pro danou kartu zboží.
-6. Na přehledu zvolte funkci **Nový**.
-7. Na kartě skladové jednotky vyberte pole **Kód lokace**. Po vybrání pole se do karty skladové jednotky přenese nastavení z šablony.
-8. Po kontrole můžete kartu zavřít. 
+1. Select the icon![Lightbulb to open the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Items** and then select related link.
+2. Select the item tab for which the template is created.
+3. Open Item Tab.
+4. Use the **Stock** - **Stock Units** function on the item tab.
+5. This will open an overview of the **Stock Units** for the item card.
+6. In the overview choose function **New**.
+7. On the stock unit tab, select the **Location Code** field. After selecting the field, the settings from the template are transferred to the stock unit card.
+8. You can close the card after checking.
 
-## Použití šablon skladových jednotek na vybraném zboží
-### Vytvoření šablony konfugirace pro šablonu skladové jednotky pro vybrané zboží
+## Use of stock unit templates on selected goods
 
-Pro správné nastavení detailů karty skladové jednotky, například pro vybranou lokaci, je možné nutné nastavit obecné informace jako je Způsob přiobjednání, Systém přiobjednání a další. 
+### Create a configuration template for the stock unit template for the selected items
 
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Konfigurační šablony** a poté vyberte související odkaz.
-2. V panelu funkcí vyberte **Nový**.
-3. Do pole **Kód** zadejte kód pro skladovou jednotku, například **SKJ0000003**.
-4. Do pole **Popis** vyplňte název pro šabolu, například "**Skladová jednotka KŘESLO MODRÝ**".
-5. V poli **ID tabulky** vyberte tabulku, nad kterou bude šablona fungovat. V tom to případě to je tabulka **5700** - **Stockkeeping Unit**
-6. V řádích vyberte typ **Pole** dále ve sloupečku **Název pole** vyberte pole z tabulky skladové jednotky, které chcete nastavovat. Do pole **Výchozí hodnota** zadejte, co má pole obsahovat. V tomto příkladu vyberte například pole **Systém doplnění** a hodnotu **Transfer**.
-7. Po nastavená vybraných polí, bude systém dopňovat předdefinované hodnoty do karty skladové jednotky během využití šablony při vytváření skladové jednotky z šablony.
+In order to correctly set the details of the stock unit card, for example for a selected location, it is possible to set general information such as Order Method, Order System, and more.
 
-### Vytvoření šablony skladové jednotky pro vybrané zboží
+1. Select the icon![Lightbulb to open the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Configuration Templates** and then select related link.
+2. In the action bar choose **New**.
+3. To field **Code** enter code for stock unit, for example **SKJ0000003**.
+4. To field **Description** fill in the name for the saber, for example "**Stock unit CHAIR BLUE**".
+5. In the **Table ID** field, select the table over which the template will work. In this case, it is the table **5700** - **Stockkeeping Unit**
+6. In the rows, select the **Field Type** then in the **Field Name** column, select the field from the stock unit table that you want to set. In the **Default value** field, enter what the field should contain. For example, in this application, select the **Fill System** field and the **Transfer** value.
+7. Once the selected fields are set, the system will append the predefined values to the stock unit card during template use, when creating a stock unit from the template.
 
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Šablony skladových jednotek** a poté vyberte související odkaz.
-2. V panelu funkcí vyberte **Nový**.
-3. V novém řádku vyplňte pole **Kód kategorie zboží** například hodnotou **KŘESLO**, do pole **Kód lokace** vyberte lokaci **MODRÝ**, následně se vyplní pole **Popis** automaticky textem "**Kancelářské křeslo z Modrý sklad**". Dále je možné vyplnit **Kód šablony konfgurace**, kde vyberte hodnotu **SKJ0000003** a pole **Popis šablony konfigurace** se automaticky doplní.
-5. Po vyplnění hodnot můžete přehled šablon zavřít.
+### Create a stock unit template for selected items
+
+1. Select the icon![Lightbulb to open the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Stock unit templates** and then select related link.
+2. In action bar choose **New**.
+3. In the new row, fill in the field **Category code** for example with the value **CHAIR**, in the field **Location code** select the location **Blue**, then the field **Description** will be filled in automatically with the text "**Office chair from Blue stock**". You can also fill in the **Configuration Template Code** by selecting **SKJ0000003** and the **Configuration Template Description** field is automatically filled in.
+4. After filling in the values, you can close the template overview.
   
+### Create a stock unit of the selected item using a template
 
-### Vytvoření skladové jednotky vybraného zboží pomocí šablony
+1. Select the icon![Lightbulb to open the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Item** and then select related link.
+2. Use the search function to find an item **1900-S Armchair PARIS, black**
+3. Open the item card.
+4. Use the **Stock** - **Stock Units** function on the item tab.
+5. This will open an overview of the **Stock Units** for the item card.
+6. Select **New** in the overview.
+7. On the stock unit tab, select the **Location Code** field. After selecting the field, the settings from the template will be transferred to the stock unit card.
+8. You can close the card after checking.
 
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Zboží** a poté vyberte související odkaz.
-2. Použijte funkci hledání a najděte zboží **1900-S Křeslo PAŘÍŽ, černé**
-3. Otevřete kartu zboží.
-4. Na kartě zboží použijte funkci **Sklad** - **Skladové jednotky**.
-5. Otevře se vám přehled **Skladových jednotek** pro danou kartu zboží.
-6. Na přehledu zvolte funkci **Nový**.
-7. Na kartě skladové jednotky vyberte pole **Kód lokace**. Po vybrání pole se do karty skladové jednotky přenese nastavení z šablony.
-8. Po kontrole můžete kartu zavřít. 
+## See also
 
-## Viz také
-
-[Základní lokalizační balíček pro Česko](ui-extensions-core-localization-pack-cz.md)  
-[České lokální funkcionality](czech-local-functionality.md)  
+[Core Localization Pack for Czech Republic](ui-extensions-core-localization-pack-cz.md)  
+[Czech Local Functionality](czech-local-functionality.md)  

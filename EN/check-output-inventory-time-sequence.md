@@ -12,9 +12,11 @@ ms.author: v-pejano
 ---
 
 # Inventory control - time sequence
+
 Standard Feature [!INCLUDE[d365fin](../../includes/d365fin_md.md)] was updated with a check of the time continuity of warehouse operations. Once the control is activated, it is ensured that items with a billing date prior to the billing date of receipt cannot be dispensed.
 
 ![Aktivace časové souslednosti pohybů](Media/time-sequence.png)
+
 ## Activation of the dispensing control in inventory
 
 1. Select icon ![Lightbulb that opens feature Tell me](../../media/ui-search/search_small.png "Tell me what do you want to do"), enter **Inventory settings** and than choose related link.
