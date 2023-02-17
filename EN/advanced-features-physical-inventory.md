@@ -12,7 +12,7 @@ ms.author: v-pejano
 ---
 
 
-# Extension of physical inventory preparation  
+# Advanced features of physical inventory  
 
 To comply with accounting standards, companies are required to separate the accounting for shortages and surpluses in the physical inventory.
 Companies need to separate the accounting for inventory movements of the same goods (e.g. have different accounting for shortages within the limit and different accounting for shortages above the limit).

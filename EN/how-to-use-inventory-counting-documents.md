@@ -6,21 +6,21 @@ author: v-pejano
 ms-service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Inventory, Localization, CZ
-ms.date: 12/01/2020
+ms.date: 02/17/2023
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Physical inventory documents
+# Inventory counting documents
 
-Na konci období uživatelé provádějí fyzickou inventuru, aby sladili skutečnou (fyzickou) hodnotu zásob s hodnotou registrovanou v systému. V rámci tohoto procesu potřebuje účetní oddělení archivovat inventarizační doklad obsahující zaúčtované hodnoty se jmény zástupců společnosti, kteří potvrdí svým podpisem, že množství a částky uvedené v tomto dokumentu odpovídají fyzicky přítomnému množství na lokacích zásob.  
+At the end of the period, users take a physical inventory to reconcile the actual (physical) value of the inventory with the value registered in the system. As part of this process, the accounting department needs to archive an inventory document containing the posted values with the names of the company representatives who confirm by their signature that the quantities and amounts listed on this document correspond to the quantities physically present at the inventory locations.  
 
-Z výše uvedených důvodů tato funkce poskytuje následující sestavy:
+For the above reasons, this function provides the following reports:
 
-- **Seznam fyzické inventury** - používá se k tisku dokumentů z deníku fyzické inventury (stávající sestava byla vylepšena).
-- **Doklad o fyzické inventuře** - používá se k tisku zaúčtované fyzické inventury.  
+- **Physical inventory list** - used to print documents from the physical inventory journal (the existing report has been improved).
+- **Physical inventory document** - used to print posted physical inventory.  
 
-## Viz také
+## See also
 
-[Základní lokalizační balíček pro Česko](ui-extensions-core-localization-pack-cz.md)  
-[Česká lokální funkcionalita](czech-local-functionality.md)  
+[Core Localization Pack for Czech Republic](ui-extensions-core-localization-pack-cz.md)  
+[Czech local functionality](czech-local-functionality.md)  

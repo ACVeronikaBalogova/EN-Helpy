@@ -6,59 +6,59 @@ author: v-pejano
 ms-service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Finance, Localization, CZ
-ms.date: 12/01/2020
+ms.date: 02/17/2023
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
 # Exchange rate adjustments (Conversion of receivables, payables, bank accounts and cash)
 
-Většina firem v České republice požaduje následující vylepšení, která mají být realizována v oblasti úpravy směnných kurzů při přepočtu pohledávek a závazků:
+Most companies in the Czech Republic are asking for the following improvements to be implemented in the area of exchange rate adjustments in the conversion of receivables and payables:
 
-- Možnost řídit úpravu směnných kurzů samostatně pro bank. účty, zákazníky a dodavatele
-- Možnost účtovat úpravu směnného kurzu v detailu nebo souhrnně dle měny
-- Možnost spustit úpravu směnných kurzů jako simulaci (bez účtování) v testovacím režimu
+- Ability to manage exchange rate adjustments separately for bank accounts, customers and vendors
+- Ability to post exchange rate adjustments in detail or in aggregate by currency
+- Ability to run exchange rate adjustments as a simulation (without posting) in test mode
 
-Ve standardní sestavě Úprava směnných kurzů je nyní možné:
+In the standard report Adjusting exchange rates is now possible:
 
-- Nastavit bankovní účet, zákazníka nebo dodavatele jako filtr
-- Vybrat úpravu jen pro zákazníky nebo dodavatele nebo bankovní účty
-- Zvolit testovací režim
-- Vybrat sumarizaci položek
-- Vybrat způsob přenosu dimenzí
+- Set up bank account, customer or vendor as a filter
+- Select edit for customers or vendors or bank accounts only
+- Select test mode
+- Select summary of items
+- Select method of dimension transfer
 
-Úprava směnných kurzů rovněž obsahuje změněný princip výpočtu pro realizované zisky a ztráty na základě Zákona o daních z příjmů. Tato funkce vypočítá realizovaný zisk nebo ztrátu proti naposledy upraveným částkám.
-Tato funkce ve standardní verzi Microsoft [!INCLUDE[d365fin](../../includes/d365fin_long_md.md)] nejdříve odúčtuje nerealizovaný zisk nebo ztrátu a pak vypočítá realizovaný zisk nebo ztrátu. Výpočet je proveden proti částce v původním kurzu při zpracování platby a faktury.
-Nový princip výpočtu zpracovává odchylky oproti aktuálně upravenému směnnému kurzu.
-Úprava směnných kurzů byla rozšířena i o český modul zálohy.
+The exchange rate adjustment also includes a changed calculation principle for realized income gains and losses under the Income Tax Act. This function calculates the realized gain or loss against the most recently adjusted amounts.
+This function in the standard version of Microsoft [!INCLUDE[d365fin](../../includes/d365fin_long_md.md)] first recognizes the unrealized gain or loss and then calculates the realized gain or loss. The calculation is made against the amount at the original exchange rate when the payment and invoice are processed.
+The new calculation principle handles differences from the currently adjusted exchange rate.
+The exchange rate adjustment has been extended to include the Czech advance module.
 
-![Úprava směnných kurzů](Media/exchange-rates-adjustment.png)
+![Exchange rate adjustment](Media/exchange-rates-adjustment.png)
 
-## Použití úpravy směnných kurzů
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Úprava směnných kurzů rozšířená** a poté vyberte související odkaz.
-2. Otevře se Vám stránka **Úprava směnných kurzů rozšířená** - náhled sestavy před spuštěním.
-3. Sestavě můžete nastavit vstupní parametry jako:
-    - Počáteční a Koncové datum
-    - Text položky
-    - Zúčtovací datum
-    - Možnost úpravy:
-        - Dodavatele
-        - Zákazníka
-        - Bankovní účty a pokladny
-        - Finanční účty pro přídavnou měnu pro hlášení
-    - Možnost Účtovat
-    - Sumarizovat položky
-    - Možnost přenášet dimenze
-    - Nastavit filtry:
-        - Měny
-        - Bankovního účtu a pokladny
-        - Zákazníka
-        - Dodavatele
-4. Sestavu následně spusťte.
+## Use of exchange rate adjustment
 
+1. Select the icon![Lightbulb to open the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Exchange rate adjustment extended** and then select related link.
+2. This will open **Exchange rate adjustment extended** page - preview the report before running it.
+3. You can set input parameters such as:
+    - Start and End date
+    - Item text
+    - Settlement date
+    - Adjustment possibility:
+        - Vendor
+        - Customer
+        - Bank account and cash desk
+        - Financial accounts for additional reporting currency
+    - Ability to post
+    - Summarize items
+    - Ability to transfer dimensions
+    - Set up filters:
+        - Currency
+        - Bank account and cash desk
+        - Customer
+        - Vendor
+4. Then run the report.
 
-## Viz také
+## See also
 
-[Základní lokalizační balíček pro Česko](ui-extensions-core-localization-pack-cz.md)  
-[Česká lokální funkcionalita](czech-local-functionality.md)  
+[Core Localization Pack for Czech Republic](ui-extensions-core-localization-pack-cz.md)  
+[Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)  

@@ -11,14 +11,12 @@ ms.reviewer: v-pejano
 ms.author: v-makune
 ---
 
-# Automatically create and update dimensions
+# Automatic creation and update dimensions
 
-Umožňuje nastavit automatické vytváření výchozích hodnot dimenzí dle předem stanovených parametrů.
+Allows you to set the automatic creation of default dimension values according to predefined parameters.
+## Settings for creating and updating dimensions
 
-## Nastavení vytváření a aktualizace dimenzí
-
-Nastavení vytváření a akualizace dimnezí se nastavuje dle následujících kroků:
-
+Settings for creating and updating dimensions  is set by the following steps:
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Dimenze** a poté vyberte související odkaz.
 1. Založte novou dimenzi.
 1. Vyberte řádek s novou dimenzí klikněte na tlačítko **Výchozí dimenze typu účtu**.

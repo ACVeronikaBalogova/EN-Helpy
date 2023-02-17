@@ -12,7 +12,7 @@ ms.author: v-pejano
 ---
 
 
-# Tax reverse charge - setting up and accounting
+# Reverse charge - setting up and posting
 
 It is used to set up the Reverse Charge mode and its reporting. By setting the Tariff Numbers and Commodities, it is ensured that invoices are posted for in the appropriate mode (normal or reverse charge) and that they are correctly reported in the VAT Control Report. Once the commodity limit monitoring is enabled (Reverse Charge Check field in VAT Posting Setup), then if the limit is exceeded (Commodity dial setup), a message is displayed that the invoice must be posted in the mode. The codes reported in the control report are set in the Tariff Numbers dial.
 
