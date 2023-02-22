@@ -11,7 +11,7 @@ ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Control of posting group changes - customer, supplier, goods, bank account
+# Check of posting group changing - customer, supplier, goods, bank account
 
 The standard functionality has been upgraded to include checks in case of a request to change posting groups for customer, supplier, goods and bank accounts.
 

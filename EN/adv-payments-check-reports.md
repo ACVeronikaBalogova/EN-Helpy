@@ -11,7 +11,7 @@ ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Backup check reports
+# Advance payments check
 
 The Advance Payments application includes basic control reports that allow you to compare whether the records of advances correspond to the accounting records, the VAT records or whether you have properly settled the advances in terms of VAT.
 

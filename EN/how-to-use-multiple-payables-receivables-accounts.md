@@ -6,17 +6,17 @@ author: v-pejano
 ms-service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Finance, Localization, CZ
-ms.date: 12/01/2020
+ms.date: 02/17/2023
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Multiple accounts receivable and payable
+# Multiple receivable/payable accounts  
 
-Uživatelé často účtují operace jako nedobytné pohledávky či jiné typy operací pohledávek/závazků, které mají být zaznamenány v položkách zákazníků/dodavatelů, ale zároveň zaúčtovány na jiné účty pohledávek/závazků než jsou specifikovány v účto skupinách zákazníků a dodavatelů. Nejjednodušší způsob, jak umožnit takovou funkčnost, je povolit uživateli změnu účto skupiny zákazníka/dodavatele při účtování dílčí operace.
+Users often post transactions as uncollectible receivables or other types of accounts receivable/payable transactions to be recorded in customer/vendor entries but at the same time posted to accounts receivable/payable other than those specified in the customer and vendor posting groups. The simplest way to enable such functionality is to allow the user to change the customer/vendor posting group when posting a sub-transaction.
 
-## Viz také
+## See also
 
-[Základní lokalizační balíček pro Česko](ui-extensions-core-localization-pack-cz.md)  
-[Česká lokální funkcionalita](czech-local-functionality.md)  
+[Core Localization Pack for Czech Republic](ui-extensions-core-localization-pack-cz.md)  
+[Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)  

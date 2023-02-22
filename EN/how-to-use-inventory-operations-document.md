@@ -6,21 +6,22 @@ author: v-pejano
 ms-service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Inventory, Localization, CZ
-ms.date: 12/01/2020
+ms.date: 02/17/2023
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Warehouse posting documents  
+# Inventory operations documents  
 
-Uživatelé provádějí výdeje, příjmy, převody a přecenění zásob. Musí mít pro tyto operace možnost tisknout doklady, které splňují zákonné požadavky.
-Uživatelé také chtějí tisknout doklady pro již zaúčtované operace zásob.  
+Users issue, receive, transfer, and revalue stock. They must be able to print documents for these operations that meet the legal requirements.
+Users also want to print documents for inventory transactions that have already been posted.
 
-Z výše uvedených důvodů tato funkce poskytuje následující sestavy:  
-- **Pohyb zásob** - používá se k tisku dokumentů z deníků zboží.
-- **Zaúčtovaný doklad zásob** - používá se k tisku zaúčtovaných operací zásob.  
+For the above reasons, this function provides the following reports:vy:  
 
-## Viz také
+- **Inventory transfer** - used to print documents from inventory journal.
+- **Posted inventory document** - used to print inventory transactions that have been already posted.  
 
-[Základní lokalizační balíček pro Česko](ui-extensions-core-localization-pack-cz.md)  
-[Česká lokální funkcionalita](czech-local-functionality.md)  
+## See also
+
+[Core Localization Pack for Czech Republic](ui-extensions-core-localization-pack-cz.md)  
+[Czech local functionality](czech-local-functionality.md)  

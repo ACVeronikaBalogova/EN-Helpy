@@ -11,7 +11,7 @@ ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Accounting for disposal of assets
+# Posting for disposal of assets
 
 Czech accounting standards require specific posting when tangible assets are disposed of or sold. After the sale or posting of the disposal of a fixed asset (FA), posting of the disposal of the asset ensures that the value of the fixed asset remains the same as the value after the write-off.
 
