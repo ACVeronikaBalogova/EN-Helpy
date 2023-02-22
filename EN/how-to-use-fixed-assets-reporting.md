@@ -6,7 +6,7 @@ author: v-pejano
 ms-service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Fixed Asset, Localization, CZ
-ms.date: 03/01/2021
+ms.date: 02/20/2023
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
@@ -15,14 +15,14 @@ ms.author: v-pejano
 
 This functionality provides the following reports to meet the output requirements of legislative requirements and local practices:
 
-- **Karta DM** – sestava kombinuje data ze standardního přehledu DM a sestavy detailů DM, seskupuje detaily za knihu odpisů DM.
-- **Sestava pořízení DM** – sestava se vytiskne,  jakmile je přijat konkrétní dlouhodobý majetek k zařazení. Tyto dokumenty musí být podepsané zástupci společnosti.
-- **Sestava vyřazení DM** – sestava se vytiskne, pokud je určitý dlouhodobý majetek vyřazen nebo poškozen.
-- **Dlouhodobý majetek – analýza fin. účtu** – uživatel může tuto sestavu použít k porovnání s finančním účtem.
-- **Dlouhodobý majetek – analýza  2** – uživatel může definovat 3 sloupce pro datum, 4 sloupce pro pole množství, pole skupina celkem a zvolit export do Excelu.
-- **Dlouhodobý majetek – porovnání   odpisových knih** – uživatel může zvolit 2 knihy odpisů pro porovnání.
-- **Seznam fyzické inventury DM** – společnosti jsou povinny odsouhlasit fyzický stav dlouhodobého majetku a jeho účetní hodnoty za účelem přípravy finančního výkazu.
-- **Inventurní seznam DM** – vytiskne inventurní seznam DM pro odpovědného zaměstnance, nebo pro kód umístění DM.
+- **FA card** - the report combines data from the standard FA list and the FA details report, groups the details for the FA depreciation book.
+- **FA Receipt Report** - the report is printed as soon as a specific fixed asset is received for inclusion. These documents must be signed by a representative of the company.
+- **FA Disposal Report** - the report is printed when a fixed asset is disposed or damaged.
+- **FA - Analysis G/L Account** - the user can use this report to compare with the G/L Account.
+- **FA - analysis 2** - user can define 3 columns for date, 4 columns for quantity field, total group field and select export to Excel.
+- **Fixed Asset - Analys. Dep.Book** - the user can select 2 depreciation books for comparison.
+- **FA Phys. Inventory List** - companies are required to reconcile the physical condition of fixed assets and their book values for the purpose of preparing financial statements.
+- **FA Inventory List** - prints the FA inventory list for the responsible employee or for the FA location code.
 
 The following standard reports have been modified for the Czech Republic (new totals for groups, etc.):
 
