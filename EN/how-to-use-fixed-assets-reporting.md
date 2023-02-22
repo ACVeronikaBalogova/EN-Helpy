@@ -13,7 +13,7 @@ ms.author: v-pejano
 
 # Fixed asset reports
 
-Pro splnění nároků na výstupy odpovídající legislativním požadavkům a místním zvyklostem poskytuje tato funkcionalita následující sestavy:
+This functionality provides the following reports to meet the output requirements of legislative requirements and local practices:
 
 - **Karta DM** – sestava kombinuje data ze standardního přehledu DM a sestavy detailů DM, seskupuje detaily za knihu odpisů DM.
 - **Sestava pořízení DM** – sestava se vytiskne,  jakmile je přijat konkrétní dlouhodobý majetek k zařazení. Tyto dokumenty musí být podepsané zástupci společnosti.
@@ -24,7 +24,7 @@ Pro splnění nároků na výstupy odpovídající legislativním požadavkům a
 - **Seznam fyzické inventury DM** – společnosti jsou povinny odsouhlasit fyzický stav dlouhodobého majetku a jeho účetní hodnoty za účelem přípravy finančního výkazu.
 - **Inventurní seznam DM** – vytiskne inventurní seznam DM pro odpovědného zaměstnance, nebo pro kód umístění DM.
 
-Pro Českou republiku byly upraveny následující standardní sestavy (nové součty za skupiny, atd.):
+The following standard reports have been modified for the Czech Republic (new totals for groups, etc.):
 
 - Analýza dlouhodobého majetku
 - Dlouhodobý majetek – úč.hodn.01
@@ -33,7 +33,7 @@ Pro Českou republiku byly upraveny následující standardní sestavy (nové so
 - Finanční analýza dlouhodobého majetku
 - Analýza údržby dlouhodobého majetku
 
-## Viz Také
+## See Also
 
-[Dlouhodobý majetek pro Česko](ui-extensions-fixed-asset-localization-cz.md)  
-[Česká lokální funkcionalita](czech-local-functionality.md)  
+[Fixed Assets for Czech Republic](ui-extensions-fixed-asset-localization-cz.md)  
+[Czech Local Functionality](czech-local-functionality.md)  
