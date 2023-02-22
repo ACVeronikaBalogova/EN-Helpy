@@ -13,7 +13,7 @@ ms.author: v-pejano
 
 # Conclusion of the advance invoice  
 
-Pokud nebude zaplacená zálohová faktura čerpána nebo dočerpána, je možné ji uzavřít. Funkce pro uzavření zálohy je dostupná na kartě Prodejní/Náupní zálohové faktury (tedy nikoli z položek historie zálohy), jedná se o funkci **Uzavři zálohu**. 
+Pokud nebude zaplacená zálohová faktura čerpána nebo dočerpána, je možné ji uzavřít. Funkce pro uzavření zálohy je dostupná na kartě Prodejní/Náupní zálohové faktury (tedy nikoli z položek historie zálohy), jedná se o funkci **Uzavři zálohu**.
 
 Pro uzavření zálohy postupujte následujícím způsobem:
 
@@ -24,7 +24,6 @@ Pro uzavření zálohy postupujte následujícím způsobem:
 
 Nedočerpaná částka zálohy bude převedena do salda zákazníka ve formě otevřené položky zákazníka.  
 Při uzavření zálohy vzniká automaticky záporná Původní položka tak, aby částka zálohy k úhradě byla nulová (počáteční Původní položka mínus platby plus částka uzavření).
-
 
 ## Viz také
 

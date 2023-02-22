@@ -13,7 +13,7 @@ ms.author: v-pejano
 
 # Activation of Advance Payment functionality and upgrade of existing data  
 
-Activation of the Advance Payments functionality for Czech Republic is initiated via **Manage Features**. Activation is done in 2 steps - user permission and data update. The data update will upgrade the existing backup items and related agendas to the new tables. 
+Activation of the Advance Payments functionality for Czech Republic is initiated via **Manage Features**. Activation is done in 2 steps - user permission and data update. The data update will upgrade the existing backup items and related agendas to the new tables.
 
 > [!NOTE]
 > The data update process is **irreversible**. Once the update is complete, the previous version of the backups will no longer be available and you will not be able to revert to the original version of the backups.
@@ -28,7 +28,7 @@ Use the following procedure to activate the Advance Payments for Czech Republic 
 2. On the **Manage Feature** card.
 3. Select the row for the function **Localization of advance payments for the Czech version** and in the field **Enabled for** select All users.
 4. You will then go through the activation guide and data update settings.
-5. Once the data has been upgraded from the previous backup version, the value of the **Current Company Status** field will be set to Data Upgrade Complete. From this point on, you can use the new version of the Advance Payments functionality. 
+5. Once the data has been upgraded from the previous backup version, the value of the **Current Company Status** field will be set to Data Upgrade Complete. From this point on, you can use the new version of the Advance Payments functionality.
 
 ## See Also
 
