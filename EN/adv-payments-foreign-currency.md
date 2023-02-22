@@ -6,7 +6,7 @@ author:
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Advance Payments, Localization
-ms.date: 10/01/2021
+ms.date: 02/22/2023
 ms.reviewer: 
 ms.author: 
 ---
