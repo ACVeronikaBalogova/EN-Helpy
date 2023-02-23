@@ -6,7 +6,7 @@ author: v-pejano
 ms-service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Inventory, Localization, CZ
-ms.date: 12/01/2020
+ms.date: 02/23/2023
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
@@ -14,54 +14,54 @@ ms.author: v-pejano
 
 # Inventory movement templates
 
-Pohyby zboží pořízené v denících zboží musí být účtovány s předepsaným **Účtem adjustace zásob**, který odpovídá danému typu pohybu. Do řádků deníku zboží bylo doplněno pole pro výběr šablony pohybu zásob.  
+Movements of items acquired in the inventory journals must be accounted for with the prescribed **Inventory Adjustment Number** that corresponds to the type of movement. A field for selecting the template for the item movement has been added to the inventory log lines.  
 
-## Definice vlastní šablony pro účtování pohybů zásob
+## Definition of a custom template for posting inventory movements
 
-V rámci šablony je možné nastavit typ skladového pohybu (výdej, příjem, transfer, atp.) a obecnou obchodní účto skupinu (ta určuje finanční kontace účtování daného skladového pohybu do účetní části systému).
-Tato nastavení jsou automaticky kopírována do řádku deníku zboží na základě zvolené šablony pohybu zásob.
-Šablony skladového pohybu je možné využít především při účtování pohybů v deníku zboží a deníku projektů. Další využití mají při účtování rozdílů fyzické inventury zboží.
+Within the template, it is possible to set the type of inventory movement (dispatch, receipt, transfer, etc.) and the general business account group (this determines the financial posting of the inventory movement to the accounting part of the system).
+These settings are automatically copied to the inventory log line based on the selected inventory movement template.
+Inventory movement templates can be used primarily when posting movements in the inventory journal and project journal. They are also used to post differences in the physical inventory of items.
 
-![Šablony skladových pohybů](Media/inventory-movement-templates.png)
+![Inventory movement templates](Media/inventory-movement-templates.png)
 
-Pro vytvoření nové šablony:
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Šablony pohybu zásob** a poté vyberte související odkaz.
-2. Na přehledu Šablon pohybu zásob použijte funkci **Nový**.
-3. Do pole **Název** zadejte název pro daný pohyb, dále do popisu vypište krátký popis, k čemu pohyb slouží.
-4. Ve sloupci **Typ položky** vyberte skladový pohyb.
-5. V posledním kroku vyberte patřičnou účtoskupinu do pole **Obecná obchodní účto skupina**.
-6. Po vyplnění sloupců přehled zavřete.
+To create a new template:
+1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory movement templates** and then select related link.
+2. On the Inventory Movement Templates overview, use the **New** function.
+3. Enter a name for the movement in the **Name** field, then write a short description of what the movement is for in the description.
+4. In the **Item Type** column, select the inventory movement.
+5. In the last step, select the appropriate posting group in the **General business posting group** field.
+6. Close the overview after filling in the columns.
 
-## Definice a použití vlastní šablony pro účtování zásob
+## Definition and use of a custom template for inventory posting
 
-Příklad definice skladové pohybu pro typu MANKO:
+Example of a inventory movement definition for the CASH DEFICIT type:
 
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Šablony pohybu zásob** a poté vyberte související odkaz.
-2. Na přehledu Šablon pohybu zásob použijte funkci **Nový**.
-3. Do pole **Název** zadejte název pro daný pohyb, například **MANKO**. Dále do popisu vypište krátký popis, k čemu pohyb slouží.
-4. Ve sloupci **Typ položky** vyberte pohyb, v tomto příkladu **Výdej**.
-5. V posledním kroku vyberte patřičnou účtoskupinu do pole **Obecná obchodní účto skupina**, pro příklad s mankem například **Z-MANKO**.
-6. Po vyplnění sloupců přehled zavřete.
-## Použití Šablony v deníku zboží
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Deník zboží** a poté vyberte související odkaz.
-2. Založte nový řádek deníku.
-3. Zobrazte nové pole **Šablona skladového pohybu**.
-4. V poli **Šablona skladového pohybu** vyberte šablonu vytvořenou v předchozím kroku.
-5. Zkontrolujte pole **Typ položky** a **Obecná obch. účto skupina**, zda se doplnili dle nastavení v minulém kroku.
+1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory movement templates** and then select related link.
+2. On the Inventory Movement Templates overview, use the **New** function.
+3. In the **Name** field, enter a name for the movement, for example **Cash Deficit**. Next, write a short description of what the movement is for in the description.
+4. In the **Item Type** column, select the movement, in this example **Output**.
+5. In the last step, select the appropriate posting group in the **General ledger posting group** field, for example **Z-CASH DEFICIT** for the example with a shortage.
+6. Close the overview after filling in the columns.
+## Using Templates in the Item Journal
+1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item journal** and then select related link.
+2. Create a new journal line.
+3. Show new field **Inventory movement template**.
+4. In the **Inventory movement template** field, select the template created in the previous step.
+5. Check the **Item Type** and **General Ledger Posting Group** fields to make sure they have been completed as set in the previous step.
 
-## Použití šablony v řádku objednávky fyz. inventury 
- 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Objednávky fyzické inventury** a poté vyberte související odkaz.
-2. Na přehledu Objednávek fyzické inventury zvolte tlačítko **Nový**.
-3. Vyplňte pole **Popis** dle potřeby.
-4. Použijte funkci **Výpočet řádků** s potřebnými parametry.
-    - Lokace
-    - Číslo
-5. Použijte funkci **Vytvořit nový Záznam**.
-6. Z objednávky fyz. inventury otevřete vytvořený záznam.
-7. Na řádku vyplňte **Množství** a dále použijte funkci **Dokončit**.
-8. Poté se vraťte na přehled **Objednávky fyzické inventury**, kde na vybraném záznamu použijte funkci **Vypočítat očekávané množství** a poté **Dokončit**.
+## Using a template in a physical inventory order line
+ 1.  Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Physical inventory orders** and then select related link.
+2. On the Physical Inventory Orders report, select the **New** button.
+3. Fill in the **Description** field as needed.
+4. Use the **Row Count** function with the necessary parameters.
+    - Location
+    - Number
+5. Use the **Create New Entry** function.
+6. Open the created entry from the physical inventory order.
+7. Fill in **Quantity** on the line and then use the **Finish** function.
+8. Then go back to the **Physical Inventory Orders** overview and use the **Calculate Expected Quantity** and then **Finish** function on the selected entry.
 
-## Viz také
+## See also
 
-[Základní lokalizační balíček pro Česko](ui-extensions-core-localization-pack-cz.md)  
-[Česká lokální funkcionalita](czech-local-functionality.md)  
+[Core Localization pack for Czech Republic](ui-extensions-core-localization-pack-cz.md)  
+[Czech Local Functionality](czech-local-functionality.md)  
