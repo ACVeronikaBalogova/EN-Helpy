@@ -6,7 +6,7 @@ author: v-pejano
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Advance Payments, Localization
-ms.date: 10/01/2021
+ms.date: 02/24/2023
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
@@ -15,46 +15,50 @@ ms.author: v-pejano
 
 ## Automatic charging of VAT on advance invoice
 
-Pokud je v hlavičce prodejní zálohy pole **Automaticky účtovat doklad DPH** hodnotu **ANO**, při zaúčtování úhrady prodejní zálohy se automaticky vytvoří i zálohový daňový doklad a položka DPH.
+If the **Automatically post VAT document** field in the sales advance header is set to **YES**, the advance tax document and the VAT entry are automatically created when the sales advance payment is posted.
 
-Do historie zálohy je zapsána položka **Platba DPH**, ve které je vyplněn základ a částka DPH.
+The entry **VAT payment** is entered into the advance history, in which the VAT base and amount are filled in.
 
-### Tisk DPH dokladu k zálohové faktuře
-Pro tisk DPH dokladu k zálohové faktuře postupujte následujícím způsobem:
+### Printing a VAT document for an advance invoice
 
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Prodejní zálohové faktury** a poté vyberte související odkaz. 
-2. Na přehledu prodejních zálohových faktur označte řádek s požadovanou zálohou.
-3. Zvolte funkci **Položky zálohy** v sekci **Historie**. Kurzorem označte řádek s typem položky **Platba DPH**. Dále použijte v sekci Sestavy funkci **Daňový doklad**, pomocí které můžete vytisknout zálohový daňový doklad s rozpisem DPH.
+To print a VAT document for an advance invoice, proceed as follows:
 
-- Pokud je na záloze použito více sazeb DPH, vznikne pro každou sazbu samostatná položka **Platba DPH**. Pokud byla u takto nastavené zálohy uhrazena pouze její část, položky **Platba DPH** vzniknou v poměrné výši.
-- Při úhradě zálohy v plném rozsahu se pole **Stav zálohy** změní na hodnotu **K použití**. Při částečné úhradě zůstává hodnota v poli stav zálohy **K úhradě**. Zálohu je možné čerpat do faktury do výše uhrazené částky, tedy i v případě, že ještě nebyla celá doplacena.
-- Daňový doklad k záloze je proúčtován s číslem dokladu podle číselné řady nastavené v šabloně záloh v poli pro číselnou řadu zálohového daňového dokladu.
+1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Sales Advance Invoice** and then choose the related link.
+2. On the sales advance invoice list, mark the line with the required advance.
+3. Select **Advance Entries** in the **History** section. Use the cursor to mark the row with the entry type **VAT payment**. Next, use the **VAT document** function in the Reports section to print a VAT advance document with the VAT breakdown.
 
-## Manual posting of a VAT document 
-Pokud je v hlavičce prodejní zálohy pole **Automaticky účtovat doklad DPH** hodnotu **NE**, při účtování úhrady prodejní zálohy se automaticky zálohový daňový doklad nevytvoří. Záloha může být i takto použita v konečné prodejní faktuře. 
+- If more than one VAT rate is applied to the deposit, a separate **VAT Payment** entry will be created for each rate. If only a part of the advance has been paid for the advance set up in this way, the **VAT payment** entries will be created in proportion.
+- When the deposit is paid in full, the **Advance Status** field changes to **To Use**. For partial payments, the value in the Advance Status field remains **To be used**. The advance payment can be applied to the invoice up to the amount paid, even if it has not yet been paid in full.
+- The advance VAT document is posted with the document number according to the No. series set in the advance VAT document No. series field in the advance VAT document template.
 
-Pokud ale chcete DPH doklad k úhradě dodatečně zaúčtovat, je možné spustit vytvoření a proúčtování zálohového daňového dokladu z historie z **Položek zálohy**. 
+## Manual posting of a VAT document
+
+If the **Automatically post VAT document** field in the sales advance header is set to **NO**, an advance tax document will not be automatically created when posting the sales advance payment. The advance can still be used in the final sales invoice.
+
+However, if you want to post the VAT document for payment, it is possible to start the creation and posting of the advance VAT document from the history from **Advance entries**.
 
 ### Manual creation of a VAT document
-Pro ruční vytvoření DPH dokladu postupujte následujícím způsobem:
 
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Prodejní zálohové faktury** a poté vyberte související odkaz. 
-2. Na přehledu prodejních zálohových faktur označte řádek s požadovanou zálohou.
-3. Zvolte funkci **Položky zálohy** v sekci **Historie**. Kurzorem označte řádek s typem položky **Platba DPH**.
-4. Z pásu akcí spusťe akci **Účtovat daňový doklad**. Položka zálohy **Platba DPH** (a související položka DPH a věcné položky) se vytvoří se stejným zúčtovacím datem jako proúčtovaná platba.
+To manually create a VAT document, proceed as follows:
 
-- Pokud je zálohové faktuře hodnota v poli **Automaticky účtovat doklad DPH** hodnota **NE** i při účtování faktury spojené s touto zálohou, nedojde k automatickému oddanění zálohy a bude třeba provést oddanění dodatečně ručně. Hodnotu v poli je možné před účtováním faktury dodatečně upravit - pokud nastavíte **Automaticky účtovat doklad DPH** na hodnotu **ANO**, při účtování faktury dojde i k oddanění zálohy.
-- Pokud při účtování konečné faktury byla záloha použita, ale nedošlo k jejímu oddanění, je možné provést oddanění dodatečně ručně. 
+1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Sales Advance Invoice** and then choose the related link.
+2. On the sales advance invoice list, mark the line with the required advance.
+3. Select **Prepaid Entries** in the **History** section. Use the cursor to mark the row with the entry type **VAT payment**.
+4. From the action bar, run the **Post VAT document** action. The advance payment entry **VAT payment** (and the related VAT and G/L entries) will be created with the same Posting date as the cleared payment.
 
-### Manual deduction of VAT on advance payment 
-Pro ruční odpočet DPH ze zálohy postupujte následujícím způsobem:
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Prodejní zálohové faktury** a poté vyberte související odkaz. 
-2. Na přehledu prodejních zálohových faktur označte řádek s požadovanou zálohou.
-3. Zvolte funkci **Položky zálohy** v sekci **Historie**. Kurzor umístěte na položku typu **Použití** a zvolte z akci **Účtovat použití DPH**. Tímto dojde k oddanění zálohy s datem a číslem dokladu zaúčtované faktury. 
+- If the value in the **Automatically post VAT document** field of the advance invoice is **NO** even when posting the invoice associated with this advance, the advance will not be automatically de-taxed and will need to be de-taxed manually. The value in the field can be additionally adjusted before the invoice is posted- if you set **Automatically post VAT document** to **NO**, the advance will be deaned when the invoice is posted.
+- If an advance has been applied but not deferred when posting the final invoice, the deferral can be done manually afterwards.
 
+### Manual deduction of VAT on advance payment
 
-## Viz také
+To manually deduct VAT from the advance, proceed as follows:
 
-[Zálohové platby pro Česko (rozšíření)](ui-extensions-advance-payments-localization-cz.md)  
-[České lokální funkcionality](czech-local-functionality.md)  
+1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Sales Advance Invoice** and then choose the related link.
+2. On the sales advance invoice list, mark the line with the required advance.
+3. Select **Advance Entries** in the **History** section. Place the cursor on the **Use** type item and select the **Post VAT usage** action. This will separate the advance with the date and document number of the invoice posted.
+
+## See Also
+
+[Extension Advance Payments Localization](ui-extensions-advance-payments-localization-cz.md)  
+[Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)
