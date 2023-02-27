@@ -6,7 +6,7 @@ author: v-pejano
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Advance Payments, Localization
-ms.date: 10/01/2021
+ms.date: 02/27/2023
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
@@ -15,32 +15,31 @@ ms.author: v-pejano
 
 ## Basic principles of the Advance Payment application
 
- - Párování dokladů na úrovni hlaviček dokladů - hlavička faktury párována na hlavičku zálohy.
- - Pro účtování úhrady zálohy je využíván **Účet zálohy** z **Šablony zálohy**.
- - Všechny položky zálohy jsou dostupné v **Historii zálohy** na jedné stránce.
- - Většina akcí, které je možné v rámci zálohy provádět, je spuštěna z příslušných položek v **Historii zálohy**, např. z položky typu **Platba** je možné spustit funkci **Účtovat zálohový daňový doklad**, příp. **Odpojit platbu záloh**y, z položky typu **Platba DPH** je možné spustit funkci **Účtovat daňový dobropis** (pro zaúčtování storna) a vytisknout **Zálohový daňový doklad**.
- - Při účtování zálohových daňových dokladů či dobropisů nevznikají samostatné hlavičkové doklady, vznikají pouze položky zálohy, ze kterých je daňové doklady možné vytisknout.
- - Ve finančním deníku (pokladním dokladu) je k úhradě záloh potřeba nastavit pouze **Typ dokladu** s hodnotou Platba a položku napojit na zálohu prostřednictvím pole **Číslo zálohy**.
- - V položce zákazníka/dodavatele jsou dostupná nová pole **Číslo zálohy** a **Kód šablony zálohy**, v položce DPH pole **Číslo zálohy**.
- - V položce DPH jsou zálohy účtovány s typem výpočtu DPH = **normální DPH** a je použito standardní pole **Základ** pro účtování základu zálohy.
+ - Pairing documents at the document header level - the invoice header is paired to the advance header.
+ - The **Advance Account** from the **Advance Template** is used to post the advance payment.
+ - All advance entries are available in **Advance History** on one page.
+ - Most of the actions that can be performed within the advance are triggered from the corresponding entries in the **Advance History**, e.g. from the entry of the **Payment** type it is possible to trigger the function **Post advance VAT document**, or **Disconnect advance payment**, from the entry of the **VAT payment** type it is possible to trigger the function **Post VAT credit note** (for cancellation posting) and print **Advance VAT document**.
+ - When posting advance VAT documents or credit notes, no separate header documents are created, only advance entries are created from which VAT documents can be printed.
+ - In the General journal (cash receipt), you only need to set the **Document type** with the value Payment and link the entry to the advance via the **Advance number** field.
+ - New fields **Advance number** and **Advance template code** are available in the customer/vendor entry, **Advance number** in the VAT entry.
+ - In the VAT entry, the advances are posted with the VAT calculation type = **normal VAT** and the standard field **Basis** is used for posting the basis of the advance.
  
-## Životní cyklus prodejní zálohy
+## Lifecycle of a sales advance
 
-Celý životní cyklus zálohy je dostupný na jednom místě, kartě prodejní nebo nákupní zálohové faktury. Zde jsou evidovány všechny historické položky spojené se zálohou a dostupné funkce pro tvorbu daňových dokladů či dobropisů, uzavírání zálohy, tiskové sestavy a další.
+The entire advance lifecycle is available in one place, the sales or purchase advance invoice tab. All historical entries associated with the advance are recorded here and functions are available for creating VAT documents or credit notes, closing the advance, print reports and more.
 
-Aktuální fáze založení, úhrady či čerpání zálohy se odráží v poli **Stav**.
+The current stage of setting up, paying or drawing an advance is reflected in the **Status** field.
 
-![Principy zálohové platby](Media/adv-payments-principes.png)
+![Advance Payments Principes](Media/adv-payments-principes.png)
 
-1.	Při založení zálohy má záloha stav **Nové**.
-2.	Vydáním zálohy se mění její stav na **K úhradě**, vzniká úvodní inicializační položka **Původní položka**, záloha je připravena k úhradě.
-3.	Úhradou zálohy pokladnou či finančním deníkem se mění její stav na **K použití**, záloha je připravena k připojení a využití v konečném dokladu. V položkách zálohy vzniká položka **Platba**, resp. **Platba DPH**.
-4.	Použitím zálohy ve faktuře se mění stav zálohy na **Uzavřeno**, pokud je použita v plném rozsahu. V položkách zálohy vzniká položka s typem **Uzavření**, resp. **Uzavření DPH**.
-5.	Pokud nebude záloha čerpána nebo nebude čerpána v plném rozsahu, je možné ji pomocí funkce uzavřít. Uzavřením zálohy se stav zálohy mění na **Uzavřeno**. Vznikají položky s typem **Uzavření**, resp. **Uzavření DPH** a záporná Původní položka.
+1.	When the advance is created, the advance has the status **New**.
+2.	Issuing a deposit changes its status to **Amount to pay**, the initial initialization entry **Initial entry** is created, and the advance is ready to be paid.
+3.	By paying the advance through the Cash desk or General journal, its status changes to **For Use**, the advance is ready to be attached and used in the final document. In the entries of the advance, the entry **Payment** or **VAT payment** is created.
+4.	Using an advance in an invoice changes the status of the advance to **Closed** if used in full. In the advance entries, an entry with the type **Closure** or **VAT Closure** is created.
+5.	If the advance is not used or not used in full, it can be closed using the function. Closing an advance changes the status of the deposit to **Closed**. Entries with the type **Close** or **VAT Close** and a negative Initial entry are created.
 
+## See Also
 
-## Viz také
-
-[Zálohové platby pro Česko (rozšíření)](ui-extensions-advance-payments-localization-cz.md)  
-[České lokální funkcionality](czech-local-functionality.md)  
+[Extensions Advance Payments Localization](ui-extensions-advance-payments-localization-cz.md)  
+[Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)
