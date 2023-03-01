@@ -11,7 +11,7 @@ ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Linking the advance invoice to the final document 
+# Linking the advance invoice to the final document
 
 ## Use of the advance invoice in the final invoice
 
@@ -23,8 +23,9 @@ In this way, you can continue with the selection of advances. Click the next lin
 3. In the **Amount** field, you can specify the amount and from which advance to be invoiced. It is thus possible to draw multiple advances in partial amounts to the invoice.
 4. If the advance assignment is set up the way the user wants to use the advnaces in the invoice, confirm the page with the **OK** button.
 
-Note: 
-- ZThe advance will always be deducted up to the maximum possible invoice value, i.e. even if the user does not reduce the value of the advance and the advance exceeds the invoice value, the advance will be deducted up to the maximum invoice value.
+Note:
+
+- The advance will always be deducted up to the maximum possible invoice value, i.e. even if the user does not reduce the value of the advance and the advance exceeds the invoice value, the advance will be deducted up to the maximum invoice value.
 - If the user selects a partial drawdown of the advance, only the set portion will be deducted from the advance.
 - If the user selects partial drawdown from multiple advances and the value of the advances to be used is higher than the invoice value, the system will automatically deduct the amounts from the advances according to the date the advances were paid.
 - If the advance assignment is set up the way the user wants to use the advances in the invoice, confirm the page with the OK button.
@@ -38,16 +39,14 @@ Note:
 
 if the advance is not to be used on the invoice, it can be removed from the link:
 
-1. Choose the ![Lightbulb that opnes the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Sales Advance Orders** and then choose the related link.
-2. Open the selected advance invoice, use the **Link Advance Invoice** action to open the page with the linked advances. 
-4. On the page you can edit the amounts or remove the entire line with the advance. You should always check that the page is in editable mode and the line edits will be recorded. 
-5. Select **Delete** via the selection button (three dots) and confirm the deletion of the line with the associated advance invoice.
-
+1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Sales Advance Orders** and then choose the related link.
+2. Open the selected advance invoice, use the **Link Advance Invoice** action to open the page with the linked advances.
+3. On the page you can edit the amounts or remove the entire line with the advance. You should always check that the page is in editable mode and the line edits will be recorded.
+4. Select **Delete** via the selection button (three dots) and confirm the deletion of the line with the associated advance invoice.
 After posting an invoice with an advance payment, an entry with Entry Type **Use** is created on the advance payment in the amount deducted from the invoice, and if an advance VAT document has been posted with the payment, an entry **VAT Use** with VAT deduction is automatically created.
 
-You can print a tax credit note from the Advance History from the **VAT Usage** entry type. 
+You can print a tax credit note from the Advance History from the **VAT Usage** entry type.
 The **VAT Usage** entry is created with the same date and document number as the sales invoice.
-
 
 ## Using an advance invoice created from an order
 

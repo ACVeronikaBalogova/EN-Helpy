@@ -17,8 +17,8 @@ Pro přímé založení zálohové faktury pustupujte následujícím způsobem:
 
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Prodejní zálohové faktury** a poté vyberte související odkaz. V případě nákupu hledejte **Nákupní zálohové faktury**.
 2. V přehledu založte nový doklad pomocí akce **Nový**.
-3. V novém dokladu vyberte **Šablonu zálohy**, která bude použita pro číslování dokladů, způsobu práce s DPH, způsob účtování a další. 
-4. Potvrďte pole **Číslo**, čímž je vytvořen doklad zálohy v příslušné číselné řadě. 
+3. V novém dokladu vyberte **Šablonu zálohy**, která bude použita pro číslování dokladů, způsobu práce s DPH, způsob účtování a další.
+4. Potvrďte pole **Číslo**, čímž je vytvořen doklad zálohy v příslušné číselné řadě.
 5. V kartě zálohy přiřaďte **Číslo zákazníka**.
 6. V řádku zálohy zadejte **DPH účto skupinu zboží** a **Celkovou částku zálohy**.
 7. Výchozí stav zálohy je **Nový**, tzn. je možné ji jakkoli měnit, není možné ji zaplatit nebo použít do faktury. Pomocí funkce **Vydat** v pásu akcí převeďte do stavu **K úhradě**. Záloha bude připravena k platbě.  
