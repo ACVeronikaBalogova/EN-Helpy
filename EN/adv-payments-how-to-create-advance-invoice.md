@@ -21,7 +21,7 @@ To create an advance invoice directly, proceed as follows:
 4. Confirm the **Number** field to create a advance document in the appropriate No. series.
 5. Assign a **Customer Number** in the Advance Card.
 6. In the advance line, enter **VAT posting group** and **Total advance amount**.
-7. The default status of the advance is **New**, i.e. it can be changed in any way, it cannot be paid or used in an invoice. Use the **Pay** function in the action bar to convert it to the **To be paid** status. The advance will be ready for payment. 
+7. The default status of the advance is **New**, i.e. it can be changed in any way, it cannot be paid or used in an invoice. Use the **Pay** function in the action bar to convert it to the **To be paid** status. The advance will be ready for payment.
 The issue creates an **Initial Entry** in the advance entries with a date according to the posting date in the advance header and the total amount entered at the time of issue. The initial entry has no posting relationship, it is used to calculate the amount remaining to be paid.
 8. You can print the advance using the **Report- Advance** action or generate it as a PDF attachment using the **Report- Attach as PDF** action.
 9. If the advance needs to be edited, you can use the **Reopen** function to bring it back to the **New** state and edit it.
