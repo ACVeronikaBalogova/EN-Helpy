@@ -6,30 +6,30 @@ author: v-pejano
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Advance Payments, Localization
-ms.date: 10/01/2021
+ms.date: 03/01/2023
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
 # Creating an advance invoice
 
-Pro přímé založení zálohové faktury pustupujte následujícím způsobem:
+To create an advance invoice directly, proceed as follows:
 
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Prodejní zálohové faktury** a poté vyberte související odkaz. V případě nákupu hledejte **Nákupní zálohové faktury**.
-2. V přehledu založte nový doklad pomocí akce **Nový**.
-3. V novém dokladu vyberte **Šablonu zálohy**, která bude použita pro číslování dokladů, způsobu práce s DPH, způsob účtování a další.
-4. Potvrďte pole **Číslo**, čímž je vytvořen doklad zálohy v příslušné číselné řadě.
-5. V kartě zálohy přiřaďte **Číslo zákazníka**.
-6. V řádku zálohy zadejte **DPH účto skupinu zboží** a **Celkovou částku zálohy**.
-7. Výchozí stav zálohy je **Nový**, tzn. je možné ji jakkoli měnit, není možné ji zaplatit nebo použít do faktury. Pomocí funkce **Vydat** v pásu akcí převeďte do stavu **K úhradě**. Záloha bude připravena k platbě.  
-Vydáním vzniká v položkách zálohy **Původní položka** s datem podle zúčtovacího data v hlavičce zálohy a celkovou částkou zadanou v okamžiku vydání. Původní položka nemá účetní souvislost, slouží pro výpočet zbývající částky k úhradě.
-8. Zálohu můžete vytisknout pomocí akce **Sestava – Záloha** nebo vygenerovat jako PDF přílohu pomocí akce **Sestava – Připojit jako PDF**.
-9. Pokud je třeba zálohu upravit, je možné ji pomocí funkce **Znovu otevřít** převést opět do stavu **Nové** a upravovat.  
-Automaticky se vytvoří i záporná **Původní položka** v položkách zálohy
-10. Ve FactBoxu zálohy je možné průběžně sledovat zapsanou hodnotu zálohy, částku, kterou zbývá uhradit, zbývající částku k použití zálohy a celkovou evidenci zálohy z hlediska základu a částky DPH.
+1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), Enter **Sales Advance Invoices** and then choose the related link. In case of purchase look for **Purchase Advance Invoices**.
+2. Create a new document in the list using the **New** action.
+3. In the new document, select the **Advance Template** which will be used for document numbering, VAT handling, posting method and more.
+4. Confirm the **Number** field to create a advance document in the appropriate No. series.
+5. Assign a **Customer Number** in the Advance Card.
+6. In the advance line, enter **VAT posting group** and **Total advance amount**.
+7. The default status of the advance is **New**, i.e. it can be changed in any way, it cannot be paid or used in an invoice. Use the **Pay** function in the action bar to convert it to the **To be paid** status. The advance will be ready for payment. 
+The issue creates an **Initial Entry** in the advance entries with a date according to the posting date in the advance header and the total amount entered at the time of issue. The initial entry has no posting relationship, it is used to calculate the amount remaining to be paid.
+8. You can print the advance using the **Report- Advance** action or generate it as a PDF attachment using the **Report- Attach as PDF** action.
+9. If the advance needs to be edited, you can use the **Reopen** function to bring it back to the **New** state and edit it.
+A negative **Initial item** is automatically created in the Advance entries
+10. In Advances FactBox, you can continuously monitor the value of the advance, the amount remaining to be paid, the amount remaining to be used and the overall record of the advance in terms of the VAT base and amount.
 
-## Viz také
+## See Also
 
-[Zálohové platby pro Česko (rozšíření)](ui-extensions-advance-payments-localization-cz.md)  
-[České lokální funkcionality](czech-local-functionality.md)  
+[Extensions Advance Payments Localization](ui-extensions-advance-payments-localization-cz.md)  
+[Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)
