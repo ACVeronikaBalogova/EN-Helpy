@@ -6,59 +6,59 @@ author: v-pejano
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Advance Payments, Localization
-ms.date: 10/01/2021
+ms.date: 02/27/2023
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
 # Linking the advance invoice to the final document 
 
-## Použití zálohové faktury v konečné faktuře
+## Use of the advance invoice in the final invoice
 
-Pro použití zálohové faktury v konečné faktuře postupujte následujícím způsobem:
+To use an advance invoice in the final invoice, proceed as follows:
 
-1. Fakturu zadejte do systému obvyklým způsobem. Pokud chcete k faktuře připojit jednu či více záloh, proveďte tak z hlavičky faktury z pomocí akce **Propojit zálohovou fakturu**. 
-2. Do zobrazené stránky **Vyrovnání zálohy** pomocí funkce **Nový** a rozkliknutím pole **Číslo zálohy** zobrazte seznam záloh dostupných pro přiřazení do faktury. Zobrazují se jen zálohy se stejným kódem měny a v takových částkách, které byly uhrazeny nejpozději k zúčtovacímu datu prodejní faktury. Potvrďte výběr zálohy a záloha přenese na stránku **Vyrovnání zálohy** pro propojení faktury a zálohy. 
-Takto lze pokračovat dále ve výběru záloh. Kliknutím na další řádek stránky lze znovu prostřednictvím pole Číslo zálohy přidat do propojení další zálohy. 
-3. V poli **Částka** můžete zadat, jaká částka a ze které zálohy má být fakturou čerpána. Je možné tak do faktury čerpat více záloh v částečných hodnotách.
-4. Pokud je přiřazení záloh nastaveno tak, jak chce uživatel využít zálohy ve faktuře, potvrdí stránku tlačítkem **OK**.
+1. Enter the invoice into the system in the usual way. If you wish to attach one or more advances to the invoice, do so from the invoice header using the **Link Advance Invoice** action.
+2. On the **Advance Reconciliation** page use **New** and click the **Advance No.** field to view the list of advances available for assignment to the invoice. Only advances with the same currency code and in amounts that have been paid no later than the posting date of the sales invoice are displayed. Confirm the advance selection and the advance will transfer to the **Advance Reconciliation** page to link the invoice and the advance.
+In this way, you can continue with the selection of advances. Click the next line on the page to add more advances to the link again using the Advance Number field.
+3. In the **Amount** field, you can specify the amount and from which advance to be invoiced. It is thus possible to draw multiple advances in partial amounts to the invoice.
+4. If the advance assignment is set up the way the user wants to use the advnaces in the invoice, confirm the page with the **OK** button.
 
-Poznámka: 
-- Záloha bude vždy čerpána do maximální možné hodnoty faktury, tzn. i když uživatel nesníží hodnotu čerpané zálohy a záloha bude hodnotu faktury převyšovat, záloha bude odečtena maximálně do hodnoty faktury.
-- Pokud uživatel zvolí částečné čerpání zálohy, bude ze zálohy odpočtena jen příslušná nastavená část.
-- Pokud uživatel zvolí částečné čerpání z více záloh a hodnota záloh k použití bude vyšší než hodnota faktury, systém automaticky odpočítá částky ze záloh podle data úhrady záloh.
-- Pokud je přiřazení záloh nastaveno tak, jak chce uživatel využít zálohy ve faktuře, potvrdí stránku tlačítkem OK. 
+Note: 
+- ZThe advance will always be deducted up to the maximum possible invoice value, i.e. even if the user does not reduce the value of the advance and the advance exceeds the invoice value, the advance will be deducted up to the maximum invoice value.
+- If the user selects a partial drawdown of the advance, only the set portion will be deducted from the advance.
+- If the user selects partial drawdown from multiple advances and the value of the advances to be used is higher than the invoice value, the system will automatically deduct the amounts from the advances according to the date the advances were paid.
+- If the advance assignment is set up the way the user wants to use the advances in the invoice, confirm the page with the OK button.
 
-## Informace o použití zálohové faktury v konečném dokladu
+## Information on the use of the advance invoice in the final document
 
-- V novém **FactBoxu** prodejní faktury v části **Použití prodejní zálohy** je zobrazen počet využitých záloh, jejich čísla, odkazy na DPH položky, a je zde vidět celková částka faktury po odpočtu záloh.
-- Standardní statistika dokladu zálohy nezahrnuje. Je možné ale spustit náhled účtování, který zobrazí všechny položky, včetně položek záloh, které budou při účtování vznikat.
+- In the new **FactBox** of the sales invoice in the **Sales Advance Usage** section you can see the number of used advances, their numbers, references to VAT entries and the total amount of the invoice after deduction of advances.
+- Standard document statistics do not include advances. However, it is possible to run a posting preview that will show all entries, including deposit entries, that will be generated during posting.
 
-## Odpojení zálohové faktury z konečného dokladu
+## Disconnecting the advance invoice from the final invoice
 
-Pokud nemá být záloha využita na faktuře, je možné ji z propojení odebrat:
+if the advance is not to be used on the invoice, it can be removed from the link:
 
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Prodejní zálohové faktury** a poté vyberte související odkaz.
-2. Otevřete vybranou zálohovu fakturu, použijte akci **Propojit zálohovou fakturu**, která otevře stránku s propojenými zálohami. 
-4. Na stránce můžete upravovat částky, příp. odebrat celý řádek se zálohou. Vždy je třeba zkontrolovat, zda je stránka v editovatelném módu a úprava řádků se zaznamená. 
-5. Přes tlačítko výběru (tři tečky) zvolte **Odstranit** a potvrďte smazání řádky s přiřazenou zálohovou fakturou.
+1. Choose the ![Lightbulb that opnes the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Sales Advance Orders** and then choose the related link.
+2. Open the selected advance invoice, use the **Link Advance Invoice** action to open the page with the linked advances. 
+4. On the page you can edit the amounts or remove the entire line with the advance. You should always check that the page is in editable mode and the line edits will be recorded. 
+5. Select **Delete** via the selection button (three dots) and confirm the deletion of the line with the associated advance invoice.
 
-Po zaúčtování faktury se zálohou vzniká na záloze položka s Typem položky **Použití** v částce odečítané z faktury, a pokud byl k platbě proúčtován i zálohový daňový doklad, vzniká automaticky i položka **DPH použití** s odpočtem DPH. 
+After posting an invoice with an advance payment, an entry with Entry Type **Use** is created on the advance payment in the amount deducted from the invoice, and if an advance VAT document has been posted with the payment, an entry **VAT Use** with VAT deduction is automatically created.
 
-Daňový dobropis je možné vytisknout z Historie zálohy z položky typu **DPH použití**. 
-Položka **DPH použití** vzniká se stejným datem a číslem dokladu jako prodejní faktura.
+You can print a tax credit note from the Advance History from the **VAT Usage** entry type. 
+The **VAT Usage** entry is created with the same date and document number as the sales invoice.
 
 
-## Použití zálohové faktury vytvořené z objednávky
+## Using an advance invoice created from an order
 
-- Pokud je záloha vytvořena z objednávky, není pro využití zálohy z objednávky potřeba žádná úprava nastavení. 
-- Pokud je k záloze vytvořen zálohový daňový doklad, při účtování faktury dojde automaticky i k oddanění zálohy a vzniku zálohového daňového dobropisu. 
-- Stejně jako u faktury je ve **FactBoxu** objednávky **Použití prodejní zálohy** uveden počet propojených záloh, odkazy na DPH a celková částka faktury po odpočtu zálohy.
-- Objednávku je možné dodat i fakturovat i v okamžiku, kdy záloha není k zúčtovacímu datu objednávky zaplacená. Uživatel je na tuto skutečnost upozorněn a může se rozhodnout, zda doklad zaúčtovat či ne.
-- Pokud záloha vytvořená z objednávky není zaplacená a objednávka bude zaúčtována a vyfakturována, automaticky bude zrušeno propojení mezi objednávkou a zálohou a zálohu tak bude možné (po zaplacení) využít pro jinou konečnou fakturu.
+- If the advance is created from a purchase order, no settings modification is needed to use the advance from the purchase order.
+- If an advance VAT document is created for the advance, when the invoice is posted, the advance is automatically taxed and an advance VAT credit is created.
+- As with the invoice, the **FactBox** of the **Use of Sales Advance** order shows the number of linked advances, references to VAT and the total invoice amount after deduction of the advance.
+- An order can be delivered and invoiced even if the deposit is not paid on the order posting date. The user is notified of this fact and can decide whether or not to post the document.
+- If an advance created from an order is not paid and the order is posted and invoiced, the link between the order and the advance will be automatically broken and the advance can be used (after payment) for another final invoice.
 
-## Viz také
+## See Also
 
-[Zálohové platby pro Česko (rozšíření)](ui-extensions-advance-payments-localization-cz.md)  
-[České lokální funkcionality](czech-local-functionality.md)  
+[Extensions Advance Payments Localization](ui-extensions-advance-payments-localization-cz.md)  
+[Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)
