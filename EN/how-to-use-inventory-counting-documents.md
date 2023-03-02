@@ -20,7 +20,7 @@ For the above reasons, this function provides the following reports:
 - **Physical inventory list** - used to print documents from the physical inventory journal (the existing report has been improved).
 - **Physical inventory document** - used to print posted physical inventory.  
 
-## See also
+## See Also
 
 [Core Localization Pack for Czech Republic](ui-extensions-core-localization-pack-cz.md)  
-[Czech local functionality](czech-local-functionality.md)  
+[Czech Local Functionality](czech-local-functionality.md)  

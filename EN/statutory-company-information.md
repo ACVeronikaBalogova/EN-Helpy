@@ -25,7 +25,7 @@ Users can define document footers in different languages. These footers can be u
 
 Additional company registration numbers and other registration information may be stored in the Company Information and used in documents.
 
-![Statuory Information about Company](Media/statutory-information.png)
+![Statutory Information about Company](Media/statutory-information.png)
 
 ## Addition of information about the company
 

@@ -30,7 +30,7 @@ The entire advance lifecycle is available in one place, the sales or purchase ad
 
 The current stage of setting up, paying or drawing an advance is reflected in the **Status** field.
 
-![Advance Payments Principes](Media/adv-payments-principes.png)
+![Advance Payments Principles](Media/adv-payments-principes.png)
 
 1. When the advance is created, the advance has the status **New**.
 2. Issuing a deposit changes its status to **Amount to pay**, the initial initialization entry **Initial entry** is created, and the advance is ready to be paid.

@@ -19,11 +19,11 @@ Standard Feature [!INCLUDE[d365fin](../../includes/d365fin_md.md)] was updated w
 
 ## Activation of time sequence in inventory
 
-1. Select icon ![Lightbulb that opens feature Tell me](../../media/ui-search/search_small.png "Tell me what do you want to do"), enter **Inventory settings** and than choose related link.
+1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Inventory settings** and than choose related link.
 2. On the page **Inventory settings** in the tab **General** select field **Time sequence of transfer** and turn on.
 3. After setting, you can close the tab.
 
-## See also
+## See Also
 
-[Core localization pack extensions](ui-extensions-core-localization-pack-cz.md)  
-[Czech local functionality](czech-local-functionality.md)  
+[Core Localization Pack Extensions](ui-extensions-core-localization-pack-cz.md)  
+[Czech Local Functionality](czech-local-functionality.md)  

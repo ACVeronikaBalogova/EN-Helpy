@@ -21,7 +21,7 @@ In Transfer Routes, a field has been added to allow you to specify a general bus
 
 First, set the General Sales Account Delivery and General Sales Account Receiving fields for the Transfer Routes.
 
-1. Use function ![Lightbulb that opens Tell me feature (Alt + Q)](../../media/ui-search/search_small.png "Tell me what do you want to do (Alt + Q)") search **Transfer Routes**.
+1. Choose the ![Lightbulb that opens  the Tell me feature (Alt + Q)](../../media/ui-search/search_small.png "Tell me what you want to do (Alt + Q)") search **Transfer Routes**.
 2. Select the desired combination of transfer locations and open **Special Transfer Details**.
 3. Fill in the required fields and the fields General trading account for delivery and General trading account for receipt.
 4. Confirm with Close.
@@ -30,7 +30,7 @@ First, set the General Sales Account Delivery and General Sales Account Receivin
 
 When creating a Transfer Order, the set posting groups are automatically inserted from the Transfer Routes for the corresponding combination of warehouses between which the items are transferred.
 
-1. Use function ![Lightbulb that opens Tell me feature (Alt + Q)](../../media/ui-search/search_small.png "Tell me what do you want to do (Alt + Q)") search **Transfer orders**.
+1. Choose the ![Lightbulb that opens the Tell me feature (Alt + Q)](../../media/ui-search/search_small.png "Tell me what do you want to do (Alt + Q)") search **Transfer orders**.
 2. Click **New** to create a new Transfer Order.
 3. Select the desired location in the **Transfer-from-code** and **Transfer-to-code** fields.
 4. According to the Transfer Route settings, the fields **General Sales Account Delivery** and **General Sales Account Receipt** are automatically pre-filled. The user can change these default account groups as needed.
@@ -39,7 +39,7 @@ When creating a Transfer Order, the set posting groups are automatically inserte
 7. Warehouseman from second warehouse posts receiving.
 8. It is possible to check the validity of the posting in the Material Items.
 
-## See also
+## See Also
 
-[Extensions advanced localization pack](ui-extensions-advanced-localization-pack-cz.md)  
-[Czech local functionality](czech-local-functionality.md)  
+[Extensions Advanced Localization Pack](ui-extensions-advanced-localization-pack-cz.md)  
+[Czech Local Functionality](czech-local-functionality.md)  

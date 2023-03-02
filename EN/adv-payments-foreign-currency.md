@@ -17,11 +17,11 @@ The Advance Payments application works with foreign currencies. However, it is n
 
 - Advance entries are always recorded in both foreign and local currency.
 - If you have set up automatic creation of an advance tax document for a sales advance, the VAT is automatically accounted for at the exchange rate used when the advance was paid. When you manually create a tax document for a purchase advance, the exchange rate for the advance payment is automatically prepared in the dialog box
--If the exchange rate between the payment and the final invoice differs, a new entry with the type VAT rate is created in the advance items to balance the total amount of the advance, the base and the VAT amount in the local currency.
+- If the exchange rate between the payment and the final invoice differs, a new entry with the type VAT rate is created in the advance items to balance the total amount of the advance, the base and the VAT amount in the local currency.
 
 ## Advance payment in foreign currency
 
-1. Select icon ![Light bulb, which opens function Tell me](../../media/ui-search/search_small.png "Tell me, what do you want to do"), enter **Sales advance invoice** and then select related link.
+1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me, what do you want to do"), enter **Sales advance invoice** and then select related link.
 2. Create new sales advance invoice to any of customer.
 3. To field **Currency code** on the tab **Details of invoice** select e.g. Euro
 4. In the advance field select **Inventory VAT posting group** and **Amount included VAT**.
@@ -35,7 +35,7 @@ The Advance Payments application works with foreign currencies. However, it is n
 
 ## Linking a deposit to an invoice
 
-1. Select icon ![Light bulb, which opens function Tell me](../../media/ui-search/search_small.png "Tell me, what do you want to do"), enter **Sales advance invoice** and then select related link.
+1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me, what do you want to do"), enter **Sales advance invoice** and then select related link.
 2. Create new sales advance invoice in EUR to same customer, enter exchange rate and invoice lines.
 3. Find in the ribbon **Link advance invoice** and linked invoice with advance (chapter *Use of the advance invoice in the final invoice*).
 4. Post the invoice.
@@ -56,8 +56,8 @@ If there are **VAT Adjustment** entries, these will then also be used when posti
 
 ![Recalculation of advances at the end of the year](Media/adv-payments-foreign-curr-end.png)
 
-## See also
+## See Also
 
-[Advance payments for the Czech Republic (extension)](ui-extensions-advance-payments-localization-cz.md)  
-[Czech local functionality](czech-local-functionality.md)  
+[Extension Advance Payments Localization](ui-extensions-advance-payments-localization-cz.md)  
+[Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)

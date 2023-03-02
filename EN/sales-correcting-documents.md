@@ -26,16 +26,16 @@ According to the revision of the VAT Law, it is necessary to classify the types 
 
 ## Select type of credit memo
 
-1. Select the icon![Lightbulb to open the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter  **Sales credit memo** and then select related link.
+1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter  **Sales credit memo** and then select related link.
 2. Click on the **New**.
 3. Select customer, posting date and other required information.
-3.In the document header, select one of the options in the **Credit note type** field:
+4. In the document header, select one of the options in the **Credit note type** field:
     - Tax corrective documents
     - Internal correction
     - Tax insolvency document
-4.Then continue processing the document as required.
+5. Then continue processing the document as required.
 
-## See also
+## See Also
 
 [Core Localization Pack for Czech Republic](ui-extensions-core-localization-pack-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  

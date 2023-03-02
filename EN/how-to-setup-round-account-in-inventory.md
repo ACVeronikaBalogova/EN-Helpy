@@ -15,7 +15,7 @@ ms.author: v-pejano
 
 The inventory rounding account allows all rounding costs to be posted to a financial account other than the inventory adjustment account. This feature allows to post rounding ampounts to an account other than original purchase price.
 
-## See also
+## See Also
 
-[RExtensions advanced localization pack](ui-extensions-advanced-localization-pack-cz.md)  
-[Czech local functionality](czech-local-functionality.md)
+[Extension Advanced Localization Pack](ui-extensions-advanced-localization-pack-cz.md)  
+[Czech Local Functionality](czech-local-functionality.md)

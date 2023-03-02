@@ -26,12 +26,12 @@ This functionality provides the following reports to meet the output requirement
 
 The following standard reports have been modified for the Czech Republic (new totals for groups, etc.):
 
-- Analýza dlouhodobého majetku
-- Dlouhodobý majetek – úč.hodn.01
-- Dlouhodobý majetek – úč.hodn.02
-- Dlouhod. majetek – oček. hodnota
-- Finanční analýza dlouhodobého majetku
-- Analýza údržby dlouhodobého majetku
+- Fixed asset analysis
+- Fixed Assets – Book Value 01
+- Fixed Assets – Book Value 02
+- Fixed Assets – Projected Value
+- G/L Analysis of Fixed Assets
+- Fixed asset maintenance analysis
 
 ## See Also
 

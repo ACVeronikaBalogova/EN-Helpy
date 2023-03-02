@@ -21,7 +21,7 @@ For the above reasons, this function provides the following reports:vy:
 - **Inventory transfer** - used to print documents from inventory journal.
 - **Posted inventory document** - used to print inventory transactions that have been already posted.  
 
-## See also
+## See Also
 
 [Core Localization Pack for Czech Republic](ui-extensions-core-localization-pack-cz.md)  
-[Czech local functionality](czech-local-functionality.md)  
+[Czech Local Functionlity](czech-local-functionality.md)  

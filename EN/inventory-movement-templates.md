@@ -25,6 +25,7 @@ Inventory movement templates can be used primarily when posting movements in the
 ![Inventory movement templates](Media/inventory-movement-templates.png)
 
 To create a new template:
+
 1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory movement templates** and then select related link.
 2. On the Inventory Movement Templates overview, use the **New** function.
 3. Enter a name for the movement in the **Name** field, then write a short description of what the movement is for in the description.
@@ -42,7 +43,9 @@ Example of a inventory movement definition for the CASH DEFICIT type:
 4. In the **Item Type** column, select the movement, in this example **Output**.
 5. In the last step, select the appropriate posting group in the **General ledger posting group** field, for example **Z-CASH DEFICIT** for the example with a shortage.
 6. Close the overview after filling in the columns.
+
 ## Using Templates in the Item Journal
+
 1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item journal** and then select related link.
 2. Create a new journal line.
 3. Show new field **Inventory movement template**.
@@ -50,7 +53,8 @@ Example of a inventory movement definition for the CASH DEFICIT type:
 5. Check the **Item Type** and **General Ledger Posting Group** fields to make sure they have been completed as set in the previous step.
 
 ## Using a template in a physical inventory order line
- 1.  Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Physical inventory orders** and then select related link.
+
+1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Physical inventory orders** and then select related link.
 2. On the Physical Inventory Orders report, select the **New** button.
 3. Fill in the **Description** field as needed.
 4. Use the **Row Count** function with the necessary parameters.
@@ -63,5 +67,5 @@ Example of a inventory movement definition for the CASH DEFICIT type:
 
 ## See also
 
-[Core Localization pack for Czech Republic](ui-extensions-core-localization-pack-cz.md)  
+[Core Localization Pack for Czech Republic](ui-extensions-core-localization-pack-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  

@@ -33,6 +33,6 @@ The Advance Payments application includes basic control reports that allow you t
 
 ## See also
 
-[Advance payments functionality (extensions)](ui-extensions-advance-payments-localization-cz.md)  
-[Czech local functionality](czech-local-functionality.md)  
+[Extension Advance Payment Localization](ui-extensions-advance-payments-localization-cz.md)  
+[Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)

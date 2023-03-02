@@ -27,7 +27,7 @@ You can use the function for cancelling an advance tax document, e.g. if you inc
 
 To cancel an advance tax receipt, proceed as follows:
 
-1. Select an icon![Light bulb, which open Tell me function](../../media/ui-search/search_small.png "Tell me, what do you want to do"), enter **Advance purchase invoice** and then select related link.
+1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what do you want to do"), enter **Advance purchase invoice** and then select related link.
 2. In the list, search for a purchase advance invoice that is paid and has a tax document posted to it. Then use function **Prepaid entries.**
 3. This will open a list of purchase invoice items, where you can place the cursor on the line with  **Entry type - VAT payment**
  ![Entry of advance purchase invoice](Media/adv-payments-additional-function-cancel.png)
@@ -45,7 +45,7 @@ If you have attached an incorrect payment to an advance, it is possible to disco
 
 To disconnect payment from deposit, proceed as follows:
 
-1. Select icon ![Light bulb, which open Tell me function](../../media/ui-search/search_small.png "Tell me, what do you want to do"), enter **Advance purchase invoice** and then select related link.
+1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me, what do you want to do"), enter **Advance purchase invoice** and then select related link.
 2. In the list, find the purchase advance invoice that is paid.
 3. Select action **Advance entries**.
 4. Place cursor on the line with **Entry type - Payment**.  
@@ -118,8 +118,8 @@ To add a deposit to a posted invoice, do the following:
 8. Page with linked invoice confirm with the button **OK**.
 9. The deposit is linked to the invoice. Items have been created in the advance items that have **Type document = Use**,or **VAT use**. The entries are also reflected in the accounts (posting purchases), or VAT entry. New vendor or customer entries are created to transfer an entry from the advance account to the standard balance account.  New vendor or customer entries are created to transfer an entry from the advance account to the standard balance account.
 
-## See also
+## See Also
 
-[Advanced payments localization(extensions)](ui-extensions-advance-payments-localization-cz.md)  
-[Czech local functionality](czech-local-functionality.md)  
+[Extension Advance Payments Localization](ui-extensions-advance-payments-localization-cz.md)  
+[Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)
