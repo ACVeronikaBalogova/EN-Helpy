@@ -6,23 +6,23 @@ author: v-pejano
 ms-service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Item entries, Localization, CZ
-ms.date: 01/31/2021
+ms.date: 05/10/2023
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
 # Origin codes in the item of goods and the item of valuation
 
-Pro snazší identifikaci položek zboží a ocenění byla do obou evidencí přidána následující pole:
+The following fields have been added to both records for easier identification of items and appraisal:
 
-- Číslo původu fakturace, do kterého je zapisováno číslo věřitele/plátce
-- Číslo původu dodávky, do kterého je zapisován kód adresy příjemce
-- Kód měny a Faktor měny podle dokladu, ze kterého položka vznikla.
+- Invoice origin number in which the creditor/payer number is entered
+- The origin number of the dispatch to which the recipient's address code is entered
+- Currency Code and Currency Factor according to the document from which the item was created.
 
-Každému deníku zboží je možné přiřadit "Kód příčiny", který se rovněž propisuje do zaúčtovaných položek.
+It is possible to assign a "Cause Code" to each item journal, which is also written into the posted items.
 
-![Přidaná pole v položkách zboží](Media/add-fields-item-entries.png)
-## Viz Také
+![Add fields item entries](Media/add-fields-item-entries.png)
+## See also
 
-[Rozšířený lokalizační balíček pro Česko](ui-extensions-advanced-localization-pack-cz.md)  
-[Česká lokální funkcionalita](czech-local-functionality.md)
+[Advanced localization pack for Czech republic](ui-extensions-advanced-localization-pack-cz.md)  
+[Czech Local Functionality](czech-local-functionality.md)

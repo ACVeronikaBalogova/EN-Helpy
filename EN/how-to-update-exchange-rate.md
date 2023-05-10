@@ -6,32 +6,32 @@ author: v-pejano
 ms-service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: CZ, Czech, Finance, Exchange Rate, Localization
-ms.date: 12/01/2020
+ms.date: 05/10/2023
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
 # Exchange rate updates
 
-Společnosti je umožněno automaticky aktualizovat směnné kurzy měn pomocí funkcí Služby směnného kurzu.
-Ty byly vylepšeny o možnost automaticky aktualizovat směnné kurzy měn dle ČNB (České Národní Banky).
-Uživatel si může v nastavení služby směnného kurzu definovat http adresu služby a další parametry aktualizace směnných kurzů.
+The Company is able to automatically update currency exchange rates using the functions of the Exchange Rate Service.
+These have been improved by the ability to automatically update currency exchange rates according to the CNB (Czech National Bank).
+The user can define the http address of the service and other parameters for updating exchange rates in the exchange rate service settings.
 
-![Aktualizace směnného kurzu](Media/update-exchange-rates.png)
-## Spuštění a použití služby aktualizace směnného kurzu pomocí ČNB
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Služby směnného kurzu** a poté vyberte související odkaz.
-2. V seznamu Služeb směnného kurzu vyberte **CNB-EXCHANGE-RATES - Nastavení směnných kurzů České národní banky**.
-3. Na kartě služby směnného kurzu vyberte políčko **Povoleno** pro zapnutí služby.
-4. Po zapnutí služby systém na pozadí založí položku fronty úloh: **Procedura ∙ 1281 ∙ Update Currency Exchange Rates**, zároveň se Vás systém zeptá, jestli chcete otevřít okno položky fronty úloh a zda chcete tuto položku nastavit.
-5. V případě potvrzení se Vám otevře položka fronty úloh, kterou můžete nastavit dle Vašich potřeb. Můžete zde například nastavit periodu a čas, kdy se mají směnné kurzy aktualizovat.
-6. Po nastavení položky fronty úloh nastavte stav na **Připraveno**. Jakmile nastane okamžik aktualizace dle nastavení, procedura se spustí a aktualizuje směnné kurzy měn.
-7. Kartu položky fronty úloh můžete zavřít.
+![Exchange Rates updates](Media/update-exchange-rates.png)
+## Start and use of exchange rates service according to CNB 
+1. Select![Lightbulb, that opens function Tell me](../../media/ui-search/search_small.png "Tell me what do you want to do"), enter **Exchange rate service** and then choose related link.
+2. In the list of Exhchange rates service choose **CNB-EXCHANGE-RATES - Exchange rates settings CNB**.
+3. On the exchange rates service tab choose **Enabled** for enabling service.
+4. After enabling service, system will create backround task queche entry: **Procedure∙ 1281 ∙ Update Currency Exchange Rates**, at the same time, the system asks you whether you want to open the task queue item window and whether you want to set the item.
+5. In case of confirmation the task queche entry wil open which you can set up as you like. You can set up for example period and time, when the exchange rates must be updated.
+6. After set up After setting the task queue item, set the status to **Ready**. When the update moment according to the settings occurs, the procedure starts and updates the currency exchange rates.
+7. You can close the Task Queue Items tab.
 
 
 
 ## Viz také
 
-[Základní lokalizační balíček pro Česko](ui-extensions-core-localization-pack-cz.md)  
-[České lokální funkcionality](czech-local-functionality.md)  
+[Core Localization Pack for Czech Republic](ui-extensions-core-localization-pack-cz.md)  
+[Czech Local Functionality](czech-local-functionality.md)  
 [Finance](finance.md)  
 
