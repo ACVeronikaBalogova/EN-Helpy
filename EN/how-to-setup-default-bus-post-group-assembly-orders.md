@@ -21,7 +21,7 @@ Makes it easier to work with assembly orders. In the Assembly Setup, you can def
 2. On the **Assembly Setup** card under **General**, in the **Default General Business Posting Group** field, select the posting group you want to set as the default.
 3. After setting up, you can close the card.
 
-![Setting up assembly orders - Default General Item Posting Group](Media/default-bus-post-group-assembly.png)
+![Setting up assembly orders - Default Inventory Posting Group](Media/default-bus-post-group-assembly.png)
 
 ## See Also
   

@@ -6,24 +6,25 @@ author: v-pejano
 ms-service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Finance, Localization, CZ
-ms.date: 06/17/2021
+ms.date: 05/10/2023
 ms.reviewer: v-makune
 ms.author: v-makune    
 ---
 
-# Default General posting group in production 
+# Default General Posting Group in production
 
-Usnadňuje práci s výrobními zakázkami. V Nastavení výroby je přidáno pole **Výchozí obecná obchodní účto skupina**, jehož hodnota se následně doplňuje do všech nově vytvořených výrobních zakázek (plánovaných, simulovaných atd.) automaticky, není třeba je zadávat manuálně v každé zakázce. Parametrizace tohoto pole ovlivňuje účtování o výrobní zakázce.
+It makes it easier to work with assembly orders. In Setup Manufacturing, a field **Default General Posting Group** is added, whose value is then added to all newly created manufacturing orders (planned, simulated, etc.) automatically, there is no need to enter them manually in each order. The parameterization of this field affects the posting of the manufacturing order.
 
-## Nastavení Výchozí obchodní účtoskupiny zboží
+## Setting up Default Inventory Posting Group
 
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Nastavení výroby** a poté vyberte související odkaz.
-2. V záložce **Obecné** vyberte patřičnou skupinu v poli **Výchozí Obecná obchodní účto skupina**.
-3. Po zapnutí tohoto pole se následně doplňuje účto skupina do všech nově vytvořených výrobních zakázek.
-4. Po nastavení můžete Nastavení výroby zavřít.
+1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Setup Manufacturing** and then choose the related link.
+2. On the **General** tab, select the appropriate group in the field **Default Business General Posting Group**.
+3. When this field is enabled, the posting group is subsequently added to all newly created manufacturing orders.
+4. After setting up, you can close Manufacturing Settings.
 
-![Výchozí obecná obchodní účto skupina](Media/default-bus-post-group-manufacturing.png)
-## Viz Také
+![Default Business Posting Group](Media/default-bus-post-group-manufacturing.png)
 
-[Rozšířený lokalizační balíček pro Česko](ui-extensions-advanced-localization-pack-cz.md)  
-[Česká lokální funkcionalita](czech-local-functionality.md)
+## See Also
+
+[Core Localization Pack for Czech Republic](ui-extensions-advanced-localization-pack-cz.md)  
+[Czech Local Functionality](czech-local-functionality.md)
