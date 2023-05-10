@@ -6,24 +6,24 @@ author: v-pejano
 ms-service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Finance, Localization, CZ
-ms.date: 01/31/2021
+ms.date: 05/10/2023
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
 # Default Posting Group for Assembly Orders
 
-Usnadňuje práci s montážními zakázkami. V Nastavení montáže lze definovat Výchozí obecnou obchodní účto skupinu, jejíž hodnota se následně doplňuje do všech nově vytvořených montážních zakázek automaticky, není třeba je manuálně doplnit na každé montážní zakázce. Parametrizace tohoto pole ovlivňuje účtování montážní zakázky.
+Makes it easier to work with assembly orders. In the Assembly Setup, you can define a Default Gen. Product Posting Group, whose value is then added to all newly created assembly orders automatically, there is no need to manually add it to each assembly order. The parameterization of this field affects the posting of the assembly order.
 
+## Setting the Default Inventory Posting Group
 
-## Nastavení výchozí Obchodní účto skupiny zboží
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Nastavení montáže** a poté vyberte související odkaz.
-2. Na kartě **Nastavení montáže** v záložce **Obecné** vyberte v poli **Výchozí obecná obchodní účto skupina** vyberte účto skupinu, kterou chcete nastavit jako výchozí.
-3. Po nastavení můžete kartu zavřít.
+1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Assembly Setup** and then choose the related link.
+2. On the **Assembly Setup** card under **General**, in the **Default General Business Posting Group** field, select the posting group you want to set as the default.
+3. After setting up, you can close the card.
 
-![Nastavení montáží - Výchozí Obchodní účto skupina zboží](Media/default-bus-post-group-assembly.png)
+![Setting up assembly orders - Default General Item Posting Group](Media/default-bus-post-group-assembly.png)
 
-## Viz Také
+## See Also
   
-[Rozšířený lokalizační balíček pro Česko](ui-extensions-advanced-localization-pack-cz.md)  
-[Česká lokální funkcionalita](czech-local-functionality.md)  
+[Core Localization Pack for Czech Republic](ui-extensions-advanced-localization-pack-cz.md)  
+[Czech Local Functionality](czech-local-functionality.md)  
