@@ -11,12 +11,11 @@ ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Summary Report - CZ Export  
+# Vies Report - CZ Export  
 
-Funkcionalita, která umožňuje vyexportovat Souhrnné hlášení DPH do XML souboru ve struktuře požadované finanční správou. XML soubor je možné následně nahrát na portál finanční správy a Souhrnné hlášení tak elektronicky podat.
+Functionality that allows you to export the VAT Summary Report to an XML file in the structure required by the tax administration. The XML file can then be uploaded to the portal of the tax administration and the VAT Summary Report can be submitted electronically.
+## See also
 
-## Viz Také
-
-[Základní lokalizační balíček pro Česko](ui-extensions-core-localization-pack-cz.md)  
-[Česká lokální funkcionalita](czech-local-functionality.md)  
+[Core Localization Pack for Czech Republic](ui-extensions-core-localization-pack-cz.md)  
+[Czech local functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)  
