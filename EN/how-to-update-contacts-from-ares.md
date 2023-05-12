@@ -6,7 +6,7 @@ author: v-makune
 ms-service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: CZ, Czech, Advance payment, Advance invoices, Payables, Finance,  Cash, EET, Cash Desk
-ms.date: 10/01/2020
+ms.date: 05/12/2023
 ms.reviewer: v-makune
 ms.author: v-makune
 ---
@@ -14,37 +14,38 @@ ms.author: v-makune
 
 # Updating contacts from ARES
 
-ARES je zkratka pro Access to Register of Economic Subjects. ARES je informační systém umožňující získávání informací o ekonomických subjektech registrovaných v České republice.
+ARES stands for Access to Register of Economic Entities. ARES is an information system enabling the retrieval of information on economic entities registered in the Czech Republic.
 
-## Nastavení služby ověření IČ
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Nastavení služby ověření IČ** a poté vyberte související odkaz.
-2. Na kartě **Nastavení služby ověření IČ** v záložce **Obecné** vyberte pole **Koncový bod služby** a zkontrolujte nebo zadejte hodnotu "*http://wwwinfo.mfcr.cz/cgi-bin/ares/darv_bas.cgi*".
-3. Pro zapnutí služby vyberte přepínač u pole **Povoleno**.
-3. Po nastavení můžete kartu zavřít.
+## Setting up the Company VAT Registration No. verification service
 
-## Aktualizace pomocí ARES
+1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Setting up the Company VAT Registration No. Verification Service** and then choose the related link.
+2. On the **Verify Company VAT Registration No. Service Settings** card, under **General**, select the **Service Endpoint** field and check or enter "*<http://wwwinfo.mfcr.cz/cgi-bin/ares/darv_bas.cgi>*".
+3. To enable the service, select the radio button next to **Enabled**.
+4. After setting up, you can close the card.
+
+## Update using ARES
   
-Aktualizaci z ARES můžete spustit z karty kontaktu, dodavatele nebo zákazníka. Můžete vyhledávat společnosti a rozhodnout, která pole v [!INCLUDE[d365fin](../../includes/d365fin_long_md.md)] zaktualizujete (název, adresa, město, PSČ, DIČ).
+You can start the update from ARES from the contact, supplier or customer card. You can search for companies and decide which fields in [!INCLUDE[d365fin](../../includes/d365fin_long_md.md)] to update (name, address, city, postal code, VAT ID).
 
-![Aktualizace IČ](Media/ares.png)
-### Aktualizace dat na kartě zákazníka
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Zákazníci** a poté vyberte související odkaz.
-2. Vyberte vybraného zákazníka, u kterého chcete aktualizovat data.
-3. Na kartě zákazníka v záložce Fakturace klikněte na tři tečky vedle políčka IČO.
-4. Otevře se karta **Protokol ověření IČ**, kde použijte funkci **Ověřit IČ**. Po úspěšném ověření uvidíte v řádcích řádek se stavem **Platný**.
-5. Nyní můžete použít funkci **Aktualizovat kartu** na stránce **Protokol ověření IČ**. 
-6. Otevře se stránka **Aktualizace ARES**, kde můžete vybrat pole, která chcete aktualizovat:
-    - Aktualizovat vše
-    - Aktualizovat název
-    - Aktualizovat adresu
-    - Aktualizovat město
-    - Aktualizovat PSČ
-    - Aktualizovat DIČ
-7. Po vybrání polí klikněte na **OK**, čímž se aktualizace dokončí.
-8. Poté můžete stránku zavřít.
- 
-## Viz také
+![Update Company Identification Number](Media/ares.png)
 
-[Základní lokalizační balíček pro Česko](ui-extensions-core-localization-pack-cz.md)  
-[České lokální funkcionality](czech-local-functionality.md)  
+1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Customers** and then choose the related link.
+2. Select the chosen customer for which you want to update the data.
+3. On the customer tab in the Invoice, click the three dots next to the VAT registration No.
+4. The **Verify VAT Registration No.** card will open and use the **Verify VAT Registration No.** function. After successful verification, you will see a line with the status **Valid**.
+5. You can now use the **Update Card** function on the **Verify VAT Registration No.** page.
+6. The **Update ARES** page opens, where you can select the fields you want to update:
+    - Update All
+    - Update Name
+    - Update Address
+    - Update City
+    - Update Postal Code
+    - Update VAT ID
+7. After selecting the fields, click **OK** to complete the update.
+8. You can then close the page.
+
+## See Also
+
+[Core Localization Pack for Czech Republic](ui-extensions-core-localization-pack-cz.md)  
+[Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)  
