@@ -13,9 +13,9 @@ ms.author: v-pejano
 
 # Classification codes
 
-Zákon o dani z příjmu č. 586/1992 Sb. vyžaduje třídění dlouhodobého majetku podle klasifikace produkce CZ-CPA a podle klasifikace stavebních činností CZ-CC. Byla přidána nová tabulka **Kód klasifikace** a pole Kód klasifikace na kartě dlouhodobého majetku. Toto pole se používá pro klasifikaci DM do daňové skupiny.
+Income Tax Act No. 586/1992 Coll. requires the classification of fixed assets according to the CZ-CPA classification of production and the CZ-CC classification of construction activities. A new table **Classification Code** and field Classification Code on the fixed assets card have been added. This field is used to classify Fixed assets into a tax group.
 
-## Viz Také
+## See also
 
-[Dlouhodobý majetek pro Česko](ui-extensions-fixed-asset-localization-cz.md)  
-[Česká lokální funkcionalita](czech-local-functionality.md)  
+[Fixed assets localization for Czech Republic](ui-extensions-fixed-asset-localization-cz.md)  
+[Czech Local Functionality](czech-local-functionality.md)  
