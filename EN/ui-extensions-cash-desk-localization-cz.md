@@ -6,7 +6,7 @@ author: v-pejano
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, CashDesk, Finance, CZ, Cash
-ms.date: 10/01/2020
+ms.date: 05/22/2023
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
@@ -37,20 +37,24 @@ Pokladní doklady jsou příjmové nebo výdajové a mohou být v různých měn
 ![POkladní doklad](Media/cash-desk-document.png)
 
 ## Nastavení uživatelů pokladen
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Nastavení pokladen** a poté vyberte související odkaz.
+
+1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Cash Desk Setup** and then choose the related link.
 2. Na stránce **Nastavení pokladen** v záložce **Navigace** použijte funkci **Uživatelé pokladny**.
 3. Otevře se karta Uživatelů pokladen. Pro založení nového uživatele použijte funkci **Nový**.
 4. V řádku vyberte **Číslo pokladny**, na které bude uživatel pracovat. Dále vyberte **ID uživatele** a vyberte, zda bude uživatel mít možnost **Vydat**, **Účtovat** nebo **Účtovat pouze EET**.
 5. Po nastavení stránku zavřete.
 
 ## Nastavení číselných řad pro příjmové a výdajové doklady
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Nastavení pokladen** a poté vyberte související odkaz.
+
+1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Cash Desk Setup** and then choose the related link.
 2. Otevřete kartu vybrané pokladny.
 3. Na **Kartě nastavení pokladny** naleznete v záložce **Číslování**.
 4. V polích **Číslo příjmových pokladních dokladů** a **Číslo výdajových pokladních dokladů** vyberte číselnou řadu, kterou chcete použít.
 5. Po nastavení kartu nastavení pokladny zavřete.
+
 ## Nastavení pokladních případů
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Nastavení pokladních případů** a poté vyberte související odkaz.
+
+1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Cash Desk Events Setup** and then choose the related link.
 2. Na přehledu **Pokladních případů** založte případ pomocí funkce **Nový**.
 3. Vyplňte následující pole dle Vaší potřeby:
     - Kód, popis
@@ -59,42 +63,48 @@ Pokladní doklady jsou příjmové nebo výdajové a mohou být v různých měn
     - Kód globální dimenze 1 a Kód globální dimenze 2 a případně, zda se jedná o transakci EET
 4. Po nastavení přehled zavřete.
 
-## Inventarizace pokladny
-Pro účely inventarizace pokladen v Business Central naleznete sestavu pro vygenerování zůstatku v pokladně.
-### Nastavení nominální hodnoty
-Nejdříve je nutné vydefinovat, jaké bankovky a mince používáte v různých měnách. Je nezbytné vydefinovat jejich nominální hodnotu pro každou měnu.
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Nominální hodnoty měn** a poté vyberte související odkaz.
-2. V tabulce zakládejte řádky v kombinaci **Kód měny** a **Hodnota**. Pro nastavení lokální měny systému nevybírejte kód měny.
-3. Po vydefinování řádků stránku můžete zavřít.
+## Cash Inventory
 
-### Sestava Inventarizace pokladny
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Inventarizace pokladny** a poté vyberte související odkaz.
-2. Na stránce před spuštěním sestavy vyberte vstupní parametry, jako jsou:
-    - **Kód pokladny**, pro kterou se inventura provádí.
-    - **Datum**, kdy se inventura provádí.
-    - Možnost **Zobrazit účetní stav** pokladny v sestavě.
-    - Dále na stránce vyplňte tabulku **Nominální hodnoty**, tedy počty jednotlivých bankovek a mincí.
-3. Po nastavení filtrů použijte tlačíko **Náhled a zavřít**. Poté se Vám zobrazí stránka, kde uvidíte stav vybrané pokladny.
+For the purpose of cash desk inventory in Business Central, you can find a report for generating the balance in the cash desk.
 
-![Inventarizace pokladny](Media/cash-desk-inven.png)
-## Vyrovnání položek zákazníka nebo dodavatele
+### Nominal Value Setup
 
-Z řádků pokladního dokladu lze spustit funkci Vyrovnat položky, která umožňuje vybrat k vyrovnání položky zákazníků nebo dodavatelů. Obdobně jsou k dispozici funkce pro vyrovnání se zálohovými fakturami.
+First, you need to define which banknotes and coins you use in different currencies. It is necessary to define their nominal value for each currency.
 
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Pokladní doklady** a poté vyberte související odkaz.
-2. V přehledu **pokladních dokladů** vytvořte pokladní doklad pomocí tlačítka **Nový**.
-3. Na kartě pokladního dokladu vyplňte pole:
-    - Typ dokladu: Příjem nebo Výdej
-    - Účel platby: Vypište text, který určuje účel platby
-    - Zúčtovací datum, Datum dokladu a DPH
-    - Případně ostatní pole dle potřeby
-4.  V řádcích vyberte:
+1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Currency Nominal Values** and then choose the related link.
+2. Create rows in the table using the combination of **Currency Code** and **Value**. Do not select a currency code to set the local currency of the system.
+3. After defining the rows, you can close the page.
+
+### Cash Inventory Report
+
+1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Cash Inventory** and then choose the related link.
+2. On the page before running the report, select input parameters such as:
+    - **Cash Desk Code** for which the inventory is being taken.
+    - **Date** when the inventory is carried out.
+    - Option **Show Statistics** of the cash register in the report.
+    - Next on the page, fill in the table **Nominal values**, i.e. the number of individual banknotes and coins.
+3. After setting the filters, use the **Preview and Close** button. You will then see a page where you can see the status of the selected cash desk.
+
+![Cash Desk Inventory](Media/cash-desk-inven.png)
+
+## Reconciliation of customer or vendor entries
+
+The Reconcile Entries function can be run from the cash document lines to select customer or supplier entries to be reconciled. Similarly, functions are available for balancing with advance invoices.
+
+1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Cash Document** adn then choose the related link.
+2. In the **Cash Document overview**, create a cash document using the **New** button.
+3. Fill in the fields on the cash receipt card:
+    - Document type: Receipt or Withdrawal
+    - Payment Purpose: list the text that specifies the purpose of the payment
+    - Posting date, Document date and VAT
+    - Possibly other fields as required
+4. In the lines select:
     - Typ účtu: Zákazník nebo Dodavatel
     - Číslo účtu: Vyberte číslo zákazníka nebo dodavatele
     - Ve funkcích nad řádkem použijte funkci **Vyrovnat položky** a najděte položku, kterou chcete vyrovnat.
 5. Po vybrání položky můžete doklad zaúčtovat.
 
-## Viz také
+## See Also
 
-[Česká lokální funkcionalita](czech-local-functionality.md)  
+[Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)
