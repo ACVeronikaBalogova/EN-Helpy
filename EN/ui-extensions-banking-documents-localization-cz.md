@@ -6,42 +6,38 @@ author: v-pejano
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Finance, Banking, Localization
-ms.date: 09/01/2021
+ms.date: 05/22/2023
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
 # Bank documents for Czech Republic (extension)
 
-Toto rozšíření přidává funkcionalitu pro bankovní doklady do [!INCLUDE[prodshort](../../includes/prodshort.md)] pro Českou republiku.  
+This extension adds functionality for bank documents to [!INCLUDE[prodshort](../../includes/prodshort.md)] for Czech Republic.
 
-Aplikace Bankovní styk – dokumenty pro Business Central umožňuje definovat jednotlivé **bankovní účty**, **vytvářet platební příkazy** a **bankovní výpisy**. Lze evidovat neomezený počet bankovních účtů u různých bankovních ústavů a v různých měnách. 
+AThe Banking - Documents for Business Central application allows you to define individual **Bank Accounts**, **Create Payment Orders** and **Bank Statements**. An unlimited number of bank accounts can be registered with different banking institutions and in different currencies.
 
-Na základě zaúčtovaných nákupních faktur a zálohových dokladů lze vygenerovat **příkaz k úhradě** a ten vytisknout nebo vyexportovat ve formátu akceptovaném bankovním rozhraním dané banky.
+On the basis of posted purchase invoices and advance documents, a *Payment Order** can be generated and printed or exported in a format accepted by the bank's banking interface.
 
-**Přijaté výpisy** lze do systému pro dané bankovní rozhraní naimportovat, převést do deníku plateb a zaúčtovat pohyby na výpise s tím, že budou vyrovnány s odpovídajícími původními položkami (např. fakturami, zálohovými doklady).  
-Pro každý bankovní účet lze předdefinovat vlastní pravidla hledání, na základě, kterých bude v systému probíhat vyrovnání řádků bankovního výpisu s odpovídajícími původními položkami. 
- 
+**Received statements** can be imported into the system for a given banking interface, transferred to the Payment journal and the movements on the statement can be posted to the system with the corresponding original entries(e.g. Invoices, Prepayment Document).  
+For each bank account, you can predefine your own search rules, based on which the system will match the bank statement lines with the corresponding original entries.
 
-## Hlavní funkce
-- Nastavení bankovních účtů
-- Nastavení pravidel hledání pro automatické návrhy vyrovnání plateb
-- Vygenerování, vydání a exportování platebního příkazu
-- Vytvoření, import a vydání bankovního výpisu
-- Převedení bankovního výpisu do deníku plateb
-- Automatický návrh vyrovnání položek v deníku plateb + zaúčtování deníku plateb
+## Main feature
 
+- Set up Bank Accounts
+- Set up search rules for automatic payment reconciliation suggestions
+- Generate, issue and export a payment order
+- Create, import and issue bank statement
+- Transfer a bank statement to the Payment Journal
+- Automatic draft reconciliation of journal entries + posting of journal entries
 
-| Funkce | Odkaz |
+| Feature | Link |
 | --- | --- |
-|Základní nastavení bankovní aplikace|[Nastavení bankovní aplikace](banking-documents-how-to-setup-banking-documents.md)|
-|Vytvoření, import a vystavení bankovního výpisu|[Správa bankovních výpisů ](banking-documents-how-to-create-bank-statement.md)|
-|Vytvoření, vystavení a export platebního příkazu|[Správa příkazů](banking-documents-how-to-create-payment-order.md)|
+|Basic banking application settings|[Banking Application Settings](banking-documents-how-to-setup-banking-documents.md)|
+|Create, import and issue a bank statement|[Managing Bank Statements](banking-documents-how-to-create-bank-statement.md)|
+|Create, issue and export a payment order|[Managing Statements](banking-documents-how-to-create-payment-order.md)|
 
+## See Also
 
- 
-
-## Viz také
-
-[České lokální funkcionality](czech-local-functionality.md)  
+[Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)
