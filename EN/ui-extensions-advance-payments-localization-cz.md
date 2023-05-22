@@ -6,64 +6,64 @@ author: v-pejano
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Finance, Localization
-ms.date: 10/01/2021
+ms.date: 05/22/2023
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
 # Advance payments for the Czech Republic (extension)
 
-Rozšíření **Zálohové platby** se v [!INCLUDE[prodshort](../../includes/prodshort.md)] používá pro vytváření faktur a provádění plateb před dodáním zboží nebo služby. Řešení Zálohové platby pomáhá společnostem plnit zákonné požadavky na evidenci a účtování záloh, včetně požadavků na DPH v České republice.  
+Extension **Advance payments** in [!INCLUDE[prodshort](../../includes/prodshort.md)] is used for creating invoices and making payments before delivery of the items or service. The Advance Payments solution helps companies meet the legal requirements for recording and posting advances, including VAT requirements in the Czech Republic.
 
-Funkcionalita Zálohové platby umožňuje přijímat zálohové faktury od dodavatelů, vystavovat zálohové faktury zákazníkům, realizovat zálohové platby včetně plateb podléhajících DPH a čerpat uhrazené zálohy na dokladech. Dále poskytuje legislativou požadované daňové doklady, výstupy pro finanční výkazy a výkazy DPH.  
+Advance Payments functionality allows you to receive advance invoices from vendors, issue advance invoices to customers, to make advance payments, including payments subject to VAT, and to draw down advance payments on receipts. It also provides tax documents required by legislation, outputs for financial reports and VAT reports.
 
-**Součástí modulu jsou:**  
+**The module includes:**  
 
-- Prodejní a nákupní zálohové faktury
-- Zálohové platby přijaté i vydané
-- Daňové doklady a daňový dobropisy k přijatým či vydaným zálohovým platbám  
+- Sales and purchase invoices
+- Advanced payments, recieved and issued
+- Tax documents and tax credits for advance payments received or issued
 
-**Hlavní funkce modulu:**  
+**Main module functions:**  
 
-- Vytváření prodejních či nákupních zálohových faktur dle nastavení šablon záloh
-- Vytváření záloh z prodejních objednávek na základě procenta nebo zadané částky
-- Návrh záloh do platebního příkazu a na druhé straně úhrada záloh bankou
-- Propojení s modulem Pokladna pro možnost úhrady záloh pokladní hotovostí
-- Vystavení a tisk zálohových daňových dokladů k úhradám záloh a to automaticky nebo ručně
-- Správa čerpání uhrazených záloh konečnou fakturou
-- Možnost uzavření nevyčerpané zálohy, včetně daňového vypořádání
-- Práce s cizí měnou, kurzovými rozdíly mezi zálohovou platbou a fakturou
-- Možnost zrušení přiřazení platby zálohové faktury nebo dodatečné propojení
-- Možnost zrušení propojení konečné faktury se zálohou nebo dodatečné propojení
-- Reporty pro rekapitulaci úhrad a čerpání záloh, reporty pro rekapitulaci DPH ze záloh  
+- Creating sales or purchase advance invoices according to the settings of the advance invoice templates
+- Create advances from sales orders based on a percentage or amount entered
+- Proposal of advances in the payment order and, on the other hand, payment of advances by the bank
+- Connection with the Cash desk module for the possibility of paying cash advances with cash
+- Issue and print advance tax documents for advance payments automatically or manually
+- Managing the use of advance payments with the final invoice
+- Possibility of closing the unused advance, including tax settlement
+- Working with foreign currency, exchange rate differences between advance payment and invoice
+- Option to unassign payment of an advance invoice or additional linking
+- Option to unlink final invoice to advance payment or additional linking
+- Reports for recapitulation of advance payments and drawdowns, reports for recapitulation of VAT on advances  
 
-**Omezení aplikace:**  
+**Restrictions of application:**  
 
-- Použití jedné měny v rámci jednoho obchodního případu
-- Vytváření zálohových faktur z dokladů ani dodatečné přiřazení volných zálohových faktur k dokladu nezohledňuje fakturační nebo skonto slevy
-- Zálohy nelze použít na dobropisech a objednávkách vratky (řeší se odpojením zálohy od zaúčtované faktury a dobropisováním faktury bez záloh)
-- Se zálohami nespolupracuje modul servis
-- V zálohách není řešena přídavná měna
-- Aplikace nezahrnuje podporu pro změnu sazeb DPH  
+- Use of one currency within a single business case
+- The creation of advance invoices from documents or the additional allocation of free advance invoices to a document does not take into account billing or discounting
+- Advances cannot be used on credit notes and return orders (resolved by detaching the advance from the invoice posted and crediting the invoice without advances)
+- The service module does not work with advances
+- The advances do not address additional currency
+- The application does not include support for changing VAT rates 
 
-Následující tabulka popisuje seznam úloh s odkazy na témata, které je popisují.
+The following table describes the list of tasks with links to the topics that describe them.
 
-| Funkce | Odkaz |
+| Function | link |
 | --- | --- |
-|Aktivace funkcionality Zálohové platby a upgrade stávajících dat.|[Aktivace a upgrade zálohových plateb](adv-payments-how-to-activate-advance-payments.md)|
-|Porozumění základním principům aplikace Zálohových plateb, životní cyklus zálohy. |[Základní principy účtování a použití zálohových plateb](adv-payments-principles.md)|
-|Nastavení šablon záloh, účtování DPH a výkazu DPH.|[Nastavení zálohových plateb](adv-payments-how-to-setup-advance-payments.md)|
-|Založení zálohové faktury a tisk.|[Vytvoření zálohové faktury](adv-payments-how-to-create-advance-invoice.md)|
-|Vytvoření zálohy z objednávky.|[Vytvoření zálohy z objednávky](adv-payments-how-to-create-advance-invoice-from-order.md)|
-|Úhrada zálohy finančním deníkem nebo pokladnou.|[Úhrada zálohy](adv-payments-how-to-pay-advance-payment.md)|
-|Vytvoření daňového dokladu k záloze, korekce DPH u nákupní zálohy, tisk dokladu.|[Vytvoření daňového dokladu k záloze](adv-payments-how-to-create-tax-document.md)|
-|Vytvoření konečné faktury, její propojení se zálohou a zaúčtování.|[Propojení zálohy s konečnou fakturou](adv-payments-how-to-link-invoice.md)|
-|Uzavření nevyčerpané zálohy.|[Uzavření zálohy](adv-payments-how-to-close-advance-payment.md)|
-|Cizí měny a zálohové faktury.|[Zálohy v cizí měně](adv-payments-foreign-currency.md)|
-|Storno zálohového daňového dokladu, odpojení chybné platby od zálohy, dodatečné připojení platby k záloze, připojení zálohy do již zaúčtované faktury, odpojení zálohy od zaúčtované faktury.|[Doplňkové funkce](adv-payments-additional-functions.md)|
-|Přehled zálohových faktur, DPH ze zálohových faktur, rekapitulace zálohových faktur.|[Kontrolní sestavy záloh](adv-payments-check-reports.md)|
+|Activate Advanced payments and upgrade current data.|[Activate and upgrade advanced payments](adv-payments-how-to-activate-advance-payments.md)|
+|Understand the basic principles of Advance Payments, the advance payment life cycle. |[Basic principles of the posting and use of advance payments](adv-payments-principles.md)|
+|Set up advance payment templates, VAT posting and VAT statement.|[Set up advance payments](adv-payments-how-to-setup-advance-payments.md)|
+|Creating an advance invoices and print.|[Create an advance invoice](adv-payments-how-to-create-advance-invoice.md)|
+|Creating an advance from an order.|[Create advance invoice from order](adv-payments-how-to-create-advance-invoice-from-order.md)|
+|Advance payment by financial journal or cash desk.|[Advance payment](adv-payments-how-to-pay-advance-payment.md)|
+|Creating a tax document for a deposit, correcting VAT on a purchase advance, printing the document.|[Create tax document for and advance](adv-payments-how-to-create-tax-document.md)|
+|Creating the final invoice, linking it to the advance and posting it.|[Link advance to final invoice](adv-payments-how-to-link-invoice.md)|
+|Closure of unused advance.|[Close advance payment](adv-payments-how-to-close-advance-payment.md)|
+|Foreign currencies and advance invoices.|[Advance payment in foreign currency](adv-payments-foreign-currency.md)|
+|Cancellation of an advance tax document, disconnection of an incorrect payment from the advance, additional connection of the payment to the advance, connection of the advance to an already booked invoice, disconnection of the advance from the booked invoice.|[Additional functions](adv-payments-additional-functions.md)|
+|Overview of advance invoices, VAT on advance invoices, recapitulation of advance invoices.|[Check advance reports](adv-payments-check-reports.md)|
 
-## Viz také
+## See also
 
-[České lokální funkcionality](czech-local-functionality.md)  
+[Czech local functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)

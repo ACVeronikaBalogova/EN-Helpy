@@ -33,7 +33,7 @@ By setting default stock movement templates for these stock movements in Invento
 
 The template is automatically filled in the physical inventory log:
 
-1. Use function ![Lightbulb, that opens feature Tell me (Alt + Q)](../../media/ui-search/search_small.png "Tell me what do you want to do(Alt + Q)") enter **Physical inventory journal**.
+1. Choose the![Lightbulb, that opens feature Tell me (Alt + Q)](../../media/ui-search/search_small.png "Tell me what do you want to do(Alt + Q)") enter **Physical inventory journal**.
 2. On the page **Physical inventory journal** click on Actions -> Features -> **Calculate the amount of inventory...**
 3. Fill in the parameters as required (with the goods you have in stock) and click OK.
 4. If you change the amount in the **Quantity (physical inventory)** field (increase or decrease, depending on the actual state), changes the value in the **Inventory Movement Template** field on that line depending on whether it is a Deficit or Surplus.

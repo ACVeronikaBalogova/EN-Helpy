@@ -30,5 +30,5 @@ The posting is then checked and the system stops posting if financial accounts f
 ## See also
 
 [Core Localization Pack for Czech Republic](ui-extensions-core-localization-pack-cz.md)  
-[czech local functionality](czech-local-functionality.md)  
+[Czech local functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)
