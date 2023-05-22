@@ -6,26 +6,26 @@ author: v-pejano
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Fixed Asset, Localization, CZ
-ms.date: 01/03/2021
+ms.date: 05/22/2023
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
 # Fixed assets for the Czech Republic (extension)
 
-Toto rozšíření přidává do [!INCLUDE[d365fin](../../includes/d365fin_md.md)] funkce pro Dlouhodobý majetek, které pomáhají společnostem s požadavky české účetní a daňové legislativy a osvědčených postupů.
+This extension adds to [!INCLUDE[d365fin](../../includes/d365fin_md.md)] function for Fixed assets, which help companies with requirements of Czech posting and tax legislation and best practices.
 
-## Seznam hlavních funkcionalit
+## List of main functionalities 
 
-- [Daňové odpisy dlouhodobého majetku](how-to-use-tax-depreciation-for-fixed-assets.md) **Nyní k dispozici**
-- [Výpočet odpisů dlouhodobého majetku](how-to-calculate-depreciation-basis.md) **Nyní k dispozici**
-- [Přerušení odepisování](how-to-depreciate-holidays-for-fixed-assets.md) **Nyní k dispozici**
-- [Dvou-krokové pořízení dlouhodobého majetku](how-to-use-two-steps-fixed-asset-acquisition.md) **Nyní k dispozici**
-- [Účtování o vyřazení majetku](how-to-post-disposal-of-fixed-asset.md) **Nyní k dispozici**
-- [Kódy klasifikace](how-to-use-clasification-code-for-fixed-assets.md) **Nyní k dispozici**
-- [Sestavy umístění dlouhodobého majetku a historie majetku](how-to-use-fixed-asset-location-history-report.md) **Nyní k dispozici**
-- [Sestavy dlouhodobého majetku](how-to-use-fixed-assets-reporting.md) **Nyní k dispozici**
+- [Tax depreciation for fixed assets](how-to-use-tax-depreciation-for-fixed-assets.md) **Available now**
+- [Calculate depreciation basis of fixed assets](how-to-calculate-depreciation-basis.md) **Available now**
+- [Suspension of depreciation](how-to-depreciate-holidays-for-fixed-assets.md) **Available now**
+- [Two step fixed asset aquisition](how-to-use-two-steps-fixed-asset-acquisition.md) **Available now**
+- [Post dipoosal of fixed asset](how-to-post-disposal-of-fixed-asset.md) **Available now**
+- [Classification codes](how-to-use-clasification-code-for-fixed-assets.md) **Available now**
+- [Fixed asset location history reports](how-to-use-fixed-asset-location-history-report.md) **Available now**
+- [Fixed asset reports](how-to-use-fixed-assets-reporting.md) **Available now**
 
-## Viz také
+## See also
 
-[Česká lokální funkcionalita](czech-local-functionality.md)  
+[Czech local functionality](czech-local-functionality.md)  
