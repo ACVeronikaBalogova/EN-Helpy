@@ -6,62 +6,62 @@ author: v-pejano
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, CashDesk, Finance, CZ, Cash
-ms.date: 05/22/2023
+ms.date: 05/26/2023
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
 # Liquid assets (extension)
 
-V české verzi [!INCLUDE[d365fin](../../includes/d365fin_md.md)] pomáhá funkcionalita pokladen řešit legislativní požadavky a osvědčené postupy v pokladních operacích.
+In the Czech version [!INCLUDE[d365fin](../../includes/d365fin_md.md)] helps the Cash Desk functionality to address legislative requirements and best practices in Cash Desk operations.
 
-Funkcionalita pokladen a pokladních dokladů umožňuje definovat pokladní účty a pokladny pro fyzický příjem a výdej peněz. Každá pokladna musí mít samostatnou číselnou řadu pokladních dokladů. Pro pokladny je možné nastavit samostatné číselné řady příjmových a výdajových dokladů. Lze předdefinovat různé typy pokladních případů pro zjednodušení zadávání dokladů. Dále je možné nastavit uživatele zodpovědného za pokladnu a tuto zodpovědnost předávat mezi uživateli pokladny.  
+The cash desk and cash documents functionality allows you to define cash accounts and cash registers for physical receipt and withdrawal of money. Each cash register must have a separate cash document No. series. It is possible to set separate No. series for receipt and withdrawal documents for cash desks. Different types of cash cases can be predefined to simplify the entry of documents. It is also possible to set the user responsible for the cash desk and pass this responsibility between cash desk users.
 
-## Klíčové funkcionality
+## Key Features
 
-- Nastavení pokladen, uživatelé pokladny
-- Příjmové a výdajové doklady a jejich účtování
-- Pokladní případy používané jako šablony obvyklých účetních případů
-- Vyrovnání plateb s položkami zákazníků a dodavatelů
-- Vyrovnání plateb se zálohovými fakturami
-- Inventarizace pokladny
-- Výstupní doklady (Příjmový pokladní doklad, Výdajový pokladní doklad)
-- Sestavy (Pokladní kniha, Kniha pokladního účtu a Předání pokladny)
+- Cash desk setup, cash desk users
+- Receipts and withdrawals and their posting
+- Cash cases used as templates for normal posting cases
+- Reconciliation of payments with customer and vendor entries
+- Reconciliation of payments with advance invoices
+- Cash desk inventory
+- Output documents (Cash Receipt Document, Cash Withdrawal Document)
+- Reports (Cash Book, Cash Desk Account Book and Cash Desk Hand Over)
 
-Karta pokladny obsahuje základní údaje o pokladně, jako jsou číslo, měna, kontaktní údaje apod. Dále obsahuje také nastavení pro účtování, definice pro kontroly a limity a přednastavení číselných řad pro pokladní doklady.
+The cash desk card contains basic information about the cash desk, such as number, currency, contact details, etc. It also contains settings for posting, definitions for controls and limits, and preset No. series for cash desk documents.
 
-![Karta pokladny](Media/cash-desk.png)
+![Cash desk card](Media/cash-desk.png)
 
-Pokladní doklady jsou příjmové nebo výdajové a mohou být v různých měnách dle pokladny. Doklady dále umožňují vydání, účtování a tisk výstupních dokladů.
+Cash desk documents are either receipts or withdrawals and can be in different currencies depending on the cash desk. The documents also allow issuing, posting and printing of output documents.
 
-![POkladní doklad](Media/cash-desk-document.png)
+![Cash desk documents](Media/cash-desk-document.png)
 
-## Nastavení uživatelů pokladen
-
-1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Cash Desk Setup** and then choose the related link.
-2. Na stránce **Nastavení pokladen** v záložce **Navigace** použijte funkci **Uživatelé pokladny**.
-3. Otevře se karta Uživatelů pokladen. Pro založení nového uživatele použijte funkci **Nový**.
-4. V řádku vyberte **Číslo pokladny**, na které bude uživatel pracovat. Dále vyberte **ID uživatele** a vyberte, zda bude uživatel mít možnost **Vydat**, **Účtovat** nebo **Účtovat pouze EET**.
-5. Po nastavení stránku zavřete.
-
-## Nastavení číselných řad pro příjmové a výdajové doklady
+## Cash desk user setup
 
 1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Cash Desk Setup** and then choose the related link.
-2. Otevřete kartu vybrané pokladny.
-3. Na **Kartě nastavení pokladny** naleznete v záložce **Číslování**.
-4. V polích **Číslo příjmových pokladních dokladů** a **Číslo výdajových pokladních dokladů** vyberte číselnou řadu, kterou chcete použít.
-5. Po nastavení kartu nastavení pokladny zavřete.
+2. On the **Cash Desk Setup** page under the **Navigation** tab, use the **Cash Desk Users** feature.
+3. The Cash desk Users tab opens. To create a new user, use the **New** function.
+4. In the row, select the **Cash Desk No.** that the user will be working on. Next, select the **User ID** and select whether the user will have the option to **Issue**, **Post** or **Post EET only**.
+5. After setup, close the page.
 
-## Nastavení pokladních případů
+## Setting up No. series for receipts and withdrawals
+
+1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Cash Desk Setup** and then choose the related link.
+2. Open the card of the selected cash desk.
+3. On the **Cash Desk Setup Card**, you can find the **No. series** tab.
+4. In the **Cash Receipt Order No.** and **Withdrawal Receipt No.** fields, select the No. series you want to use.
+5. After setting up, close the cash desk settings card.
+
+## Setting up Cash Desk Event
 
 1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Cash Desk Events Setup** and then choose the related link.
-2. Na přehledu **Pokladních případů** založte případ pomocí funkce **Nový**.
-3. Vyplňte následující pole dle Vaší potřeby:
-    - Kód, popis
-    - Typ pokladního dokladu (příjem nebo výdej)
-    - Typ účtu, číslo účtu, typ obecného účtování, Účto skupiny
-    - Kód globální dimenze 1 a Kód globální dimenze 2 a případně, zda se jedná o transakci EET
-4. Po nastavení přehled zavřete.
+2. Use the **New** function to create a event on the **Cash Desk** report..
+3. Fill in the following fields as required:
+    - Code, description
+    - Type of cash desk document (receipt or withdrawal)
+    - Account Type, Account No., Gen. Posting Type, Posting Group
+    - Global Dimension Code 1 and Global Dimension Code 2 and, if applicable, whether it is an EET transaction
+4. After setting up, close the list.
 
 ## Cash Inventory
 
@@ -99,10 +99,10 @@ The Reconcile Entries function can be run from the cash document lines to select
     - Posting date, Document date and VAT
     - Possibly other fields as required
 4. In the lines select:
-    - Typ účtu: Zákazník nebo Dodavatel
-    - Číslo účtu: Vyberte číslo zákazníka nebo dodavatele
-    - Ve funkcích nad řádkem použijte funkci **Vyrovnat položky** a najděte položku, kterou chcete vyrovnat.
-5. Po vybrání položky můžete doklad zaúčtovat.
+    - Account Type: Customer or Vendor
+    - Account number: Select Customer or Vendor number
+    - In the functions above the line, use the **Apply Entries** function to find the entry you want to apply.
+5. After selecting the entry, you can post the document.
 
 ## See Also
 
