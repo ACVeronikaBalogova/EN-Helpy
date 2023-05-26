@@ -22,7 +22,8 @@ The following fields have been added to both records for easier identification o
 It is possible to assign a "Cause Code" to each item journal, which is also written into the posted items.
 
 ![Add fields item entries](Media/add-fields-item-entries.png)
-## See also
+
+## See Also
 
 [Advanced localization pack for Czech republic](ui-extensions-advanced-localization-pack-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)

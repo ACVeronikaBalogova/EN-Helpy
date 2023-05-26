@@ -6,49 +6,48 @@ author: v-pejano
 ms-service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Finance, Localization, CZ
-ms.date: 12/01/2020
+ms.date: 05/26/2023
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
 # Advanced user controls
 
+The Advanced User Checks functionality allows you to set various checks, restrictions and accesses using **User Settings** in combination with **User Settings Lines**. This tool can be used for additional settings where everything cannot be covered by user rights, or for very specific settings for a selected user.
 
-Funkcionalita rozšířených uživatelských kontrol umožňuje nastavit pomocí **Nastavení uživatelů** v kombinaci s **Řádky nastavení uživatelů** různé kontroly, omezení a přístupy. Tento nástroj může sloužit k dodatečnému nastavení, kde vše nelze pokrýt uživatelskými právy, nebo k velice specifickému nastavení vybraného uživatele.
+Typical examples include limiting the receipt posting to a selected location, posting to selected dimensions, or just checking the posting date of a document.
 
-Mezi typický příklad může být omezení účtování příjmu na vybranou lokaci, účtování na vybrané dimenze nebo jen kontrola data účtování dokladu.
+An example of the options can be found below:
 
-Příklad možností naleznete níže:
-
-|Kontrola|Popis|
+|Check|Description|
 |-|-|
-|**Nastavení filtru centra odpovědnosti** | Nastavení Centra odpovědnosti hotovosti pro pokladní operace. |
-|**Kontrolovat data dokladu**| Kontrola při účtování proti pracovnímu nebo systémovému datu. |
-|**Kontrolovat zúčtovací datum** | Kontrola při účtování proti pracovnímu nebo systémovému datu. |
-|**Kontrolovat přístup k platebním příkazům** | Kontrolova povolených Bankovních účtů pro platební příkazy (nastavení v řádcích). |
-|**Kontrolovat přístup k bankovním výpisům** | Kontrola povolených Bankovních účtů pro bankovní výpisy (nastavení v řádcích). |
-|**Kontrolovat bankovní účty** | Povolené pro účtování (nastavení v řádcích). |
-|**Kontrolovat přístup k šablonám deníku** | Kontrola povolené šablony pro všechny druhy deníků (nastavení v řádcích). |
-|**Kontrolovat hodnoty dimenzí** | Povolení pro účtování (nastavení v řádcích). |
-|**Kontrolovat skladové lokace** | Povolení pro účtování zvlášť pro zvýšení množství a snížení množství (nastavení v řádcích). |
-|**Kontrolovat skladové lokace** | Povolení pro vydání zvlášť pro zvýšení množství a snížení množství (nastavení v řádcích). |
-|**Kontrolovat použití šablon skladového pohybu** | Kontrola při účtování v deníku zboží. |
-|**Povolit účtování do uzavřeného období** | Umožňuje účtovat do již uzavřeného období. |
-|**Povolit dokončení projektu** | Umožňuje dokončit projekty. |
-|**Povolit storno vyrovnání zboží** | Umožňuje storno při vyrovnávání zboží. |
+|**Setting the Responsibility Center filter** | Setting up the Cash Accountability Center for cash desk transactions. |
+|**Check document dates**| Check when posting against a work date or system date. |
+|**Check the Posting date** | Check when posting against a work date or system date. |
+|**Check access to payment orders** | Check allowed Bank accounts for payment orders (settings in rows). |
+|**Check access to bank statements** | Checking Allowed Bank Accounts for Bank Statements (settings in rows). |
+|**Check bank accounts** | Enabled for posting (settings in rows). |
+|**Check access to Journal Templates** | Check the enabled template for all types of journals (settings in rows). |
+|**Check dimension values** | Permissions for posting (settings in rows). |
+|**Check warehouse locations** | Enable to post separately for quantity increase and quantity decrease (setting in rows). |
+|**Check warehouse locations** | Permission to issue separately for quantity increase and quantity decrease (setting in rows). |
+|**Check the use of Invt. Movement templates** | Check for posting in the Item Journal. |
+|**Enable closed period posting** | Allows posting in closed period. |
+|**Allow job completion** | Allows job completion. |
+|**Allow Item Unapply** | Allows cancellation when settling items. |
 
-## Nastavení kontrol (Kontrola účtování příjmu na vybrané lokaci)
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Nastavení uživatelů** a poté vyberte související odkaz.
-2. Vyberte uživatele, kterému chcete nastavit nebo upravit kontroly a klikněte na funkci **Karta**.
-3. V záložce účtování vyberte jednu z možností, například pole **Kontrolovat kód lokace**. 
-4. Na **Kartě nastavení uživatelů** vyberte funkci **Řádky** pro definici kontrolované hodnoty.
-5. Na stránce **Řádky nastavení uživatelů** můžete vybírat, co se má kontrolovat. V tomto případě například **Lokace (Zvýšení množství)** a vyberte patřičnou lokaci.
-6. Po tomto nastavení v kombinaci se zapnutou kontrolou na **Kartě nastavení uživatelů** bude uživateli dovoleno účtovat příjem zboží na vybranou lokaci.
-7. Pokud budete chtít kontrolu vypnout, stačí pouze na **Kartě nastavení uživatelů** vybrat pole dané kontroly a odebrat výběr, v tomto případě **Kontrolovat kód lokace**.
-8. Po nastavení kontrol můžete stránku zavřít.
+## Setting up checks (Checking receipt posting at a selected location)
 
+1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **User Setup** and then choose the related link.
+2. Select the user for whom you want to set or edit controls and click **Card**.
+3. On the posting tab, select one of the options, for example the **Check Location Code** field.
+4. On the **User Settings tab**, select the **Rows** function to define a controlled value.
+5. On the **User Settings Lines** page, you can select what to check. In this case, for example, **Location (Increase Quantity)** and select the appropriate location.
+6. After this setting, combined with the check on **User Settings Card** enabled, the user will be allowed to charge the receipt of items to the selected location.
+7. If you want to disable the check, just select the check field on the **User Settings tab** and remove the selection, in this case **Check Location Code**.
+8. After setting the checks, you can close the page.
 
-## Viz také
+## See Also
 
-[Základní lokalizační balíček pro Česko](ui-extensions-core-localization-pack-cz.md)  
-[Česká lokální funkcionalita](czech-local-functionality.md)  
+[Core Localization Pack for Czech Republic](ui-extensions-core-localization-pack-cz.md)  
+[Czech Local Functionality](czech-local-functionality.md)  
