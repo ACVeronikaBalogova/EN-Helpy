@@ -6,7 +6,7 @@ author: v-pejano
 ms-service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Finance, VAT, Localization, CZ
-ms.date: 12/01/2020
+ms.date: 05/29/2023
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
