@@ -18,5 +18,5 @@ Changes have been made to the calculation of the depreciation amount using the D
 
 ## See Also
 
-[Fixed Assets for Czech Republic](ui-extensions-fixed-asset-localization-cz.md)  
+[Fixed Assets localization for Czech Republic](ui-extensions-fixed-asset-localization-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  

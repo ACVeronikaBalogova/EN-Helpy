@@ -25,5 +25,5 @@ These modifications were made at user interface together with changes of calcula
 
 ## See also
 
-[Extension Core Localization Pack](ui-extensions-core-localization-pack-cz.md)  
+[Core localization pack for Czech Republic](ui-extensions-core-localization-pack-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  

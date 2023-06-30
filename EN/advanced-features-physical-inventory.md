@@ -48,5 +48,5 @@ If you created a new row in the journal and ran this function (Action -> Functio
 
 ## See also
 
-[Core localization pack extensions](ui-extensions-core-localization-pack-cz.md)  
+[Core localization pack for Czech Republic](ui-extensions-core-localization-pack-cz.md)  
 [Czech local functionality](czech-local-functionality.md)  

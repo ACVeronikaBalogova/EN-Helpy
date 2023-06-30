@@ -58,6 +58,6 @@ If there are **VAT Adjustment** entries, these will then also be used when posti
 
 ## See Also
 
-[Extension Advance Payments Localization](ui-extensions-advance-payments-localization-cz.md)  
+[Advance Payments localization for Czech Republic](ui-extensions-advance-payments-localization-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)

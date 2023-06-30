@@ -32,6 +32,6 @@ Use the following procedure to generate a report on the status of customer recei
 
 ## See Also
 
-[Core localization pack extensions](ui-extensions-core-localization-pack-cz.md)  
+[Core localization pack for Czech Republic](ui-extensions-core-localization-pack-cz.md)  
 [Czech local functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)  

@@ -21,5 +21,5 @@ In the Depreciation book, check the box for **Matching G/L Entries on disposal**
 
 ## See Also
 
-[Fixed Assets for Czech Republic](ui-extensions-fixed-asset-localization-cz.md)  
+[Fixed Assets localization for Czech Republic](ui-extensions-fixed-asset-localization-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  

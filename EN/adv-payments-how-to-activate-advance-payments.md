@@ -32,6 +32,6 @@ Use the following procedure to activate the Advance Payments for Czech Republic 
 
 ## See Also
 
-[Extension Advance Payment Localization](ui-extensions-advance-payments-localization-cz.md)  
+[Advance Payments localization for Czech Republic](ui-extensions-advance-payments-localization-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)

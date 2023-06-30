@@ -40,6 +40,6 @@ The current stage of setting up, paying or drawing an advance is reflected in th
 
 ## See Also
 
-[Extensions Advance Payments Localization](ui-extensions-advance-payments-localization-cz.md)  
+[Advance Payments localization for Czech Republic](ui-extensions-advance-payments-localization-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)

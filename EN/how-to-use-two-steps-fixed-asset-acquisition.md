@@ -20,5 +20,5 @@ The value "Custom 2" is renamed to "Acquisition" in Czech for proper identificat
 
 ## See Also
 
-[Fixed Assets for Czech Republic](ui-extensions-fixed-asset-localization-cz.md)  
+[Fixed Assets localization for Czech Republic](ui-extensions-fixed-asset-localization-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  

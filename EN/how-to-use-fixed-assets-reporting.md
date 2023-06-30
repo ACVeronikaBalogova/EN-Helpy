@@ -35,5 +35,5 @@ The following standard reports have been modified for the Czech Republic (new to
 
 ## See Also
 
-[Fixed Assets for Czech Republic](ui-extensions-fixed-asset-localization-cz.md)  
+[Fixed Assets localization for Czech Republic](ui-extensions-fixed-asset-localization-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  

@@ -58,6 +58,6 @@ The **VAT Usage** entry is created with the same date and document number as the
 
 ## See Also
 
-[Extensions Advance Payments Localization](ui-extensions-advance-payments-localization-cz.md)  
+[Advance Payments localization for Czech Republic](ui-extensions-advance-payments-localization-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)

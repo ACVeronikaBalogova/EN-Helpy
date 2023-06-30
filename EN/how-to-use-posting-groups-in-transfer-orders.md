@@ -41,5 +41,5 @@ When creating a Transfer Order, the set posting groups are automatically inserte
 
 ## See Also
 
-[Extensions Advanced Localization Pack](ui-extensions-advanced-localization-pack-cz.md)  
+[Advanced Localization Pack for Czech Republic](ui-extensions-advanced-localization-pack-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  

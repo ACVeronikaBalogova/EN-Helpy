@@ -26,5 +26,5 @@ Each fixed asset is assigned to a specific Depreciation group. These groups dete
 
 ## See Also
 
-[Fixed Assets for Czech Republic](ui-extensions-fixed-asset-localization-cz.md)  
+[Fixed Assets localization for Czech Republic](ui-extensions-fixed-asset-localization-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  

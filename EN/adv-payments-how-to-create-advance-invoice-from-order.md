@@ -26,6 +26,6 @@ From the **Sales Advance Invoices** overview (in case of Purchase Advance Invoic
 
 ## See Also
 
-[Extension Advance Payments Localization](ui-extensions-advance-payments-localization-cz.md)  
+[Advance Payments localization for Czech Republic](ui-extensions-advance-payments-localization-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)

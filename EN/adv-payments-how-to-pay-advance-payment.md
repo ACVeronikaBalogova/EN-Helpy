@@ -39,6 +39,6 @@ Select the advance invoice you want to pay, confirm the selection in the cash or
 
 ## See also
 
-[Extension Advance Payments Localization](ui-extensions-advance-payments-localization-cz.md)  
+[Advance Payments localization for Czech Republic](ui-extensions-advance-payments-localization-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)

@@ -17,5 +17,5 @@ The inventory rounding account allows all rounding costs to be posted to a finan
 
 ## See Also
 
-[Extension Advanced Localization Pack](ui-extensions-advanced-localization-pack-cz.md)  
+[Advance Payments localization for Czech Republic](ui-extensions-advanced-localization-pack-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)

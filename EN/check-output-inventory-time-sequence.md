@@ -25,5 +25,5 @@ Standard Feature [!INCLUDE[d365fin](../../includes/d365fin_md.md)] was updated w
 
 ## See Also
 
-[Core Localization Pack Extensions](ui-extensions-core-localization-pack-cz.md)  
+[Core localization pack for Czech Republic](ui-extensions-core-localization-pack-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  

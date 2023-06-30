@@ -30,6 +30,6 @@ A negative **Initial item** is automatically created in the Advance entries
 
 ## See Also
 
-[Extensions Advance Payments Localization](ui-extensions-advance-payments-localization-cz.md)  
+[Advance Payments localization for Czech Republic](ui-extensions-advance-payments-localization-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)
