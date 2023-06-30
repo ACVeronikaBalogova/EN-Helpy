@@ -120,6 +120,6 @@ To add a deposit to a posted invoice, do the following:
 
 ## See Also
 
-[Extension Advance Payments Localization](ui-extensions-advance-payments-localization-cz.md)  
+[Advance Payments localization for Czech Republic](ui-extensions-advance-payments-localization-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)
