@@ -14,7 +14,7 @@ ms.author: v-pejano
 
 # VAT reports
 
-Pro splnění nároků na tiskové výstupy pro DPH odpovídající legislativním požadavkům a místním zvyklostem jsou k dispozici následující sestavy:  
+The following reports are available to meet the requirements for VAT print output to comply with legislative requirements and local practices:
 
 - Výpočet a účtování vyrovnání DPH - přizpůsobení standartní sestavy
 - Podklady pro DPH
@@ -22,37 +22,37 @@ Pro splnění nároků na tiskové výstupy pro DPH odpovídající legislativn�
 - Přehled DPH na prodejních zálohách
 - Přehled DPH na nákupních zálohách
 
-## DPH Reporty
-### Podklad DPH
-Report, který tiskne přehled všech zaúčtovaných dokladů za vybrané období v třídění podle jednotlivých kombinací DPH účto skupin. Report je možné tisknout s přehledem jednotlivých dokladů (položek DPH) nebo sumárně v částkách za jednotlivé kombinace. Reprot slouží jako podklad ke kontrole na účetnictví.  
+### VAT basis
 
-### Seznam daňových dokladů
-Report, kterým lze vytisknout přehledně základ a částku DPH u jednotlivých daňových dokladů za určité období. Report lze tisknout buď sumárně podle typu daně a sazby daně nebo s rozpadem na jednotlivé doklady v dělení jen nákup, jen prodej či obojí.  
+Report, which prints an overview of all posted documents for the selected period sorted by individual VAT posting group combination. You can print report with overview of individual documents (VAT entries) or summed up in amounts for each combination. The report is used as a basis for checking the posting.
 
-### Fin. Odsouhlasení DPH
-Report, který tiskne rozpad jednotlivých řádků výkazu DPH dle finančních účtů.   
+### List of tax documents
 
-## Spuštění sestvy Podlady pro DPH
+Report, that can be used to clearly print the VAT base and amount for individual tax documents for a specific period. The report can be printed either summarized by tax type and tax rate or broken down into individual documents by purchase only, sale only or both. 
 
-Náhled účtovaných položek za dané období.
+### Financial reconciliation of VAT
 
-![Podklady pro DPH](Media/vat-statements-cz.png)
+Report, which prints the split of individual lines of the VAT statement according to financial accounts.
 
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](../../media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Podklady pro DPH** a poté vyberte související odkaz.
-2. V záložce **Možnosti** zadejte do pole **Počáteční datum** hodnotu prvního data pro období zaúčtovaného dokladu pro položky DPH.
-3. V poli **Včetně položek DPH** vyberte hodnotu **Otevřeno**.
-4. Vyberte možnost **Zobrazit DPH položky**.
-5. Spustě sestavu pomocí tlačítka **Náhled**.
-6. V zobrazené sestavě jsou uvedeny nákupní faktura účtovaná v daném období, dle nastavení.
-7. V tiskové sestavě Podklad pro DPH jsou položky filtrovány dle data DPH a obsahují informace jako kód země, DIČ partnera, základ a částka DPH. 
+## Starting the VAT Statements report
 
+Preview of items charged for the period.
 
+![VAT Statements](Media/vat-statements-cz.png)
 
-## Viz Také
+1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter  **VAT Statements** and then select related link.
+2. On the **Options** tab, enter the value of the first date for the period of the posted document for VAT items in the **Start Date** field.
+3. In the **Including VAT items** field, select **Open**.
+4. Choose option **Show VAT items**.
+5. Run the report using the **Preview** button.
+6. The following report shows the purchase invoices charged in the given period, according to the settings.
+7. In the VAT Basis print report, items are filtered by VAT date and contain information such as country code, partner's VAT number, VAT base and VAT amount.
 
-[Základní lokalizační balíček pro Česko](ui-extensions-core-localization-pack-cz.md)  
-[České lokální funkcionality](czech-local-functionality.md)  
-[Kontrolní hlášení DPH](how-to-create-vat-control-report.md)  
-[Datum DPH](how-to-setup-vat-date.md)  
-[Výkaz DPH](vat-statement.md)  
+## See also
+
+[Core Localization Pack for Czech Republic](ui-extensions-core-localization-pack-cz.md)  
+[Czech local functionality](czech-local-functionality.md)  
+[VAT control report](how-to-create-vat-control-report.md)  
+[VAT date](how-to-setup-vat-date.md)  
+[VAT report](vat-statement.md)  
 [Finance](../../finance.md)  
