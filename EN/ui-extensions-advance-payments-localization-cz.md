@@ -44,7 +44,7 @@ Advance Payments functionality allows you to receive advance invoices from vendo
 - Advances cannot be used on credit notes and return orders (resolved by detaching the advance from the invoice posted and crediting the invoice without advances)
 - The service module does not work with advances
 - The advances do not address additional currency
-- The application does not include support for changing VAT rates 
+- The application does not include support for changing VAT rates
 
 The following table describes the list of tasks with links to the topics that describe them.
 
