@@ -17,7 +17,7 @@ If an invoice paid in advance is not drawn down or exhausted, it may be closed. 
 
 To close the Advance, proceed as follows:
 
-1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Sales Advance Invoice** and then choose the related link. In case of purchase, look for **Purchase Advance Invoice**.
+1. Choose the ![Lightbulb that opens the Tell me Feature](media/search_small.png "Tell me what you want to do"), enter **Sales Advance Invoice** and then choose the related link. In case of purchase, look for **Purchase Advance Invoice**.
 2. Open the Advance Card.
 3. In the action bar, select **Close Advance**.
 4. When you close a Advance, you can select the date on which the Advance will be closed in the Advance Closure Dialog. When closing, the VAT is settled, and a **VAT Closing** entry is created for the advance tax credit. From the **VAT Closing** entry, the tax credit can be printed. For both **Closing** and **VAT Closing**, the No. series set in the advance tax credit No. series field in the advance tax credit templates is used.
