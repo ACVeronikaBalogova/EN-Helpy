@@ -26,7 +26,7 @@ According to the revision of the VAT Law, it is necessary to classify the types 
 
 ## Select type of credit memo
 
-1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter  **Sales credit memo** and then select related link.
+1. Choose the ![Lightbulb that opens the Tell me Feature](Media/ui-search/search_small.png "Tell me what you want to do"), enter  **Sales credit memo** and then select related link.
 2. Click on the **New**.
 3. Select customer, posting date and other required information.
 4. In the document header, select one of the options in the **Credit note type** field:
