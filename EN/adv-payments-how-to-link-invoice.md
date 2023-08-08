@@ -21,7 +21,7 @@ To use an advance invoice in the final invoice, proceed as follows:
 2. On the **Advance Reconciliation** page use **New** and click the **Advance No.** field to view the list of advances available for assignment to the invoice. Only advances with the same currency code and in amounts that have been paid no later than the posting date of the sales invoice are displayed. Confirm the advance selection and the advance will transfer to the **Advance Reconciliation** page to link the invoice and the advance.
 In this way, you can continue with the selection of advances. Click the next line on the page to add more advances to the link again using the Advance Number field.
 3. In the **Amount** field, you can specify the amount and from which advance to be invoiced. It is thus possible to draw multiple advances in partial amounts to the invoice.
-4. If the advance assignment is set up the way the user wants to use the advnaces in the invoice, confirm the page with the **OK** button.
+4. If the advance assignment is set up the way the user wants to use the advances in the invoice, confirm the page with the **OK** button.
 
 Note:
 
@@ -39,7 +39,7 @@ Note:
 
 if the advance is not to be used on the invoice, it can be removed from the link:
 
-1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Sales Advance Orders** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell me Feature](../EN/Media/search_small.png "Tell me what you want to do"), enter **Sales Advance Orders** and then choose the related link.
 2. Open the selected advance invoice, use the **Link Advance Invoice** action to open the page with the linked advances.
 3. On the page you can edit the amounts or remove the entire line with the advance. You should always check that the page is in editable mode and the line edits will be recorded.
 4. Select **Delete** via the selection button (three dots) and confirm the deletion of the line with the associated advance invoice.

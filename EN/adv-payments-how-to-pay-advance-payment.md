@@ -17,7 +17,7 @@ If an advance invoice is in the For Payment status, it can be paid using a Gener
 
 ## Payment of the advance invoice by General Journal
 
-1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **General Journal** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell me Feature](../EN/Media/search_small.png "Tell me what you want to do"), enter **General Journal** and then choose the related link.
 2. Select General Journal Template.
 3. To pay an advance invoice in the General journal, fill in the field **Document type = payment**.
 4. Enter the corresponding **Customer/Vendor Number** (depending on the type of advance invoice: purchase/sales).
@@ -30,7 +30,7 @@ Only one advance invoice can be attached to a General journal line. Payment of s
 
 When paying an advance invoice by cash desk, the user proceeds in a similar way as in the General journal.
 
-1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Cash Order** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell me Feature](../EN/Media/search_small.png "Tell me what you want to do"), enter **Cash Order** and then choose the related link.
 2. Create new Cash Order.
 3. Enter the appropriate **Customer/Vendor Number** (depending on the type of advance invoice: purchase/sales).
 4. A list of all outstanding or partially outstanding advances, filtered by cash register currency code, is available in the **Advance Number** field on the cash order line

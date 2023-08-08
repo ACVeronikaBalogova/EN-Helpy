@@ -24,7 +24,7 @@ Depending on whether or not the data is converted, either objects in the databas
 
 Use the following procedure to activate the Advance Payments for Czech Republic functionality:
 
-1. Choose the ![Lightbulb that opens the Tell me Feature](media/search_small.png "Tell me what you want to do"), enter **Manage Feature** and then select the related link.
+1. Choose the ![Lightbulb that opens the Tell me Feature](../EN/Media/search_small.png "Tell me what you want to do"), enter **Manage Feature** and then select the related link.
 2. On the **Manage Feature** card.
 3. Select the row for the function **Localization of advance payments for the Czech version** and in the field **Enabled for** select All users.
 4. You will then go through the activation guide and data update settings.

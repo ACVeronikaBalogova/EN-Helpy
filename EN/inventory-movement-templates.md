@@ -26,7 +26,7 @@ Inventory movement templates can be used primarily when posting movements in the
 
 To create a new template:
 
-1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory movement templates** and then select related link.
+1. Choose the ![Lightbulb that opens the Tell me Feature](../EN/Media/search_small.png "Tell me what you want to do") icon, enter **Inventory movement templates** and then select related link.
 2. On the Inventory Movement Templates overview, use the **New** function.
 3. Enter a name for the movement in the **Name** field, then write a short description of what the movement is for in the description.
 4. In the **Item Type** column, select the inventory movement.
@@ -37,7 +37,7 @@ To create a new template:
 
 Example of a inventory movement definition for the CASH DEFICIT type:
 
-1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory movement templates** and then select related link.
+1. Choose the ![Lightbulb that opens the Tell me Feature](../EN/Media/search_small.png "Tell me what you want to do") icon, enter **Inventory movement templates** and then select related link.
 2. On the Inventory Movement Templates overview, use the **New** function.
 3. In the **Name** field, enter a name for the movement, for example **Cash Deficit**. Next, write a short description of what the movement is for in the description.
 4. In the **Item Type** column, select the movement, in this example **Output**.
@@ -46,7 +46,7 @@ Example of a inventory movement definition for the CASH DEFICIT type:
 
 ## Using Templates in the Item Journal
 
-1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item journal** and then select related link.
+1. Choose the ![Lightbulb that opens the Tell me Feature](../EN/Media/search_small.png "Tell me what you want to do") icon, enter **Item journal** and then select related link.
 2. Create a new journal line.
 3. Show new field **Inventory movement template**.
 4. In the **Inventory movement template** field, select the template created in the previous step.
@@ -54,7 +54,7 @@ Example of a inventory movement definition for the CASH DEFICIT type:
 
 ## Using a template in a physical inventory order line
 
-1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Physical inventory orders** and then select related link.
+1. Choose the ![Lightbulb that opens the Tell me Feature](../EN/Media/search_small.png "Tell me what you want to do") icon, enter **Physical inventory orders** and then select related link.
 2. On the Physical Inventory Orders report, select the **New** button.
 3. Fill in the **Description** field as needed.
 4. Use the **Row Count** function with the necessary parameters.

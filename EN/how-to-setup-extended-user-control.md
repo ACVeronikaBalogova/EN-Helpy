@@ -38,7 +38,7 @@ An example of the options can be found below:
 
 ## Setting up checks (Checking receipt posting at a selected location)
 
-1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **User Setup** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell me Feature](../EN/Media/search_small.png "Tell me what you want to do"), enter **User Setup** and then choose the related link.
 2. Select the user for whom you want to set or edit controls and click **Card**.
 3. On the posting tab, select one of the options, for example the **Check Location Code** field.
 4. On the **User Settings tab**, select the **Rows** function to define a controlled value.

@@ -15,7 +15,7 @@ ms.author: v-pejano
 
 To create an advance invoice directly, proceed as follows:
 
-1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), Enter **Sales Advance Invoices** and then choose the related link. In case of purchase look for **Purchase Advance Invoices**.
+1. Choose the ![Lightbulb that opens the Tell me Feature](../EN/Media/search_small.png "Tell me what you want to do"), Enter **Sales Advance Invoices** and then choose the related link. In case of purchase look for **Purchase Advance Invoices**.
 2. Create a new document in the list using the **New** action.
 3. In the new document, select the **Advance Template** which will be used for document numbering, VAT handling, posting method and more.
 4. Confirm the **Number** field to create a advance document in the appropriate No. series.

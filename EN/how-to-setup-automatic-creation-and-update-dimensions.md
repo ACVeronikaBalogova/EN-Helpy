@@ -19,7 +19,7 @@ Allows you to set the automatic creation of default dimension values according t
 
 Settings for creating and updating dimensions  is set by the following steps:
 
-1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Dimensions** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell me Feature](../EN/Media/search_small.png "Tell me what you want to do"), enter **Dimensions** and then choose the related link.
 2. Create new dimension.
 3. Select the row with the new dimension, click **Account Type Default Dim.**.
 4. In the **Table ID** field, type the table number.
@@ -36,7 +36,7 @@ Settings for creating and updating dimensions  is set by the following steps:
 
 As an example, we will show the setup and application on the projects.
 
-1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Dimensions** and then select the related link.
+1. Choose the ![Lightbulb that opens the Tell me Feature](../EN/Media/search_small.png "Tell me what you want to do"), enter **Dimensions** and then select the related link.
 2. **Create new Dimension** for example *"Project"*.
 3. Select the row with the **Project** dimension, click the **Default Account Type Dimensions** button.
 4. Enter the number **167** (Projects) in the **Table ID** field.

@@ -17,7 +17,7 @@ It makes it easier to work with assembly orders. In Setup Manufacturing, a field
 
 ## Setting up Default Inventory Posting Group
 
-1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Setup Manufacturing** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell me Feature](../EN/Media/search_small.png "Tell me what you want to do"), enter **Setup Manufacturing** and then choose the related link.
 2. On the **General** tab, select the appropriate group in the field **Default Business General Posting Group**.
 3. When this field is enabled, the posting group is subsequently added to all newly created manufacturing orders.
 4. After setting up, you can close Manufacturing Settings.

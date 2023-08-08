@@ -15,7 +15,7 @@ ms.author: v-pejano
 
 The Advance can also be set up via an order. To create an advance, please follow the following procedure:
 
-1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Sales Orders** and then choose the related link. In case of purchase, look for **Purchase Orders**.
+1. Choose the ![Lightbulb that opens the Tell me Feature](../EN/Media/search_small.png "Tell me what you want to do"), enter **Sales Orders** and then choose the related link. In case of purchase, look for **Purchase Orders**.
 2. Create new sales order.
 3. After creating the order (including lines), run the **Create Advance** function from the **Advance** section.
 4. In the advance creation dialog box, select **Advance Code** (a link to the Advance Template table) and the advance creation method. You can specify the % of the advance or the amount you want to create the advance for.

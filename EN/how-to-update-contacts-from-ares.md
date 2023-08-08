@@ -18,7 +18,7 @@ ARES stands for Access to Register of Economic Entities. ARES is an information 
 
 ## Setting up the Company VAT Registration No. verification service
 
-1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Setting up the Company VAT Registration No. Verification Service** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell me Feature](../EN/Media/search_small.png "Tell me what you want to do"), enter **Setting up the Company VAT Registration No. Verification Service** and then choose the related link.
 2. On the **Verify Company VAT Registration No. Service Settings** card, under **General**, select the **Service Endpoint** field and check or enter "*<http://wwwinfo.mfcr.cz/cgi-bin/ares/darv_bas.cgi>*".
 3. To enable the service, select the radio button next to **Enabled**.
 4. After setting up, you can close the card.
@@ -29,7 +29,7 @@ You can start the update from ARES from the contact, supplier or customer card. 
 
 ![Update Company Identification Number](Media/ares.png)
 
-1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Customers** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell me Feature](../EN/Media/search_small.png "Tell me what you want to do"), enter **Customers** and then choose the related link.
 2. Select the chosen customer for which you want to update the data.
 3. On the customer tab in the Invoice, click the three dots next to the VAT registration No.
 4. The **Verify VAT Registration No.** card will open and use the **Verify VAT Registration No.** function. After successful verification, you will see a line with the status **Valid**.

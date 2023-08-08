@@ -31,19 +31,19 @@ Additional company registration numbers and other registration information may b
 
 ### Setting up additional company information
 
-1. Choose the ![Lightbulb that opens the Tell Me Feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me Feature](../EN/Media/search_small.png "Tell me what you want to do") icon, enter **Company Information** , and then choose the related link.
 2. On the Set up Company Information page  in **General** tab fill out **Primary Business Activity** and **Default Bank Account Code** fields.
 3. After setting the fields, close the page.
 
 ### Information settings for statutory reporting
 
-1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what do you want to do"), enter **Statutory Reporting Setup** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell me Feature](../EN/Media/search_small.png "Tell me what do you want to do"), enter **Statutory Reporting Setup** , and then choose the related link.
 2. On the Statutory Reporting Setup page fill out the **Primary Business Activity** and then **Registration information** fields.
 3. After setting the fields, close the page.
 
 ### Setting up company representatives
 
-1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what do you want to do"), enter **Statutory Reporting Setup** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell me Feature](../EN/Media/search_small.png "Tell me what do you want to do"), enter **Statutory Reporting Setup** and then choose the related link.
 2. On the Statutory Reporting Setup **Representative** tab choose No. Series in the **Company Official Nos.** field.
 3. After setting up No. Series, Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what do you want to do"), enter **Company Officials** and then choose the related link.
 4. On the Company Officials list choose the button **New**.
@@ -52,7 +52,7 @@ Additional company registration numbers and other registration information may b
 
 ### Setting up Document Footers
 
-1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what do you want to do"), enter **Document Footers** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell me Feature](../EN/Media/search_small.png "Tell me what do you want to do"), enter **Document Footers** and then choose the related link.
 2. On the Document Footers list set up new footer for each language version that you will use.
 3. On new line fill out **Language Code** field for which you will define language footer and then **Footer text** field enter text that will be displayed.
 4. After Setting up Document Footers close the page.

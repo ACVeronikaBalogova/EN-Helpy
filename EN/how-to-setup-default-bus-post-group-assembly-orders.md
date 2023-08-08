@@ -17,7 +17,7 @@ Makes it easier to work with assembly orders. In the Assembly Setup, you can def
 
 ## Setting the Default Inventory Posting Group
 
-1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Assembly Setup** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell me Feature](../EN/Media/search_small.png "Tell me what you want to do"), enter **Assembly Setup** and then choose the related link.
 2. On the **Assembly Setup** card under **General**, in the **Default General Business Posting Group** field, select the posting group you want to set as the default.
 3. After setting up, you can close the card.
 

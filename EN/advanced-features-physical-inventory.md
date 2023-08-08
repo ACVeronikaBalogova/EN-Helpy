@@ -21,7 +21,7 @@ Companies need to separate the accounting for inventory movements of the same go
 
 By setting default stock movement templates for these stock movements in Inventory Setup, the user can easily change the General Business Account Group depending on the type of stock movement.
 
-1. Use function ![Lightbulb, that opens feature Tell me (Alt + Q)](../../media/ui-search/search_small.png "Tell me what do you want to do(Alt + Q)") enter **Inventory settings**.
+1. Use function ![Lightbulb, that opens feature Tell me (Alt + Q)](../EN/Media/search_small.png "Tell me what do you want to do(Alt + Q)") enter **Inventory settings**.
 2. On the page **Inventory settings** on the Physical Inventory tab, fill in the field **Default template for receiving physical inventory** and **Default template for issuing physical inventory**.
 3. Than you can close the page.
 

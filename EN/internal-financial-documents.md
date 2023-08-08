@@ -24,10 +24,10 @@ Report that is used to check the entered internal document before posting from t
 
 ### Run the General Journal Report - Test
 
-1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Gen. Journal Template** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell me Feature](../EN/Media/search_small.png "Tell me what you want to do") icon, enter **Gen. Journal Template** and then choose the related link.
 2. Choose Gen. Journal Template and fill out **ID report 11722 - General Journal - Test** field.
 3. You can close General Journal Template list.
-4. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals** and then choose the related link.
+4. Choose the ![Lightbulb that opens the Tell me Feature](../EN/Media/search_small.png "Tell me what you want to do") icon, enter **General Journals** and then choose the related link.
 5. Choose the Journal template.
 6. Fill out Internal Transaction Journal lines and then run report General Journal - Test by using button **Test report** and check the report output.
 
@@ -37,10 +37,10 @@ A report that is used to check and print an posting operation that has been post
 
 ### Run the General Ledger Document Report
 
-1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journal Templates** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell me Feature](../EN/Media/search_small.png "Tell me what you want to do") icon, enter **General Journal Templates** and then choose the related link.
 2. Choose the General Journal Template and fill out **Account Report ID 11766 - General Ledger Document** field.
 3. You can close General Journal Templates list.
-4. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **G/L Journals** and then choose the related link.
+4. Choose the ![Lightbulb that opens the Tell me Feature](../EN/Media/search_small.png "Tell me what you want to do") icon, enter **G/L Journals** and then choose the related link.
 5. Choose the Journal Template
 6. Fill out Internal Transaction Journal lines
 7. **To start when Posting** use **Post and Print** feature and check the report output.

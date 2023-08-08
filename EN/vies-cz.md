@@ -32,7 +32,7 @@ The following pages have been modified for this functionality:
 
 ### VAT Posting Setup
 
-1. Choose the ![Lightbulb that opens the Tell me Feature (Alt + Q)](../../media/ui-search/search_small.png "Tell me what you want to do (Alt + Q)"), enter **VAT Posting Setup**.
+1. Choose the ![Lightbulb that opens the Tell me Feature (Alt + Q)](../EN/Media/search_small.png "Tell me what you want to do (Alt + Q)"), enter **VAT Posting Setup**.
 2. Fields **VIES - Purchase** and **VIES - Sales** have been added to this summary table.
 3. These fields need to be set (ticked), to set the posting you want to include in the sales/purchase summary report.
 4. After the settings are correct, you can close the page.
@@ -45,7 +45,7 @@ The following pages have been modified for this functionality:
 
 ### Statutory Reporting Setup
 
-1. Choose the ![Lightbulb that opens the Tell me Feature (Alt + Q)](../../media/ui-search/search_small.png "Tell me what you want to do (Alt + Q)"), enter **Statutory Reporting Setup**.
+1. Choose the ![Lightbulb that opens the Tell me Feature (Alt + Q)](../EN/Media/search_small.png "Tell me what you want to do (Alt + Q)"), enter **Statutory Reporting Setup**.
 2. In this setup table, the **VIES** tab has been added where the appropriate fields need to be set:
     - **VIES - Authorized Employee No.** - Identifies the authorized employee for the VIES.
     - **VIES compiled by - Employee No.** - Identifies the employee who compiled the VIES.
@@ -64,7 +64,7 @@ The following pages have been modified for this functionality:
 
 If you set up all the necessary points from the VIES settings correctly (you create and post, for example, a sales invoice for items or services delivered to the EU), these values will be included in the report when you create the VIES.
 
-1. Choose the ![Lightbulb that opens the Tell me Feature (Alt + Q)](../../media/ui-search/search_small.png "Tell me what you want to do (Alt + Q)"), enter **VIES**.
+1. Choose the ![Lightbulb that opens the Tell me Feature (Alt + Q)](../EN/Media/search_small.png "Tell me what you want to do (Alt + Q)"), enter **VIES**.
 2. To create a new VIES, click **NEW** on the **VIES** page.
 3. On the **VIES** page, fill in the header fields as required.
 4. If you want to use the system to design lines for the specified period of the VIES, click on the batch job **Process -> Suggest lines...**

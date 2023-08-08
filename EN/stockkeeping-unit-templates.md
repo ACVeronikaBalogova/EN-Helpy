@@ -25,7 +25,7 @@ Stock unit templates can be used in a function that creates new stock units of i
 
 In order to correctly set the details of the stock unit card, for example for a selected location, it is necessary to set general information such as the Ordering method, Ordering system, and others.
 
-1. Choose the ![Lightbulb that opens the Tell me feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Configuration templates** and then select related link.
+1. Choose the ![Lightbulb that opens the Tell me feature](../EN/Media/search_small.png "Tell me what you want to do"), enter **Configuration templates** and then select related link.
 2. In the action bar select **New**.
 3. To the field **Code** edit code for stock unit.
 4. To the field **Description** edit title for template.
@@ -37,14 +37,14 @@ Once the selected fields are set, the system will add the predefined values to t
 
 ### Create a stock unit template
 
-1. Select the icon![Lightbulb to open the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Stockkeeping unit templates** and then select related link.
+1. Select the icon![Lightbulb to open the Tell Me feature](../EN/Media/search_small.png "Tell me what you want to do"), enter **Stockkeeping unit templates** and then select related link.
 2. In action bar select **New**.
 3. In the new row enter field **Item Category Code** and to field **Location code** choose location. It is also possible to fill in **Configuration Template Code**, where you select the created configuration template of the stock unit and then the **Configuration Template Description** field is automatically filled in.
 4. After filling in the values, you can close the template overview.
   
 ### Create a stock unit using a template
 
-1. Choose the ![Lightbulb that opens the Tell me feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Items** and then select related link.
+1. Choose the ![Lightbulb that opens the Tell me feature](../EN/Media/search_small.png "Tell me what you want to do"), enter **Items** and then select related link.
 2. Select the item tab for which the template is created.
 3. Open Item Tab.
 4. Use the **Stock** - **Stock Units** function on the item tab.
@@ -59,7 +59,7 @@ Once the selected fields are set, the system will add the predefined values to t
 
 In order to correctly set the details of the stock unit card, for example for a selected location, it is possible to set general information such as Order Method, Order System, and more.
 
-1. Choose the ![Lightbulb that opens the Tell me feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Configuration Templates** and then select related link.
+1. Choose the ![Lightbulb that opens the Tell me feature](../EN/Media/search_small.png "Tell me what you want to do"), enter **Configuration Templates** and then select related link.
 2. In the action bar choose **New**.
 3. To field **Code** enter code for stock unit, for example **SKJ0000003**.
 4. To field **Description** fill in the name for the saber, for example "**Stock unit CHAIR BLUE**".
@@ -69,14 +69,14 @@ In order to correctly set the details of the stock unit card, for example for a 
 
 ### Create a stock unit template for selected items
 
-1. Choose the ![Lightbulb that opens the Tell me feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Stock unit templates** and then select related link.
+1. Choose the ![Lightbulb that opens the Tell me feature](../EN/Media/search_small.png "Tell me what you want to do"), enter **Stock unit templates** and then select related link.
 2. In action bar choose **New**.
 3. In the new row, fill in the field **Category code** for example with the value **CHAIR**, in the field **Location code** select the location **Blue**, then the field **Description** will be filled in automatically with the text "**Office chair from Blue stock**". You can also fill in the **Configuration Template Code** by selecting **SKJ0000003** and the **Configuration Template Description** field is automatically filled in.
 4. After filling in the values, you can close the template overview.
   
 ### Create a stock unit of the selected item using a template
 
-1. Choose the ![Lightbulb that opens the Tell me feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Item** and then select related link.
+1. Choose the ![Lightbulb that opens the Tell me feature](../EN/Media/search_small.png "Tell me what you want to do"), enter **Item** and then select related link.
 2. Use the search function to find an item **1900-S Armchair PARIS, black**
 3. Open the item card.
 4. Use the **Stock** - **Stock Units** function on the item tab.

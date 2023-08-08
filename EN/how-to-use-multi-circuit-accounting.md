@@ -17,7 +17,7 @@ According to accounting standards, an entity can post accounts under several acc
 
 To set up accounting circuits in the system:
 
-1. Choose the![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what do you want to do"), enter **Chart of Accounts** and then select related link.
+1. Choose the![Lightbulb that opens the Tell me Feature](../EN/Media/search_small.png "Tell me what do you want to do"), enter **Chart of Accounts** and then select related link.
 2. Open the tab of the selected financial account.
 3. On the Financial Account tab, in the General tab, select in the field **Financial account group** one of the options:
     - Financial account

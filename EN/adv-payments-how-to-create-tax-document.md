@@ -23,7 +23,7 @@ The entry **VAT payment** is entered into the advance history, in which the VAT 
 
 To print a VAT document for an advance invoice, proceed as follows:
 
-1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Sales Advance Invoice** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell me Feature](../EN/Media/search_small.png "Tell me what you want to do"), enter **Sales Advance Invoice** and then choose the related link.
 2. On the sales advance invoice list, mark the line with the required advance.
 3. Select **Advance Entries** in the **History** section. Use the cursor to mark the row with the entry type **VAT payment**. Next, use the **VAT document** function in the Reports section to print a VAT advance document with the VAT breakdown.
 
@@ -41,7 +41,7 @@ However, if you want to post the VAT document for payment, it is possible to sta
 
 To manually create a VAT document, proceed as follows:
 
-1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Sales Advance Invoice** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell me Feature](../EN/Media/search_small.png "Tell me what you want to do"), enter **Sales Advance Invoice** and then choose the related link.
 2. On the sales advance invoice list, mark the line with the required advance.
 3. Select **Prepaid Entries** in the **History** section. Use the cursor to mark the row with the entry type **VAT payment**.
 4. From the action bar, run the **Post VAT document** action. The advance payment entry **VAT payment** (and the related VAT and G/L entries) will be created with the same Posting date as the cleared payment.
@@ -53,7 +53,7 @@ To manually create a VAT document, proceed as follows:
 
 To manually deduct VAT from the advance, proceed as follows:
 
-1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Sales Advance Invoice** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell me Feature](../EN/Media/search_small.png "Tell me what you want to do"), enter **Sales Advance Invoice** and then choose the related link.
 2. On the sales advance invoice list, mark the line with the required advance.
 3. Select **Advance Entries** in the **History** section. Place the cursor on the **Use** type item and select the **Post VAT usage** action. This will separate the advance with the date and document number of the invoice posted.
 

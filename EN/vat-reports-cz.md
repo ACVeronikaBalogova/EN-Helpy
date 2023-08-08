@@ -40,7 +40,7 @@ Preview of items charged for the period.
 
 ![VAT Statements](Media/vat-statements-cz.png)
 
-1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter  **VAT Statements** and then select related link.
+1. Choose the ![Lightbulb that opens the Tell me Feature](../EN/Media/search_small.png "Tell me what you want to do"), enter  **VAT Statements** and then select related link.
 2. On the **Options** tab, enter the value of the first date for the period of the posted document for VAT items in the **Start Date** field.
 3. In the **Including VAT items** field, select **Open**.
 4. Choose option **Show VAT items**.

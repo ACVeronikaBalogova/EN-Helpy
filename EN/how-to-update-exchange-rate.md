@@ -21,7 +21,7 @@ The user can define the http address of the service and other parameters for upd
 
 ## Start and use of exchange rates service according to CNB
 
-1. Select![Lightbulb, that opens function Tell me](../../media/ui-search/search_small.png "Tell me what do you want to do"), enter **Exchange rate service** and then choose related link.
+1. Select![Lightbulb, that opens function Tell me](../EN/Media/search_small.png "Tell me what do you want to do"), enter **Exchange rate service** and then choose related link.
 2. In the list of Exchange rates service choose **CNB-EXCHANGE-RATES - Exchange rates settings CNB**.
 3. On the exchange rates service tab choose **Enabled** for enabling service.
 4. After enabling service, system will create background task queue entry: **Procedure∙ 1281 ∙ Update Currency Exchange Rates**, at the same time, the system asks you whether you want to open the task queue item window and whether you want to set the item.

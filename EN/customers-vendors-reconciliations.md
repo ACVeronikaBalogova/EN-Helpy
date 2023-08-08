@@ -19,7 +19,7 @@ At the end of each fiscal year (or other period, if required), companies send re
 
 Use the following procedure to generate a report on the status of customer receivables:
 
-1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what do you want to do"), enter **Customer Balance Reconciliation** and then choose related link. This will open the **Customer Balance Reconciliation** window where you can define parameters such as Customer Number, Print Account Balances, Refund Date, Reconciliation Date and more according to your needs.
+1. Choose the ![Lightbulb that opens the Tell me Feature](../EN/Media/search_small.png "Tell me what do you want to do"), enter **Customer Balance Reconciliation** and then choose related link. This will open the **Customer Balance Reconciliation** window where you can define parameters such as Customer Number, Print Account Balances, Refund Date, Reconciliation Date and more according to your needs.
 2. Then use the Preview or Print function to generate the report.
 3. Save the report and then send it to the customer.
 

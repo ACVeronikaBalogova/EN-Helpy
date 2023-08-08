@@ -16,7 +16,7 @@ ms.author: v-pejano
 Due to the fact that the Czech localized application contains modifications in inventory posting, the **Inventory Reconciliation - Finance** matrix must be supplemented with special accounts - inventory rounding account and work-in-progress inventory change accounts.  
 These modifications were made at user interface together with changes of calculation procedure.
 
-1. Choose the  ![Lightbulb that opens the Tell me feature (Alt + Q)](../../media/ui-search/search_small.png "Tell me what you want to do (Alt + Q)") search for  **Inventory reconciliation - finance**.
+1. Choose the  ![Lightbulb that opens the Tell me feature (Alt + Q)](../EN/Media/search_small.png "Tell me what you want to do (Alt + Q)") search for  **Inventory reconciliation - finance**.
 2. At the page **Inventory reconciliation - finance** specify the necessary filters.
 3. Click at the feature **Show matrix**.
 4. In the view below, you can see the accounts that have been added.

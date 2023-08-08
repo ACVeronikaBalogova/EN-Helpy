@@ -36,7 +36,7 @@ The exchange rate adjustment has been extended to include the Czech advance modu
 
 ## Use of exchange rate adjustment
 
-1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Exchange rate adjustment extended** and then select related link.
+1. Choose the ![Lightbulb that opens the Tell me Feature](../EN/Media/search_small.png "Tell me what you want to do"), enter **Exchange rate adjustment extended** and then select related link.
 2. This will open **Exchange rate adjustment extended** page - preview the report before running it.
 3. You can set input parameters such as:
     - Start and End date

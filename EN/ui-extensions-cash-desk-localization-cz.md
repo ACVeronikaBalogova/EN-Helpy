@@ -38,7 +38,7 @@ Cash desk documents are either receipts or withdrawals and can be in different c
 
 ## Cash desk user setup
 
-1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Cash Desk Setup** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell me Feature](../EN/Media/search_small.png "Tell me what you want to do"), enter **Cash Desk Setup** and then choose the related link.
 2. On the **Cash Desk Setup** page under the **Navigation** tab, use the **Cash Desk Users** feature.
 3. The Cash desk Users tab opens. To create a new user, use the **New** function.
 4. In the row, select the **Cash Desk No.** that the user will be working on. Next, select the **User ID** and select whether the user will have the option to **Issue**, **Post** or **Post EET only**.
@@ -46,7 +46,7 @@ Cash desk documents are either receipts or withdrawals and can be in different c
 
 ## Setting up No. series for receipts and withdrawals
 
-1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Cash Desk Setup** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell me Feature](../EN/Media/search_small.png "Tell me what you want to do"), enter **Cash Desk Setup** and then choose the related link.
 2. Open the card of the selected cash desk.
 3. On the **Cash Desk Setup Card**, you can find the **No. series** tab.
 4. In the **Cash Receipt Order No.** and **Withdrawal Receipt No.** fields, select the No. series you want to use.
@@ -54,7 +54,7 @@ Cash desk documents are either receipts or withdrawals and can be in different c
 
 ## Setting up Cash Desk Event
 
-1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Cash Desk Events Setup** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell me Feature](../EN/Media/search_small.png "Tell me what you want to do"), enter **Cash Desk Events Setup** and then choose the related link.
 2. Use the **New** function to create a event on the **Cash Desk** report..
 3. Fill in the following fields as required:
     - Code, description
@@ -71,13 +71,13 @@ For the purpose of cash desk inventory in Business Central, you can find a repor
 
 First, you need to define which banknotes and coins you use in different currencies. It is necessary to define their nominal value for each currency.
 
-1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Currency Nominal Values** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell me Feature](../EN/Media/search_small.png "Tell me what you want to do"), enter **Currency Nominal Values** and then choose the related link.
 2. Create rows in the table using the combination of **Currency Code** and **Value**. Do not select a currency code to set the local currency of the system.
 3. After defining the rows, you can close the page.
 
 ### Cash Inventory Report
 
-1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Cash Inventory** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell me Feature](../EN/Media/search_small.png "Tell me what you want to do"), enter **Cash Inventory** and then choose the related link.
 2. On the page before running the report, select input parameters such as:
     - **Cash Desk Code** for which the inventory is being taken.
     - **Date** when the inventory is carried out.
@@ -91,7 +91,7 @@ First, you need to define which banknotes and coins you use in different currenc
 
 The Reconcile Entries function can be run from the cash document lines to select customer or supplier entries to be reconciled. Similarly, functions are available for balancing with advance invoices.
 
-1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Cash Document** adn then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell me Feature](../EN/Media/search_small.png "Tell me what you want to do"), enter **Cash Document** adn then choose the related link.
 2. In the **Cash Document overview**, create a cash document using the **New** button.
 3. Fill in the fields on the cash receipt card:
     - Document type: Receipt or Withdrawal

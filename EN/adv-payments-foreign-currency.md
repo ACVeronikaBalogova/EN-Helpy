@@ -21,7 +21,7 @@ The Advance Payments application works with foreign currencies. However, it is n
 
 ## Advance payment in foreign currency
 
-1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me, what do you want to do"), enter **Sales advance invoice** and then select related link.
+1. Choose the ![Lightbulb that opens the Tell me Feature](../EN/Media/search_small.png "Tell me, what do you want to do"), enter **Sales advance invoice** and then select related link.
 2. Create new sales advance invoice to any of customer.
 3. To field **Currency code** on the tab **Details of invoice** select e.g. Euro
 4. In the advance field select **Inventory VAT posting group** and **Amount included VAT**.
@@ -35,7 +35,7 @@ The Advance Payments application works with foreign currencies. However, it is n
 
 ## Linking a deposit to an invoice
 
-1. Choose the ![Lightbulb that opens the Tell me Feature](../../media/ui-search/search_small.png "Tell me, what do you want to do"), enter **Sales advance invoice** and then select related link.
+1. Choose the ![Lightbulb that opens the Tell me Feature](../EN/Media/search_small.png "Tell me, what do you want to do"), enter **Sales advance invoice** and then select related link.
 2. Create new sales advance invoice in EUR to same customer, enter exchange rate and invoice lines.
 3. Find in the ribbon **Link advance invoice** and linked invoice with advance (chapter *Use of the advance invoice in the final invoice*).
 4. Post the invoice.
