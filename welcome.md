@@ -25,7 +25,7 @@ Pokud již máte [!INCLUDE[prod_short](includes/prod_short.md)], přihlaste se n
 
 ## Microsoft Learn
 
-Na navigačním panelu vlevo najdete informace o použití [!INCLUDE[prod_short](includes/prod_short.md)] ve vaší společnosti. Odkazy na popisy nejčastěji používaných funkcí najdete v části [Business Processes](#business-processes). Podívejte se také do části [Další informace pomocí dokumentace produktu](product-help-and-support.md#learn-more-using-the-product-documentation).
+Na navigačním panelu vlevo najdete informace o použití [!INCLUDE[prod_short](includes/prod_short.md) ve vaší společnosti. Odkazy na popisy nejčastěji používaných funkcí najdete v části [Business Processes](#business-processes). Podívejte se také do části [Další informace pomocí dokumentace produktu](product-help-and-support.md#learn-more-using-the-product-documentation).
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
