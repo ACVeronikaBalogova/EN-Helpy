@@ -1,4 +1,4 @@
-﻿# [Vítejte v Business Central](index.md)
+﻿# [Vítejte v Business Central](welcome.md)
 # [Co je nového?](product-news.md)
 # Začínáme
 ## [Přehled obchodních funkcionalit](across-business-functionality.md)
@@ -56,6 +56,7 @@
 ##### [Detaily návrhu: Hodnota zásob](design-details-inventory-valuation.md)  
 ##### [Detaily návrhu: Přecenění](design-details-revaluation.md)
 #### Detaily návrhu: Správa skladu
+
 ##### [Přehled správy skladu](design-details-warehouse-management.md)
 ##### [Detaily návrhu: Přehled skladu](design-details-warehouse-overview.md)  
 ##### [Detaily návrhu: Nastavení skladu](design-details-warehouse-setup.md)  

@@ -13,7 +13,7 @@
 
 ### [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)
 
-### [Business Central training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
+### [Business Central on Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 
 ### Business Process Walkthroughs
 
@@ -30,52 +30,31 @@
 <!-- #### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
 <!-- #### [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md) -->
 #### [Walkthrough: Manage Projects with Jobs](walkthrough-managing-projects-with-jobs.md)
-
-#### [Walkthrough: Calculating Work in Process for a Job](walkthrough-calculating-work-in-process-for-a-job.md)
-
 #### [Walkthrough: Picking and Shipping in Basic Warehouse Configurations](walkthrough-picking-and-shipping-in-basic-warehousing.md)
 <!-- #### [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md) -->
+#### [Walkthrough: Planning supplies manually](walkthrough-planning-supplies-manually.md)
+#### [Walkthrough: Planning supplies automatically](walkthrough-planning-supplies-automatically.md)
+#### [Walkthrough: Selling, assemling and shipping kits](walkthrough-selling-assembling-and-shipping-kits.md)
+#### [Walkthrough: Managing projects with jobs](walkthrough-managing-projects-with-jobs.md)
+#### [Walkthrough: Calculating work in process for jobs](walkthrough-calculating-work-in-process-for-a-job.md)
+#### [Walkthrough: Picking and shipping in basic warehousing](walkthrough-picking-and-shipping-in-basic-warehousing.md)
+#### [Walkthrough: STracing serial lot numbers](walkthrough-tracing-serial-lot-numbers.md)
 #### [Walkthrough: Making Cash Flow Forecasts by Using Financial Reports](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 
 #### [Walkthrough: Set Up and Use the Shopify Connector](shopify/walkthrough-setting-up-and-using-shopify.md)
-<!-- Contoso-->
-### Contoso Coffee Demo Data
-
-#### [Introduction to Contoso Coffee Demo Data](contoso-coffee/contoso-coffee-intro.md)
-
-#### Manufacturing
-
-##### [Introduction to Contoso Coffee Manufacturing](contoso-coffee/manufacturing/contoso-coffee-manufacturing-intro.md)
-
-##### [Create a New Production BOM and BOM Version](contoso-coffee/manufacturing/create-new-production-bom-version.md)
-
-##### [Create a New Routing](contoso-coffee/manufacturing/create-new-routing.md)
-
-##### [Create a Firm Planned Production Order and Change It](contoso-coffee/manufacturing/create-firm-planned-production-order-change.md)
-
-##### [Combine Automatic and Manual Flushing](contoso-coffee/manufacturing/combine-automatic-manual-flushing.md)
-
-##### [Use Order Planning to Create and Reserve Supply](contoso-coffee/manufacturing/order-planning-create-reserve-supply.md)
-
-##### [Set up and Process a Subcontracting Operation](contoso-coffee/manufacturing/set-up-process-subcontracting-operation.md)
-
-##### [Set Up New Capacity](contoso-coffee/manufacturing/set-up-new-capacity.md)
-
-##### [Variants](contoso-coffee/manufacturing/variants.md)
-
-#### Warehousing
-
-##### [Introduction to Contoso Coffee Warehouse](contoso-coffee/warehousing/contoso-coffee-warehousing-intro.md)
-
-##### [Walkthrough of inbound and outbound flow in Basic Warehouse Configurations](contoso-coffee/warehousing/warehouse-basic-flow-putaway-pick.md)
-
-##### [Walkthrough of inbound and outbound flow in mixed Warehouse Configurations](contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship.md)
-
-##### [Walkthrough of inbound and outbound flow in Advanced Warehouse Configuration with Directed Put-away and Pick](contoso-coffee/warehousing/warehouse-directed-flow.md)
-
 ### Design Details
 
 #### [Application Design Details Overview](design-details-application-design.md)
+#### Design Details: Supply planning
+##### [Overview design details of Supply planning](design-details-supply-planning.md)
+##### [Design Details: Central concepts of the planning system](design-details-central-concepts-of-the-planning-system.md)
+##### [Design Details: Reservation, order tracking and action messaging](design-details-reservation-order-tracking-and-action-messaging.md) 
+##### [Design Details: Balancing demand and supply](design-details-balancing-demand-and-supply.md)
+##### [Desing details: Handling reordering policies](design-details-handling-reordering-policies.md) 
+##### [Desing details: Plannig parameters](design-details-planning-parameters.md) 
+##### [Desing details: Plannig assignment table](design-details-planning-assignment-table.md)
+##### [Desing details: Demand at blank location](design-details-demand-at-blank-location.md)
+##### [Design details: Transfer in planning](design-details-transfers-in-planning.md)        
 
 #### Design Details: Inventory Costing
 
@@ -89,8 +68,8 @@
 
 ##### [Design Details: Known Item Application Issue](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 
-##### [Design Details: Cost Adjustment](design-details-cost-adjustment.md)  
-
+##### [Design Details: Cost Adjustment](design-details-cost-adjustment.md) 
+##### [Design Details: Adjustment value entry posting](design-details-inventory-adjustment-value-entry-posting-date.md)   
 ##### [Design Details: Expected Cost Posting](design-details-expected-cost-posting.md)  
 
 ##### [Design Details: Average Cost](design-details-average-cost.md)  
@@ -116,23 +95,167 @@
 ##### [Design Details: Inventory Valuation](design-details-inventory-valuation.md)  
 
 ##### [Design Details: Revaluation](design-details-revaluation.md)
+<!-- Contoso-->
 
-#### Design Details: Posting Date on Adjustment Value Entry
 
-##### [Posting Date on Adjustment Value Entry Overview](design-details-inventory-adjustment-value-entry-posting-date.md)  
+#### Design Details: Warehousing
 
-##### [Error Message "Posting Date is not within your range of allowed posting dates"](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
+##### [Walkthrough of warehouse management](design-details-warehouse-management.md)
+##### [Design Details: Warehouse overview](design-details-warehouse-overview.md) 
+##### [Design Details: Warehouse set up](design-details-warehouse-setup.md) 
+##### [Design Details: Inbound warehouse flow](design-details-inbound-warehouse-flow.md)
+##### [Design Details: Internal warehouse flows](design-details-internal-warehouse-flows.md) 
+##### [Design Details: Availability in the warehouse](design-details-availability-in-the-warehouse.md)
+##### [Design Details: Integeration with inventory](design-details-integration-with-inventory.md)     
 
-##### [Posting Date on Adjustment Value Entry Compared to the Source Entry](design-details-inventory-adjustment-value-entry-source-entry.md)
+#### Detaily návrhu: Sledování zboží
+
+##### [Walkthrough item tracking](design-details-item-tracking.md)
+##### [Design Details: Design of item tracking](design-details-item-tracking-design.md)  
+##### [Design Details: Posting structure of item tracking](design-details-item-tracking-posting-structure.md)  
+##### [Design Details: Active versus historic item tracking entries](design-details-active-versus-historic-item-tracking-entries.md)  
+##### [Design Details: Lines window of item tracking](design-details-item-tracking-lines-window.md)  
+##### [Design Details: Availability of item tracking](design-details-item-tracking-availability.md)  
+##### [Design Details: Item tracking and planning](design-details-item-tracking-and-planning.md)  
+##### [Design Details: Item tracking and reservations](design-details-item-tracking-and-reservations.md)  
+##### [Design Details: Item tracking in the warehouse](design-details-item-tracking-in-the-warehouse.md)
+
+#### Design Details: General journal post line 
+##### [General journal post line](design-details-general-journal-post-line.md)
+##### [Overview of  General journal post line](design-details-general-journal-post-line-overview.md)  
+##### [Design Details: Posting interface structure](design-details-posting-interface-structure.md)  
+##### [Design Details: Posting engine structure](design-details-posting-engine-structure.md)  
+##### [Design Details: Codeunity 12 changes: Mapping global variables for general journal post line](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)  
+##### [Design Details: Codeunity 12 changes: Changes in general journal post procedures](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)
 
 #### Design Details: Dimension Set Entries
 
 ##### [Design Details: Dimension Set Entries Overview](design-details-dimension-set-entries-overview.md)
-
+##### [Design Details: Overview of dimension set entries](design-details-dimension-set-entries-overview.md) 
 ##### [Design Details: Searching for Dimension Combinations](design-details-searching-for-dimension-combinations.md)
 
 ##### [Design Details: Table Structure](design-details-table-structure.md)
 
+## Vyzkoušejte
+### [Across preview](across-preview.md)
+### [Get started with Business Central](product-get-started.md)
+### [Trobleshoot self signup](ui-troubleshoot-self-signup.md)
+### [Extended trial](admin-extend-trial.md)
+### [Log out or remove Business Central](admin-cancel.md)
+
+## Purchase
+### [Get ready to make Business](ui-get-ready-business.md)
+
+## Set up Business Central
+### [Set up Business Central](setup.md)
+
+### Set up Finance
+#### [Set up finance](finance-setup-finance.md)
+#### [Set up payment methods](finance-payment-methods.md)
+#### [Set up payment terms](finance-payment-terms.md)
+#### [Set up posting group](finance-posting-groups.md)
+#### [Preparation of financial reporting using schemes and categories](bi-how-work-account-schedule.md)
+#### [Work with finance payment tolerance and payment discount tolerance](finance-payment-tolerance-and-payment-discount-tolerance.md)
+#### [Work with finance accounting periods and fiscal years](finance-accounting-periods-and-fiscal-years.md)
+#### [Set up reminders](finance-setup-reminders.md)
+#### [Set up finance charges](finance-setup-finance-charges.md)
+#### [Set up VAT](finance-setup-vat.md)
+#### [Set up unrealized VAT](finance-setup-unrealized-vat.md)
+#### [Validate VAT registration number](finance-how-validate-vat-registration-number.md)
+#### [Set up trail codes](finance-setup-trail-codes.md)
+#### [Enable application ledger entries different currencies](finance-how-enable-application-ledger-entries-different-currencies.md)
+#### [Set up additional currencies](finance-how-setup-additional-currencies.md)
+#### [Update currencies](finance-how-update-currencies.md)
+#### [Set up multiple interest rates](finance-how-to-set-up-multiple-interest-rates.md)
+#### [Set up invoice rounding](finance-set-up-invoice-rounding.md)
+#### [Set up chart accounts](finance-setup-chart-accounts.md)
+#### [Set up cashflow analyses](finance-setup-cash-flow-analyses.md)
+#### [Set up cash customers](finance-how-to-set-up-cash-customers.md)
+#### [Set up report intrastat](finance-how-setup-report-intrastat.md)
+#### [Use of allocation keys in general journals](ui-how-use-allocation-keys-general-journals.md)
+
+### Set up banking
+#### [Set up banking](bank-setup-banking.md)
+#### [Set up bank accounts](bank-how-setup-bank-accounts.md)
+#### [Set up service Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)
+#### [AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md)
+#### [Define check layouts](finance-how-define-check-layouts.md)
+
+### Set up sales
+#### [Set up sales](sales-setup-sales.md)
+#### [Registration of new customer](sales-how-register-new-customers.md)
+#### [Enable customer payment via payment service](sales-how-enable-payment-service-extensions.md)
+#### [Recording sales price discount payment](sales-how-record-sales-price-discount-payment-agreements.md)
+#### [Set up sales people](sales-how-setup-salespeople.md)
+#### [Set up profiles for sending documents](sales-how-setup-document-send-profiles.md)
+#### [Send documents via e-mail](ui-how-send-documents-email.md)
+#### [Set up shipment methods](sales-how-set-up-shipment-methods.md)
+#### [Set up shipping agents](sales-how-to-set-up-shipping-agents.md)
+
+### Set up purchasing
+#### [Set up purchasing](purchasing-setup-purchasing.md)
+#### [Register new vendors](purchasing-how-register-new-vendors.md)
+#### [Recording purchase price and discounts](purchasing-how-record-purchase-price-discount-payment-agreements.md)
+#### [Prioritize vendors](purchasing-how-prioritize-vendors.md)
+#### [Set up purchasers](purchasing-how-setup-purchasers.md)
+
+### Set up inventory
+#### [Set up inventory](inventory-setup-inventory.md)
+#### [Set up general information about inventory](inventory-how-setup-general.md)
+#### [Work with responsibility centers](inventory-responsibility-centers.md)
+#### [Set up locations](inventory-how-setup-locations.md)
+#### [Register new items](inventory-how-register-new-items.md)
+#### [Copy existing items for create new item](inventory-how-copy-items.md)
+#### [About item types](inventory-about-item-types.md)
+#### [Set up inventory units of measure](inventory-how-setup-units-of-measure.md)
+#### [Set up stockkeeping units](inventory-how-to-set-up-stockkeeping-units.md)
+#### [Categorize items](inventory-how-categorize-items.md)
+#### [Import more pictures of items](inventory-how-import-item-pictures.md)
+
+### Set up projects
+#### [Set up projects](projects-setup-projects.md)
+#### [Set up resources](projects-how-setup-resources.md)
+#### [Set up time sheets](projects-how-setup-time-sheets.md)
+#### [Set up jobs](projects-how-setup-jobs.md)
+
+### Set up fixed assets
+#### [Set up fixed assets](fa-setup.md)
+#### [Set up general information about fixed assets](fa-how-setup-general.md)
+#### [Set up depreciation of fixed assets](fa-how-setup-depreciation.md)
+#### [Definition of depreciation methods](fa-depreciation-methods.md)
+#### [Set up insurance for fixed assets](fa-how-setup-insurance.md)
+#### [Set up maintenance for fixed assets](fa-how-setup-maintenance.md)
+
+### Warehouse management
+#### [Set up Warehouse managementů](warehouse-setup-warehouse.md)
+#### [Design details: Warehouse overview](design-details-warehouse-overview.md)
+#### [Set up bin types](warehouse-how-to-set-up-bin-types.md)
+#### [Create individual bin](warehouse-how-to-create-individual-bins.md)
+#### [set up bin contents](warehouse-how-to-set-up-bin-contents.md)
+#### [Assign default bins to items](warehouse-how-to-assign-default-bins-to-items.md)
+#### [Set up put away templates](warehouse-how-to-set-up-put-away-templates.md)
+#### [Set up warehouse employees](warehouse-how-to-set-up-warehouse-employees.md)
+#### [Set up locations to use bins](warehouse-how-to-set-up-locations-to-use-bins.md)
+#### [Convert existing locations to warehouse locations](warehouse-how-to-convert-existing-locations-to-warehouse-locations.md)
+#### [Set up basic warehouses with operations areas](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)
+#### [Set up items and locations for directed put away and pick](warehouse-how-to-set-up-items-for-directed-put-away-and-pick.md)
+#### [Enable automatic breaking bulk with directed put away and pick](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)
+#### [Enable picking by FEFO](warehouse-picking-by-fefo.md)
+#### [Enable automated data capture systems for data collection (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)
+#### [Restructure warehouse](warehouse-how-to-restructure-warehouses.md)
+
+### Production
+#### [Set up production](production-configure-production-processes.md)
+#### [Create work center calendars](production-how-to-create-work-center-calendars.md)
+#### [Set up work and machine centers](production-how-to-set-up-work-and-machine-centers.md)
+#### [Create TNG rountings](production-how-to-create-routings.md)
+#### [Create production boms](production-how-to-create-production-boms.md)
+#### [Enable flushing components according to operation output](production-how-to-flush-components-according-to-operation-output.md)
+#### [Use of manufacturing batch unit of measure](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)
+#### [Zacházení s velikostmi šarže během výroby](production-handling-lot-sizes.md)
+#### [Práce s výrobními skupinami zboží](production-how-work-family.md)
+#### [Nastavení řádků standardního TNG postupu](production-how-set-up-standard-routing-lines.md)
+#### [Subdodavatelská výroba](production-how-to-subcontract-manufacturing.md)
 #### Design Details: Supply Planning
 
 ##### [Supply Planning Design Details](design-details-supply-planning.md)
