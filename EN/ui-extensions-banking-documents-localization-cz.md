@@ -13,9 +13,9 @@ ms.author: v-pejano
 
 # Bank documents for Czech Republic (extension)
 
-This extension adds functionality for bank documents to [!INCLUDE[prodshort](../../includes/prodshort.md)] for Czech Republic.
+This extension adds functionality for bank documents to [!INCLUDE [prodshort](../includes/prod_short.md)] for Czech Republic.
 
-AThe Banking - Documents for Business Central application allows you to define individual **Bank Accounts**, **Create Payment Orders** and **Bank Statements**. An unlimited number of bank accounts can be registered with different banking institutions and in different currencies.
+The Banking - Documents for Business Central application allows you to define individual **Bank Accounts**, **Create Payment Orders** and **Bank Statements**. An unlimited number of bank accounts can be registered with different banking institutions and in different currencies.
 
 On the basis of posted purchase invoices and advance documents, a *Payment Order** can be generated and printed or exported in a format accepted by the bank's banking interface.
 
