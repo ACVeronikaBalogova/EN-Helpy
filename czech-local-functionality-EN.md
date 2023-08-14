@@ -55,27 +55,27 @@ The following topics describe the local functionality in the Czech version of [!
  * [Advances(Extension)](ui-extensions-advance-payments-localization-cz.md) **Available Now**
 
 * Payables and Receivables
-  * [Exchange Rate Adjustment)](how-to-use-exchange-rates-adjustment-feature.md) **Available Now**
+  * [Exchange Rate Adjustment](how-to-use-exchange-rates-adjustment-feature.md) **Available Now**
   * [Multiple Payables and Receivables](how-to-use-multiple-payables-receivables-accounts.md) **Available Now**
-  * [Customer and Vendor Reconciliation](customers-vendors-reconciliations.md)**Available Now**
-  * [Sales Correcting Documents](sales-correcting-documents.md)**Available Now**
-  * [Update Contact from ARES](how-to-update-contacts-from-ares.md)**Available Now**
+  * [Customer and Vendor Reconciliation](customers-vendors-reconciliations.md) **Available Now**
+  * [Sales Correcting Documents](sales-correcting-documents.md) **Available Now**
+  * [Update Contact from ARES](how-to-update-contacts-from-ares.md) **Available Now**
   * [New Design of Output Documents](new-design-of-output-documents.md) **Available Now**
-  * [Compensations](ui-extensions-compensations-localization-cz.md)**Available Now**
+  * [Compensations](ui-extensions-compensations-localization-cz.md) **Available Now**
 
 * Inventory
-  * [Set Up Round Accounting in Inventory](how-to-setup-round-account-in-inventory.md) **Available Now**
+  * [Round Accounting in Inventory](how-to-setup-round-account-in-inventory.md) **Available Now**
   * [Inventory General Ledger Reconciliation Enhacements](how-to-use-inventory-gl-reconciliation-enhancements.md) **Available Now**
   * [Physical Inventory (Extension)](advanced-features-physical-inventory.md) **Available Now**
   * [Inventory Counting Documents](how-to-use-inventory-counting-documents.md) **Available Now**
   * [Skladové účetní doklady](how-to-use-inventory-operations-document.md) **Available Now**
   * [Posting Groups in Transfer Orders](how-to-use-posting-groups-in-transfer-orders.md) **Available Now**
 
- *General
- * [Extended User Control](how-to-setup-extended-user-control.md) **Available Now**
+* General 
+  * [Extended User Control](how-to-setup-extended-user-control.md) **Available Now**
   * [Control of Posting Group Changing](check-of-posting-group-changing.md) **Available Now**
   * [Control of Output Inventory Time Sequence](check-output-inventory-time-sequence.md) **Available Now**
-  * [Inventory Movement Templates](inventory-movement-templates.md)**Available Now**
+  * [Inventory Movement Templates](inventory-movement-templates.md) **Available Now**
   * [Stockkeeping Unit Templates](stockkeeping-unit-templates.md) **Available Now**
   * [Mandatory REturn Exact Costs in Manufacturing](how-to-setup-mandatory-return-exact-costs-manufacturing.md) **Available Now**
   * [Default Bus Post Group in Manufacturing](how-to-setup-default-bus-post-group-manufacturing.md) **Available Now**
