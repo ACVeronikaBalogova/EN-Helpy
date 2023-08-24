@@ -74,70 +74,70 @@
 ##### [Detaily návrhu: Hledání kombinací dimenzí](design-details-searching-for-dimension-combinations.md)
 ##### [Detaily návrhu: Struktura tabulek](design-details-table-structure.md)
 #### Detaily návrhu: Plánování zásob
-##### [Supply Planning Design Details](design-details-supply-planning.md)
-##### [Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md)  
-##### [Design Details: Reservation, Order Tracking, and Action Messaging](design-details-reservation-order-tracking-and-action-messaging.md)  
-##### [Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md)  
-##### [Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md)  
-##### [Design Details: Planning Parameters](design-details-planning-parameters.md)  
-##### [Design Details: Planning Assignment Table](design-details-planning-assignment-table.md)  
-##### [Design Details: Transfers in Planning](design-details-transfers-in-planning.md)
+##### [Detaily návrhu: Plánování zásob](design-details-supply-planning.md)
+##### [Detaily návrhu: Hlavní koncepty systému plánování](design-details-central-concepts-of-the-planning-system.md)  
+##### [Detaily návrhu: Rezervace, Sledování objednávek a Správy akcí](design-details-reservation-order-tracking-and-action-messaging.md)  
+##### [Detaily návrhu: Vyrovnávání poptávky a nabídky](design-details-balancing-demand-and-supply.md)  
+##### [Detaily návrhu: Zpracování zásad přeuspořádání](design-details-handling-reordering-policies.md)  
+##### [Detaily návrhu: Parametre pro plánování](design-details-planning-parameters.md)  
+##### [Detaily návrhu: Tabulka pro zadání plánování](design-details-planning-assignment-table.md)  
+##### [Detaily návrhu: Transfery v plánování](design-details-transfers-in-planning.md)
 <!-- #### Design Details: Warehouse Management
 <!-- ##### [Warehouse Management Design Details](design-details-warehouse-management.md) -->
 <!-- ##### [Design Details: Warehouse Overview](design-details-warehouse-overview.md)   -->
 <!-- ##### [Design Details: Warehouse Setup](design-details-warehouse-setup.md)   deleted, use warehouse-setup-warehouse.md-->
 <!-- ##### [Design Details: Inbound Warehouse Flow](design-details-inbound-warehouse-flow.md)   -->
 <!-- ##### [Design Details: Internal Warehouse Flows](design-details-internal-warehouse-flows.md)   -->
-#### [Design Details: Availability in the Warehouse](design-details-availability-in-the-warehouse.md)  
+#### [Detaily návrhu: Dostupnost na sklade](design-details-availability-in-the-warehouse.md)  
 <!-- ##### [Design Details: Outbound Warehouse Flow](design-details-outbound-warehouse-flow.md)   -->
 <!-- ##### [Design Details: Integration with Inventory](design-details-integration-with-inventory.md) -->
-#### Design Details: Item Tracking
-##### [Item Tracking Design Details](design-details-item-tracking.md)
-##### [Design Details: Item Tracking Design](design-details-item-tracking-design.md)  
-##### [Design Details: Item Tracking Posting Structure](design-details-item-tracking-posting-structure.md)  
+#### Trasování zboží
+##### [Detaily návrhu: Trasování zboží](design-details-item-tracking.md)
+##### [Detaily návrhu: Návrh trasování zboží](design-details-item-tracking-design.md)  
+##### [Detaily návrhu: Struktura účtování pro trasování zboží](design-details-item-tracking-posting-structure.md)  
 ##### [Design Details: Active versus Historic Item Tracking Entries](design-details-active-versus-historic-item-tracking-entries.md)  
-##### [Design Details: Item Tracking Lines Page](design-details-item-tracking-lines-window.md)  
-##### [Design Details: Item Tracking Availability](design-details-item-tracking-availability.md)  
-##### [Design Details: Item Tracking and Planning](design-details-item-tracking-and-planning.md)  
-##### [Design Details: Item Tracking and Reservations](design-details-item-tracking-and-reservations.md)  
-##### [Design Details: Item Tracking in the Warehouse](design-details-item-tracking-in-the-warehouse.md)
-#### Design Details: General Journal Post Line
-##### [General Journal Post Line Design Details](design-details-general-journal-post-line.md)
-##### [General Journal Post Line Overview](design-details-general-journal-post-line-overview.md)  
-##### [Design Details: Posting Interface Structure](design-details-posting-interface-structure.md)  
-##### [Design Details: Posting Engine Structure](design-details-posting-engine-structure.md)  
-#### [Design details: Non-deductible VAT](design-details-nondeductible-vat.md)
-## Try
-### [Sign up for a free Dynamics 365 Business Central trial](trial-signup.md)
+##### [Detaily návrhu: Řádky trasování zboží](design-details-item-tracking-lines-window.md)  
+##### [Detaily návrhu: Dostupnost trasování zboží](design-details-item-tracking-availability.md)  
+##### [Detaily návrhu: Plánování a trasování zboží](design-details-item-tracking-and-planning.md)  
+##### [Detaily návrhu: Trasování a rezervace zboží](design-details-item-tracking-and-reservations.md)  
+##### [Detaily návrhu: Trasování zboží na sklade](design-details-item-tracking-in-the-warehouse.md)
+#### Detaily návrhu: Řádky účtování v účetní osnově
+##### [Detaily návrhu: Řádky účtování v účetní osnově](design-details-general-journal-post-line.md)
+##### [Přehled: Řádky účtování v účetní osnově](design-details-general-journal-post-line-overview.md)  
+##### [Detaily návrhu: Struktura účetního rozhraní](design-details-posting-interface-structure.md)  
+##### [Detaily návrhu: Struktura modulu pro účetníctví](design-details-posting-engine-structure.md)  
+#### [Detaily návrhu: Neodečitatelné DPH](design-details-nondeductible-vat.md)
+## Vyzkoušejte
+### [Zaregistrujte se k bezplatné zkušební verzi Dynamics 365 Business Central](trial-signup.md)
 ### [Dynamics 365 Business Central trial FAQ](trial-faq.md)
-### [Trials and Subscriptions (English only)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)
-### [Get Ready for Doing Business](ui-get-ready-business.md)
-### [Troubleshoot Self-Service Sign-Up](ui-troubleshoot-self-signup.md)
-### [Extend Your Trial Version](admin-extend-trial.md)
-### [Unsubscribe or Remove Business Central](admin-cancel.md)
-### AI-powered item marketing text with Copilot
-#### [Overview](ai-overview.md)
-#### [Get preview version](ai-preview-getstarted.md)
-#### [Configure AI-powered item marketing text](enable-ai.md)
-#### [Create AI-powered item marketing text](item-marketing-text.md)
-#### [FAQ](ai-faq.md)
+### [Zkušební verze a předplatné (pouze v angličtině)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)
+### [Připrava pro podnikání](ui-get-ready-business.md)
+### [Řešení problémů s automatickým přihlašováním](ui-troubleshoot-self-signup.md)
+### [Rozšiřte svou skušební verzi](admin-extend-trial.md)
+### [Zrušení předplatního anebo zrušení Business Central](admin-cancel.md)
+### Marketingový text s umělou inteligencí pomocí služby Copilot
+#### [Přehled](ai-overview.md)
+#### [Získejte verzi pro přehled](ai-preview-getstarted.md)
+#### [Konfugurace marketingového textu s umělou inteligencí](enable-ai.md)
+#### [Tvorba markerketingového textu pomocou umělé inteligence](item-marketing-text.md)
+#### [Často klazené otázky](ai-faq.md)
 
-## Buy
-### [Get Started with a Subscription](trial-signup.md#get-started-with-a-subscription)
-### [Get Ready for Doing Business](ui-get-ready-business.md)
+## Nákup
+### [Začátek předplatního](trial-signup.md#get-started-with-a-subscription)
+### [Příprava pro podnikání](ui-get-ready-business.md)
 
-## Quick Starts
-### [Business Central Quick Starts](quick-start-business-central.md)
-### [Set up Company Information](quick-start-company-information.md)
-### [Enter Financial Information](quick-start-financial-information.md)
-### [Sell Products and Services](quick-start-sell-products-and-services.md)
-### [Buy Products and Services](quick-start-procurement.md)
-### [Customize and Print Reports and Documents](quick-start-reports-and-documents.md)
-### [Get Insights with Business Intelligence](quick-start-business-intelligence.md)
+## Rýchly štart
+### [Business Central Rýchly štart](quick-start-business-central.md)
+### [Informace o společnosti](quick-start-company-information.md)
+### [Zadání finančních údajů](quick-start-financial-information.md)
+### [Prodej zboží a služeb](quick-start-sell-products-and-services.md)
+### [Nákup zboží a služeb](quick-start-procurement.md)
+### [Přispůsobte a tiskněte sestavy a dokumenty](quick-start-reports-and-documents.md)
+### [Získejte přehled s Business Intelligence](quick-start-business-intelligence.md)
 
 <!--use-->
-## Get Productive in Business Central
-### [General Functionality Overview](ui-work-product.md)
+## Buďte produktivní v Business Central
+### [Přehled základních funkcionalit](ui-work-product.md)
 ### [Print-Friendly Cheat Sheet](ui-work-product.md#cheatsheet)
 ### [Find Pages and Information with Tell Me](ui-search.md)
 ### [Tell Me FAQ](ui-search-faq.md)
