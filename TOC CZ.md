@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 ﻿
 # [Business Central dokumentace](index.yml)
+=======
+﻿# [Business Central dokumentace](index.yml)
+>>>>>>> 70a2ea757e7934e881073ad3d648c90f26464ef8
 # [Vítejte v Business Central](welcome.md)
 # [Co je nového?](product-news.md)
 # Začínáme
@@ -1690,15 +1694,13 @@
 ### [Poradce při potížích se synchronizací](admin-troubleshoot-sales-synchronization.md)
 <!--migrace do BC online-->
 ## Migrace do Business Central Online
-### [Migrace dat On-Premises](/dynamics365/business-central/dev-itpro/administration/migrate-data?toc=/dynamics365/business-central/toc.json)
-### [Spuštění nástroje Cloud Migration Tool](/dynamics365/business-central/dev-itpro/administration/migration-tool?toc=/dynamics365/business-central/toc.json)
-### [Správa migrace do Cloudu](/dynamics365/business-central/dev-itpro/administration/migration-management?toc=/dynamics365/business-central/toc.json)
-### [Migrace z Business Central On-Premises](/dynamics365/business-central/dev-itpro/administration/migrate-business-central-on-premises?toc=/dynamics365/business-central/toc.json)
-### [Migrace z Dynamics GP](/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp?toc=/dynamics365/business-central/toc.json)
-### [Migrace z Dynamics NAV](/dynamics365/business-central/dev-itpro/upgrade/Upgrade-Considerations#online?toc=/dynamics365/business-central/toc.json)
-### [Nejčastější dotazy týkající se připojení k inteligentnímu cloudu](/dynamics365/business-central/dev-itpro/administration/faq-intelligent-cloud?toc=/dynamics365/business-central/toc.json)
-## [Správa Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration?toc=/dynamics365/business-central/toc.json)
+### [Úvod](/dynamics365/business-central/dev-itpro/administration/migrate-data?toc=/dynamics365/business-central/toc.json)
+### [Správa migrace do Cloudu](/dynamics365/business-central/dev-itpro/administration/migration-manage?toc=/dynamics365/business-central/toc.json)
+### [Migrace z Business Central na On-Premise](/dynamics365/business-central/dev-itpro/administration/migrate-business-central-on-premises?toc=/dynamics365/business-central/toc.json)
+### [Migrace z Dynaymics GP](/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp?toc=/dynamics365/business-central/toc.json)
+### [Nejčastější dotazy: Migrace na Cloud](/dynamics365/business-central/dev-itpro/administration/faq-migrate-data?toc=/dynamics365/business-central/toc.json)
+## [Administrace Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration?toc=/dynamics365/business-central/toc.json)
 ## [Vývoj](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)
-## [Zabezpečení a ochrana](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
+## [Zabezpečení a Ochrana](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## [Výkon](/dynamics365/business-central/dev-itpro/performance/performance-overview?toc=/dynamics365/business-central/toc.json)
 ## [Odebrané nebo zastaralé funkce](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1?toc=/dynamics365/business-central/toc.json)
