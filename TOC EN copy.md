@@ -11,69 +11,69 @@
 ### Návody obchodních procesů
 #### [Dostupné návody](walkthrough-business-process-walkthroughs.md)
 #### [Návod: Vedení prodejní kampaně](walkthrough-conducting-a-sales-campaign.md)
-#### [Walkthrough: Set Up and Invoicing Sales Prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
-#### [Walkthrough: Set Up and Use a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
+#### [Návod: Nastavení a fakturace prodejních záloh](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
+#### [Návod: Nastavení a použití workflow schvalování nákupů](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 <!-- #### [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md) -->
 <!-- #### [Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md) -->
 <!-- #### [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md) -->
 <!-- #### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
 <!-- #### [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md) -->
-#### [Walkthrough: Manage Projects with Jobs](walkthrough-managing-projects-with-jobs.md)
-#### [Walkthrough: Calculating Work in Process for a Job](walkthrough-calculating-work-in-process-for-a-job.md)
-#### [Walkthrough: Picking and Shipping in Basic Warehouse Configurations](walkthrough-picking-and-shipping-in-basic-warehousing.md)
+#### [Návod: Správa projektů pomocí úloh](walkthrough-managing-projects-with-jobs.md)
+#### [Návod: Výpočet nedokončené výroby projektu](walkthrough-calculating-work-in-process-for-a-job.md)
+#### [Návod: Vyskladnění a přeprava v základních konfiguracích skladu](walkthrough-picking-and-shipping-in-basic-warehousing.md)
 <!-- #### [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md) -->
-#### [Walkthrough: Making Cash Flow Forecasts by Using Financial Reports](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
-#### [Walkthrough: Set Up and Use the Shopify Connector](shopify/walkthrough-setting-up-and-using-shopify.md)
+#### [Návod: Vytváření prognóz peněžních toků pomocí finančních výkazů](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+#### [Návod: Tvorba prognóz cashflow pomocí účetních schémat](shopify/walkthrough-setting-up-and-using-shopify.md)
 <!-- Contoso-->
-### Contoso Coffee Demo Data
-#### [Introduction to Contoso Coffee Demo Data](contoso-coffee/contoso-coffee-intro.md)
-#### Manufacturing
-##### [Introduction to Contoso Coffee Manufacturing](contoso-coffee/manufacturing/contoso-coffee-manufacturing-intro.md)
-##### [Create a New Production BOM and BOM Version](contoso-coffee/manufacturing/create-new-production-bom-version.md)
-##### [Create a New Routing](contoso-coffee/manufacturing/create-new-routing.md)
-##### [Create a Firm Planned Production Order and Change It](contoso-coffee/manufacturing/create-firm-planned-production-order-change.md)
-##### [Combine Automatic and Manual Flushing](contoso-coffee/manufacturing/combine-automatic-manual-flushing.md)
-##### [Use Order Planning to Create and Reserve Supply](contoso-coffee/manufacturing/order-planning-create-reserve-supply.md)
-##### [Set up and Process a Subcontracting Operation](contoso-coffee/manufacturing/set-up-process-subcontracting-operation.md)
-##### [Set Up New Capacity](contoso-coffee/manufacturing/set-up-new-capacity.md)
-##### [Variants](contoso-coffee/manufacturing/variants.md)
-#### Warehousing
-##### [Introduction to Contoso Coffee Warehouse](contoso-coffee/warehousing/contoso-coffee-warehousing-intro.md)
-##### [Walkthrough of inbound and outbound flow in Basic Warehouse Configurations](contoso-coffee/warehousing/warehouse-basic-flow-putaway-pick.md)
-##### [Walkthrough of inbound and outbound flow in mixed Warehouse Configurations](contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship.md)
-##### [Walkthrough of inbound and outbound flow in Advanced Warehouse Configuration with Directed Put-away and Pick](contoso-coffee/warehousing/warehouse-directed-flow.md)
+### Contoso Coffee Demo Dáta
+#### [Úvod do demo dát Contoso Coffee](contoso-coffee/contoso-coffee-intro.md)
+#### Výroba
+##### [Úvod do výroby  Contoso Coffee](contoso-coffee/manufacturing/contoso-coffee-manufacturing-intro.md)
+##### [Vytvoření nového výrobního kusovníku a verze kusovníku](contoso-coffee/manufacturing/create-new-production-bom-version.md)
+##### [Vytvoření nové trasy](contoso-coffee/manufacturing/create-new-routing.md)
+##### [Vytvoření pevné plánované výrobní zakázky a její změna](contoso-coffee/manufacturing/create-firm-planned-production-order-change.md)
+##### [Kombinace automatického a ručního spouštění](contoso-coffee/manufacturing/combine-automatic-manual-flushing.md)
+##### [Plánování objednávek pro vytvoření a rezervaci zásob](contoso-coffee/manufacturing/order-planning-create-reserve-supply.md)
+##### [Nastavení a zpracování subdodavatelské operace](contoso-coffee/manufacturing/set-up-process-subcontracting-operation.md)
+##### [Nastavení nové kapacity](contoso-coffee/manufacturing/set-up-new-capacity.md)
+##### [Varianty výroby](contoso-coffee/manufacturing/variants.md)
+#### Správa Skladu
+##### [Úvod do skladu kávy Contoso Coffee ](contoso-coffee/warehousing/contoso-coffee-warehousing-intro.md)
+##### [Průběh příchozího a odchozího toku v základních konfiguracích skladu](contoso-coffee/warehousing/warehouse-basic-flow-putaway-pick.md)
+##### [Průběh příchozího a odchozího toku ve smíšených skladových konfiguracích](contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship.md)
+##### [Průběh příchozího a odchozího toku v pokročilé konfiguraci skladu s řízenou expedicí a vychystáním](contoso-coffee/warehousing/warehouse-directed-flow.md)
 
-### Design Details
-#### [Application Design Details Overview](design-details-application-design.md)
-#### Design Details: Inventory Costing
-##### [Inventory Costing Design Details](design-details-inventory-costing.md)
-##### [Design Details: Costing Methods](design-details-costing-methods.md)  
-##### [Design Details: Change the Costing Method for Items](design-details-changing-costing-methods.md)
-##### [Design Details: Item Application](design-details-item-application.md)  
-##### [Design Details: Known Item Application Issue](design-details-inventory-zero-level-open-item-ledger-entries.md)  
-##### [Design Details: Cost Adjustment](design-details-cost-adjustment.md)  
-##### [Design Details: Expected Cost Posting](design-details-expected-cost-posting.md)  
-##### [Design Details: Average Cost](design-details-average-cost.md)  
-##### [Design Details: Variance](design-details-variance.md)  
-##### [Design Details: Rounding](design-details-rounding.md)  
-##### [Design Details: Cost Components](design-details-cost-components.md)  
-##### [Design Details: Inventory Periods](design-details-inventory-periods.md)  
-##### [Design Details: Inventory Posting](design-details-inventory-posting.md)  
-##### [Design Details: Production Order Posting](design-details-production-order-posting.md)  
-##### [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)  
-##### [Design Details: Reconciliation with the General Ledger](design-details-reconciliation-with-the-general-ledger.md)  
-##### [Design Details: Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md)
-##### [Design Details: Inventory Valuation](design-details-inventory-valuation.md)  
-##### [Design Details: Revaluation](design-details-revaluation.md)
-#### Design Details: Posting Date on Adjustment Value Entry
-##### [Posting Date on Adjustment Value Entry Overview](design-details-inventory-adjustment-value-entry-posting-date.md)  
-##### [Error Message "Posting Date is not within your range of allowed posting dates"](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
-##### [Posting Date on Adjustment Value Entry Compared to the Source Entry](design-details-inventory-adjustment-value-entry-source-entry.md)
-#### Design Details: Dimension Set Entries
-##### [Design Details: Dimension Set Entries Overview](design-details-dimension-set-entries-overview.md)
-##### [Design Details: Searching for Dimension Combinations](design-details-searching-for-dimension-combinations.md)
-##### [Design Details: Table Structure](design-details-table-structure.md)
-#### Design Details: Supply Planning
+### Detaily návrhů
+#### [Přehled Detailů návrhů](design-details-application-design.md)
+#### Detaily návrhu: Ocenění zboží
+##### [Detaily návrhu: kalkulace nákladů na zásoby](design-details-inventory-costing.md)
+##### [Detaily návrhu: Metody oceňování](design-details-costing-methods.md)  
+##### [Detaily návrhu: Změna metody kalkulace nákladů pro položky](design-details-changing-costing-methods.md)
+##### [Detaily návrhu: Zboží](design-details-item-application.md)  
+##### [Detaily návrhu: Známé problémy s aplikací položek](design-details-inventory-zero-level-open-item-ledger-entries.md)  
+##### [Detaily návrhu: Úprava nákladů](design-details-cost-adjustment.md)  
+##### [Detaily návrhu: Předpokládané účtování nákladů](design-details-expected-cost-posting.md)  
+##### [Detaily návrhu: Průměrné náklady](design-details-average-cost.md)  
+##### [Detaily návrhu: Varianty](design-details-variance.md)  
+##### [Detaily návrhu: Zaokrouhlování](design-details-rounding.md)  
+##### [Detaily návrhu: Složky nákladů](design-details-cost-components.md)  
+##### [Detaily návrhu: Období inventury](design-details-inventory-periods.md)  
+##### [Detaily návrhu: Účtování zásob](design-details-inventory-posting.md)  
+##### [Detaily návrhu: Účtování výrobních zakázek](design-details-production-order-posting.md)  
+##### [Detaily návrhu: Účtování montážních zakázek](design-details-assembly-order-posting.md)  
+##### [Detaily návrhu: Odsouhlasení s hlavní účetní knihou](design-details-reconciliation-with-the-general-ledger.md)  
+##### [Detaily návrhu: Účty v hlavní knize](design-details-accounts-in-the-general-ledger.md)
+##### [Detaily návrhu: Oceňování zásob](design-details-inventory-valuation.md)  
+##### [Detaily návrhu: Přeceňování](design-details-revaluation.md)
+#### Detaily návrhu: Datum zaúčtování při zadávání hodnoty úpravy
+##### [Přehled: Datum zaúčtování při zadání hodnoty úpravy](design-details-inventory-adjustment-value-entry-posting-date.md)  
+##### [Chybová zpráva "Datum odeslání není ve vašem rozsahu povolených dat odeslání"](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
+##### [Datum zaúčtování záznamu hodnoty úpravy v porovnání se zdrojovým záznamem](design-details-inventory-adjustment-value-entry-source-entry.md)
+#### Detaily návrhu: Nastavení dimenzí
+##### [Detaily návrhu: Přehled nastavení dimenzí](design-details-dimension-set-entries-overview.md)
+##### [Detaily návrhu: Hledání kombinací dimenzí](design-details-searching-for-dimension-combinations.md)
+##### [Detaily návrhu: Struktura tabulek](design-details-table-structure.md)
+#### Detaily návrhu: Plánování zásob
 ##### [Supply Planning Design Details](design-details-supply-planning.md)
 ##### [Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md)  
 ##### [Design Details: Reservation, Order Tracking, and Action Messaging](design-details-reservation-order-tracking-and-action-messaging.md)  
