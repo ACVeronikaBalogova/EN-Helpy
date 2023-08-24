@@ -1,4 +1,5 @@
-﻿# [Vítejte v Business Central](welcome.md)
+﻿# [Business Central dokumentace](index.yml)
+# [Vítejte v Business Central](welcome.md)
 # [Co je nového?](product-news.md)
 # Začínáme
 ## [Přehled obchodních funkcionalit](across-business-functionality.md)
