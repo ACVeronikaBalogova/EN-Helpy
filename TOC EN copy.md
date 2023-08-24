@@ -1,16 +1,16 @@
 ﻿
-# [Business Central documentation](index.yml)
-# [Welcome to Business Central](welcome.md)
-# [New and Planned](product-news.md)
+# [Business Central Dokumentace](index.yml)
+# [Vítejte v Business Central](welcome.md)
+# [Novinky a plánované novinky](product-news.md)
 # Get Started
-## [Overview of Business Functionality](across-business-functionality.md)
+## [Přehled Obchodních Funkcionalit](across-business-functionality.md)
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->
-## Learn
-### [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)
-### [Business Central training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
-### Business Process Walkthroughs
-#### [Available Walkthroughs](walkthrough-business-process-walkthroughs.md)
-#### [Walkthrough: Conducting a Sales Campaign](walkthrough-conducting-a-sales-campaign.md)
+## Vzdělávání
+### [Katalog vzdělávání Business Central](readiness/readiness-learning-catalog.md)
+### [Business Central školení](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
+### Návody obchodních procesů
+#### [Dostupné návody](walkthrough-business-process-walkthroughs.md)
+#### [Návod: Vedení prodejní kampaně](walkthrough-conducting-a-sales-campaign.md)
 #### [Walkthrough: Set Up and Invoicing Sales Prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 #### [Walkthrough: Set Up and Use a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 <!-- #### [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md) -->
