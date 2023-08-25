@@ -1701,75 +1701,75 @@
 ##### [Access Data in Teams Without Business Central License](teams-access-with-m365-license.md)
 ##### [Search for Customers, Vendors, and Contacts](across-search-contacts-teams.md)
 ##### [Add Business Central Tab in Channel or Chat](across-teams-tab.md)
-##### [Share Records and Page Links in Teams](across-working-with-teams.md)
-##### [Change Company and Other Settings](across-teams-settings.md)
-##### [Teams FAQ](teams-faq.md)
-##### [Troubleshoot Teams Integration](admin-teams-troubleshooting.md)
-#### Use OneDrive for Business with Business Central
-##### [Overview](across-onedrive-overview.md)
-##### [Manage OneDrive for Business Integration](admin-onedrive-integration.md)
-###### [Configuring OneDrive Integration with Business Central On-premises](admin-onedrive-integration-onpremises.md)
-##### [Open and Share Files in OneDrive](across-share-onedrive.md)
-##### [OneDrive FAQ](admin-onedrive-faq.md)
-#### Use Power BI with Business Central
-##### [Introduction](admin-powerbi.md)
-##### Administrator
-###### [Integration Overview](admin-powerbi-overview.md)
-###### [Enable Power BI Integration](admin-powerbi-setup.md)
-##### Report Creator
-###### [Get Started Building Reports](across-how-use-financials-data-source-powerbi.md)
-###### [Create Reports for Displaying List Data](across-how-use-powerbi-reports-factbox.md)
-##### Business User
-###### [Work with Power BI Reports in Business Central](across-working-with-powerbi.md)
-###### [Work with Business Central Data in Power BI](across-working-with-business-central-in-powerbi.md)
-###### [Use the Business Central Apps in Power BI](across-powerbi-business-central-apps.md)
-##### [FAQ](power-bi-faq.md)
-#### Use Power Automate with Business Central
-##### [Use Power Automate Flows in Business Central](across-how-use-financials-data-source-flow.md)
-##### [Troubleshoot Your Automated Workflows](across-flow-troubleshoot.md)  
-#### Use Power Apps with Business Central
-##### [Connecting to Your Business Central Data to Build a Business App Use Power Apps](across-how-use-financials-data-source-powerapps.md)
-#### [Change from a QuickBooks App to Business Central](across-quickbooks-to-business-edition.md)
-#### [Bulk Invoicing for Microsoft Bookings](finance-bookings.md)
-#### [Import Business Data from Other Finance Systems](across-import-data-configuration-packages.md)
-### [Company Information](admin-company-information.md)
-### [Create Number Series](ui-create-number-series.md)
-### [Set Up Base Calendars](across-how-to-assign-base-calendars.md)
-### Set Up Printers
-#### [Overview](admin-printer-setup-overview.md)
-#### [Universal Print Printers](admin-printer-setup-universal-print.md)
-#### [Email Printers](admin-printer-setup-email.md)
-#### [Specify a Default Printer](ui-specify-printer-selection-reports.md)
-### [Set Up Online Maps](across-online-maps-setup.md)
-### [Get Business Central on Your Mobile Device](install-mobile-app.md)
-### [Get Business Central on Your Desktop](install-desktop-app.md)
+##### [Práce s daty Business Central v Teams](across-working-with-teams.md)
+##### [Změnte společnost a jiné nastavení](across-teams-settings.md)
+##### [Nejčastější dotazy Teams](teams-faq.md)
+##### [Řešení problémů s integrací aplikace Teams](admin-teams-troubleshooting.md)
+#### Používání OneDrive s Business Central
+##### [Přehled](across-onedrive-overview.md)
+##### [Správa OneDrive pro integraci s Business Central](admin-onedrive-integration.md)
+###### [Konfigurace integrace služby OneDrive s aplikací Business Central On-premise](admin-onedrive-integration-onpremises.md)
+##### [Otevírejte a sdílejte soubory v OneDrive](across-share-onedrive.md)
+##### [Nejčastější dotazy OneDrive](admin-onedrive-faq.md)
+#### Používání Power BI s Business Central
+##### [Úvod](admin-powerbi.md)
+##### Administrátor
+###### [Přehled integrace](admin-powerbi-overview.md)
+###### [povolení integrace Power BI](admin-powerbi-setup.md)
+##### Návrhář
+###### [Začínáme s vytvářením sestav](across-how-use-financials-data-source-powerbi.md)
+###### [Vytváření sestav pro zobrazení dat seznamu](across-how-use-powerbi-reports-factbox.md)
+##### Spotřebitel
+###### [Práce se sestavami Power BI v Business Central](across-working-with-powerbi.md)
+###### [Práce s daty Business Central Data v Power BI](across-working-with-business-central-in-powerbi.md)
+###### [Používání aplikací Business Central v Power BI](across-powerbi-business-central-apps.md)
+##### [Nejčastější dotazy](power-bi-faq.md)
+#### Používání Power Automate s Business Central
+##### [Použití Business Central v automatickém workflow](across-how-use-financials-data-source-flow.md)
+##### [Řešení problémů automatizovaných workflows](across-flow-troubleshoot.md)  
+#### Používání Power Apps s Business Central
+##### [Připojení k datům Business Central pro vytvoření obchodní aplikace pomocí PowerApps](across-how-use-financials-data-source-powerapps.md)
+#### [Přechod z QuickBooks App na Microsoft Business Central](across-quickbooks-to-business-edition.md)
+#### [Hromadná fakturace pro Microsoft Bookings](finance-bookings.md)
+#### [Import obchodních dat z jiných finannčích systémů](across-import-data-configuration-packages.md)
+### [Informace o společnosti](admin-company-information.md)
+### [Vytváření číselných řad](ui-create-number-series.md)
+### [Nastavení základních kalendářů](across-how-to-assign-base-calendars.md)
+### Nastavení tiskáren
+#### [Přehled](admin-printer-setup-overview.md)
+#### [UTiskárny Universal Print](admin-printer-setup-universal-print.md)
+#### [Tisk emailů](admin-printer-setup-email.md)
+#### [nastavení tiskáren](ui-specify-printer-selection-reports.md)
+### [Nastavení online map](across-online-maps-setup.md)
+### [Získání Business Central pro vaše mobilní zařízení](install-mobile-app.md)
+### [Nainstalujte Business Central na svém počítači](install-desktop-app.md)
 <!--Reporting landing page-->
-# Business Intelligence and reporting 
+# Business Intelligence a sestavy
 
-## [Overview](reports-bi-reporting.md)
+## [Přehled](reports-bi-reporting.md)
 
-## Use Reports in Daily Work
-### [Overview](reports-use-reports.md)
-### [Run Reports](ui-work-report.md)
-### [Bookmark a Report](ui-bookmarks.md)
-### [Analyze Report Data with Excel](report-analyze-excel.md)
-### [Print Reports](ui-specify-printer-selection-reports.md#default)
-### [Schedule Reports](ui-work-report.md#ScheduleReport)
-### [Share and Export Reports with the Report Inbox](ui-work-report-inbox.md)
-### [Manage Saved Report Settings](reports-saving-reusing-settings.md)
-### [Set the Layout Used by a Report](ui-set-report-layout.md)
-### [(Legacy) Set the Layout Used by a Report](ui-how-change-layout-currently-used-report.md)
+## Používejte sestavy v denní práci
+### [Přehled použití sestav](reports-use-reports.md)
+### [Práce se sestavami, dávkovými úlohami a XML porty](ui-work-report.md)
+### [Přidání stránky nebo sestavy do svého centra rolí](ui-bookmarks.md)
+### [Analyzujte data sestavy za pomocí aplikace Excel](report-analyze-excel.md)
+### [Tiskové sestavy](ui-specify-printer-selection-reports.md#default)
+### [Naplánování spuštění sestavy](ui-work-report.md#ScheduleReport)
+### [Sdílení a export zpráv pomocí Schránky sestav](ui-work-report-inbox.md)
+### [Správa uložených nastavení sestav a dávkových úloh](reports-saving-reusing-settings.md)
+### [Nastavení rozvržení používaného sestavou](ui-set-report-layout.md)
+### [Změna aktuálního rozvržení sestavy](ui-how-change-layout-currently-used-report.md)
 
-## Built-in Reports
-### [Report Overview](reports-available-reports.md)
+## Vestavěné sestavy
+### [Přehled sestav](reports-available-reports.md)
 ### Finance
 #### [Přehled BI - Finance](bi.md)
 #### [Analýza finančních výkazů v aplikaci Excel](finance-analyze-excel.md)
 #### [Finanční sestavy](finance-reports.md)
 #### [Sestavy pohledávek](receivables-reports.md)
-#### [Accounts Payable Reports](payables-reports.md)
-#### [Cash Flow Analysis](finance-setup-cash-flow-analyses.md)
-#### [Consolidate Financial Data from Multiple Companies](finance-consolidated-company-reporting.md)
+#### [Přehledy závazků](payables-reports.md)
+#### [Nastavení analýzy cashflow](finance-setup-cash-flow-analyses.md)
+#### [Konsolidace společnosti](finance-consolidated-company-reporting.md)
 
 ### Prodej
 #### [Sestavy prodeje](sales-reports.md)
