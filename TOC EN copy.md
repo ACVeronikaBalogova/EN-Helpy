@@ -1701,165 +1701,165 @@
 ##### [Access Data in Teams Without Business Central License](teams-access-with-m365-license.md)
 ##### [Search for Customers, Vendors, and Contacts](across-search-contacts-teams.md)
 ##### [Add Business Central Tab in Channel or Chat](across-teams-tab.md)
-##### [Share Records and Page Links in Teams](across-working-with-teams.md)
-##### [Change Company and Other Settings](across-teams-settings.md)
-##### [Teams FAQ](teams-faq.md)
-##### [Troubleshoot Teams Integration](admin-teams-troubleshooting.md)
-#### Use OneDrive for Business with Business Central
-##### [Overview](across-onedrive-overview.md)
-##### [Manage OneDrive for Business Integration](admin-onedrive-integration.md)
-###### [Configuring OneDrive Integration with Business Central On-premises](admin-onedrive-integration-onpremises.md)
-##### [Open and Share Files in OneDrive](across-share-onedrive.md)
-##### [OneDrive FAQ](admin-onedrive-faq.md)
-#### Use Power BI with Business Central
-##### [Introduction](admin-powerbi.md)
-##### Administrator
-###### [Integration Overview](admin-powerbi-overview.md)
-###### [Enable Power BI Integration](admin-powerbi-setup.md)
-##### Report Creator
-###### [Get Started Building Reports](across-how-use-financials-data-source-powerbi.md)
-###### [Create Reports for Displaying List Data](across-how-use-powerbi-reports-factbox.md)
-##### Business User
-###### [Work with Power BI Reports in Business Central](across-working-with-powerbi.md)
-###### [Work with Business Central Data in Power BI](across-working-with-business-central-in-powerbi.md)
-###### [Use the Business Central Apps in Power BI](across-powerbi-business-central-apps.md)
-##### [FAQ](power-bi-faq.md)
-#### Use Power Automate with Business Central
-##### [Use Power Automate Flows in Business Central](across-how-use-financials-data-source-flow.md)
-##### [Troubleshoot Your Automated Workflows](across-flow-troubleshoot.md)  
-#### Use Power Apps with Business Central
-##### [Connecting to Your Business Central Data to Build a Business App Use Power Apps](across-how-use-financials-data-source-powerapps.md)
-#### [Change from a QuickBooks App to Business Central](across-quickbooks-to-business-edition.md)
-#### [Bulk Invoicing for Microsoft Bookings](finance-bookings.md)
-#### [Import Business Data from Other Finance Systems](across-import-data-configuration-packages.md)
-### [Company Information](admin-company-information.md)
-### [Create Number Series](ui-create-number-series.md)
-### [Set Up Base Calendars](across-how-to-assign-base-calendars.md)
-### Set Up Printers
-#### [Overview](admin-printer-setup-overview.md)
-#### [Universal Print Printers](admin-printer-setup-universal-print.md)
-#### [Email Printers](admin-printer-setup-email.md)
-#### [Specify a Default Printer](ui-specify-printer-selection-reports.md)
-### [Set Up Online Maps](across-online-maps-setup.md)
-### [Get Business Central on Your Mobile Device](install-mobile-app.md)
-### [Get Business Central on Your Desktop](install-desktop-app.md)
+##### [Práce s daty Business Central v Teams](across-working-with-teams.md)
+##### [Změnte společnost a jiné nastavení](across-teams-settings.md)
+##### [Nejčastější dotazy Teams](teams-faq.md)
+##### [Řešení problémů s integrací aplikace Teams](admin-teams-troubleshooting.md)
+#### Používání OneDrive s Business Central
+##### [Přehled](across-onedrive-overview.md)
+##### [Správa OneDrive pro integraci s Business Central](admin-onedrive-integration.md)
+###### [Konfigurace integrace služby OneDrive s aplikací Business Central On-premise](admin-onedrive-integration-onpremises.md)
+##### [Otevírejte a sdílejte soubory v OneDrive](across-share-onedrive.md)
+##### [Nejčastější dotazy OneDrive](admin-onedrive-faq.md)
+#### Používání Power BI s Business Central
+##### [Úvod](admin-powerbi.md)
+##### Administrátor
+###### [Přehled integrace](admin-powerbi-overview.md)
+###### [povolení integrace Power BI](admin-powerbi-setup.md)
+##### Návrhář
+###### [Začínáme s vytvářením sestav](across-how-use-financials-data-source-powerbi.md)
+###### [Vytváření sestav pro zobrazení dat seznamu](across-how-use-powerbi-reports-factbox.md)
+##### Spotřebitel
+###### [Práce se sestavami Power BI v Business Central](across-working-with-powerbi.md)
+###### [Práce s daty Business Central Data v Power BI](across-working-with-business-central-in-powerbi.md)
+###### [Používání aplikací Business Central v Power BI](across-powerbi-business-central-apps.md)
+##### [Nejčastější dotazy](power-bi-faq.md)
+#### Používání Power Automate s Business Central
+##### [Použití Business Central v automatickém workflow](across-how-use-financials-data-source-flow.md)
+##### [Řešení problémů automatizovaných workflows](across-flow-troubleshoot.md)  
+#### Používání Power Apps s Business Central
+##### [Připojení k datům Business Central pro vytvoření obchodní aplikace pomocí PowerApps](across-how-use-financials-data-source-powerapps.md)
+#### [Přechod z QuickBooks App na Microsoft Business Central](across-quickbooks-to-business-edition.md)
+#### [Hromadná fakturace pro Microsoft Bookings](finance-bookings.md)
+#### [Import obchodních dat z jiných finannčích systémů](across-import-data-configuration-packages.md)
+### [Informace o společnosti](admin-company-information.md)
+### [Vytváření číselných řad](ui-create-number-series.md)
+### [Nastavení základních kalendářů](across-how-to-assign-base-calendars.md)
+### Nastavení tiskáren
+#### [Přehled](admin-printer-setup-overview.md)
+#### [UTiskárny Universal Print](admin-printer-setup-universal-print.md)
+#### [Tisk emailů](admin-printer-setup-email.md)
+#### [nastavení tiskáren](ui-specify-printer-selection-reports.md)
+### [Nastavení online map](across-online-maps-setup.md)
+### [Získání Business Central pro vaše mobilní zařízení](install-mobile-app.md)
+### [Nainstalujte Business Central na svém počítači](install-desktop-app.md)
 <!--Reporting landing page-->
-# Business Intelligence and reporting 
+# Business Intelligence a sestavy
 
-## [Overview](reports-bi-reporting.md)
+## [Přehled](reports-bi-reporting.md)
 
-## Use Reports in Daily Work
-### [Overview](reports-use-reports.md)
-### [Run Reports](ui-work-report.md)
-### [Bookmark a Report](ui-bookmarks.md)
-### [Analyze Report Data with Excel](report-analyze-excel.md)
-### [Print Reports](ui-specify-printer-selection-reports.md#default)
-### [Schedule Reports](ui-work-report.md#ScheduleReport)
-### [Share and Export Reports with the Report Inbox](ui-work-report-inbox.md)
-### [Manage Saved Report Settings](reports-saving-reusing-settings.md)
-### [Set the Layout Used by a Report](ui-set-report-layout.md)
-### [(Legacy) Set the Layout Used by a Report](ui-how-change-layout-currently-used-report.md)
+## Používejte sestavy v denní práci
+### [Přehled použití sestav](reports-use-reports.md)
+### [Práce se sestavami, dávkovými úlohami a XML porty](ui-work-report.md)
+### [Přidání stránky nebo sestavy do svého centra rolí](ui-bookmarks.md)
+### [Analyzujte data sestavy za pomocí aplikace Excel](report-analyze-excel.md)
+### [Tiskové sestavy](ui-specify-printer-selection-reports.md#default)
+### [Naplánování spuštění sestavy](ui-work-report.md#ScheduleReport)
+### [Sdílení a export zpráv pomocí Schránky sestav](ui-work-report-inbox.md)
+### [Správa uložených nastavení sestav a dávkových úloh](reports-saving-reusing-settings.md)
+### [Nastavení rozvržení používaného sestavou](ui-set-report-layout.md)
+### [Změna aktuálního rozvržení sestavy](ui-how-change-layout-currently-used-report.md)
 
-## Built-in Reports
-### [Report Overview](reports-available-reports.md)
+## Vestavěné sestavy
+### [Přehled sestav](reports-available-reports.md)
 ### Finance
-#### [Financial Business Intelligence](bi.md)
-#### [Analyze Financial Statements With Excel](finance-analyze-excel.md)
-#### [Key Financial Reports](finance-reports.md)
-#### [Accounts Receivable Reports](receivables-reports.md)
-#### [Accounts Payable Reports](payables-reports.md)
-#### [Cash Flow Analysis](finance-setup-cash-flow-analyses.md)
-#### [Consolidate Financial Data from Multiple Companies](finance-consolidated-company-reporting.md)
+#### [Přehled BI - Finance](bi.md)
+#### [Analýza finančních výkazů v aplikaci Excel](finance-analyze-excel.md)
+#### [Finanční sestavy](finance-reports.md)
+#### [Sestavy pohledávek](receivables-reports.md)
+#### [Přehledy závazků](payables-reports.md)
+#### [Nastavení analýzy cashflow](finance-setup-cash-flow-analyses.md)
+#### [Konsolidace společnosti](finance-consolidated-company-reporting.md)
 
-### Sales
-#### [Sales Reports](sales-reports.md)
-#### [Blanket Sales Order Status](sales-how-to-create-blanket-sales-orders.md#to-view-the-status-of-a-blanket-sales-order)
-#### [Package Tracking](sales-how-track-packages.md)
-#### [View unposted and posted blanket sales order lines](sales-how-to-create-blanket-sales-orders.md#to-view-unposted-and-posted-blanket-sales-order-lines)
+### Prodej
+#### [Sestavy prodeje](sales-reports.md)
+#### [Stav hromadné prodejní objednávky](sales-how-to-create-blanket-sales-orders.md#to-view-the-status-of-a-blanket-sales-order)
+#### [Sledování balíčků](sales-how-track-packages.md)
+#### [Zobrazení nezaúčtovaných a zaúčtovaných řádků souhrnných prodejních objednávek](sales-how-to-create-blanket-sales-orders.md#to-view-unposted-and-posted-blanket-sales-order-lines)
 
-### Purchasing
-#### [Purchasing Reports](purchase-reports.md)
-#### [View Purchasing Ledger Entries](purchasing-how-record-purchases.md#viewing-ledger-entries)
+### Nákup
+#### [Sestavy nákupu](purchase-reports.md)
+#### [Zobrazení nákupních záznamů v hlavní knize](purchasing-how-record-purchases.md#viewing-ledger-entries)
 
-### Inventory and Warehouse
-#### [Inventory and Warehouse Reports](inventory-wms-reports.md)
-#### [Item Availability](inventory-how-availability-overview.md)
-#### [Track Items with Serial, Lot, and Package Numbers](inventory-how-work-item-tracking.md)
-#### [Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md)
-#### [Audit the Reconciliation between the Inventory Ledger and the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md#to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger)
-#### [View cross-docked items in a shipment or pick worksheet](warehouse-how-to-cross-dock-items.md#to-view-cross-docked-items-in-a-shipment-or-pick-worksheet)
+### Zásoby a sklad
+#### [Sestavy zásbob a skladu](inventory-wms-reports.md)
+#### [Zobrazení dostupnosti zboží](inventory-how-availability-overview.md)
+#### [Práce se sériovými čisly a čísly šarží](inventory-how-work-item-tracking.md)
+#### [Sledování zboží - Sledované zboží](inventory-how-to-trace-item-tracked-items.md)
+#### [Audit odsouhlasení mezi knihou zásob a hlavní knihou](finance-how-to-post-inventory-costs-to-the-general-ledger.md#to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger)
+#### [Zobrazení křížově dokládaného zboží v listu dodávky nebo vyskladnění](warehouse-how-to-cross-dock-items.md#to-view-cross-docked-items-in-a-shipment-or-pick-worksheet)
 
-### Project
-#### [Project Reports](project-reports.md)
-#### [View job usage estimates](projects-how-record-job-usage.md#to-view-job-usage-estimates-and-post-updates)
-#### [Monitor Job Progress and Performance](projects-how-monitor-progress-performance.md)
+### Projekty
+#### [Sestavy projetků](project-reports.md)
+#### [Zobrazit odhady využití úloh](projects-how-record-job-usage.md#to-view-job-usage-estimates-and-post-updates)
+#### [Sledování průbehu a výkonu projektu](projects-how-monitor-progress-performance.md)
 
-### Fixed Assets
-#### [Fixed Assets Reports](fa-reports.md)
-#### [Monitoring maintenance costs](fa-how-maintain.md#to-monitor-maintenance-costs)
-#### [Monitoring insurance coverage](fa-how-insure.md#to-monitor-insurance-coverage)
-#### [View changed depreciation book values](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
-#### [View disposal ledger entries](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
-#### [View projected disposal values](fa-how-manage-budgets.md#to-view-projected-disposal-values)
+### Dlouhodobý majetek
+#### [Sestavy dlouhodobého majetku](fa-reports.md)
+#### [Monitorování nákladů na údržbu](fa-how-maintain.md#to-monitor-maintenance-costs)
+#### [Sledování pojistného krytí](fa-how-insure.md#to-monitor-insurance-coverage)
+#### [Zobrazení změněných účetních hodnot odpisů](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
+#### [Zobrazení záznamů v knize likvidace](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
+#### [Zobrazení předpokládané hodnoty likvidace](fa-how-manage-budgets.md#to-view-projected-disposal-values)
 
-### Assembly Management
-#### [Assembly Management Reports](assembly-reports.md)
-#### [View the Bill Of Material (BOM) structure](assembly-how-work-assembly-boms.md#to-view-components-and-resources-indented-according-to-the-bom-structure)
+### Správa montáže
+#### [Správa sestav montáže](assembly-reports.md)
+#### [Zobrazení struktury kusovníku (BOM)](assembly-how-work-assembly-boms.md#to-view-components-and-resources-indented-according-to-the-bom-structure)
 
-### Manufacturing
-#### [Production Reports](production-reports.md)
-#### [Viewing Load on Work and Machine Centers](production-how-to-view-the-load-on-work-centers.md)
-#### [Viewing Work Center Ledger Entries](production-how-to-post-capacities.md#to-view-work-center-ledger-entries)
+### Výroba
+#### [Sestavy o výrobě](production-reports.md)
+#### [Zobrazení zatížení v pracovních a strojních centrech](production-how-to-view-the-load-on-work-centers.md)
+#### [Zobrazení záznamů v účetní osnově pracovního střediska](production-how-to-post-capacities.md#to-view-work-center-ledger-entries)
 
-### Service Management
-#### [Viewing Service Statistics](service-service-statistics.md)
-#### [Service Orders Overview](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
-#### [Service Quotes Overview](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
-#### [Posted Service Document Overview](service-service-posting.md#to-view-information-about-a-posted-service-document)
+### Správa servisu
+#### [Zobrazení statistiky servisu](service-service-statistics.md)
+#### [Přehled objednávek služeb](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
+#### [Přehled nabídek služeb](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
+#### [Přehled zaúčtovaných služebních dokumetnů](service-service-posting.md#to-view-information-about-a-posted-service-document)
 
-## Ad-hoc Data Analysis
-### [Overview](reports-adhoc-analysis.md)
-### [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md)
-### [Searching and Filtering FAQ](ui-search-filter-faq.yml)
-### [Analyzing Page Data in Excel](across-work-with-excel.md)
-### [Analyzing Report Data with Excel](report-analyze-excel.md)
-### [Analyzing List Data with Analysis Mode](analysis-mode.md)
-### [Financial Business Intelligence](bi.md)
+## Analýza dat ad-hoc
+### [Přehled](reports-adhoc-analysis.md)
+### [Řízení, vyhledávání a filtrování](ui-enter-criteria-filters.md)
+### [Hledíní a filtrování nejčastějších dotazů](ui-search-filter-faq.yml)
+### [Zobrazení a úpravy v aplikaci Excel](across-work-with-excel.md)
+### [Analyzování dat sestav v aplikaci Excel](report-analyze-excel.md)
+### [Analýza dat seznamu pomocí režimu analýzy](analysis-mode.md)
+### [Přehled BI](bi.md)
 
-## Built-in Analytics 
-### [Overview](reports-built-in-analytics.md)
-### [Intelligent Insights](about-intelligent-cloud.md)
-### [Work with Power BI Reports](across-working-with-powerbi.md)
-### [Financial Business Intelligence](bi.md)
-### [Analyze Financial Statements With Excel](finance-analyze-excel.md)
-### [Consolidate Financial Data from Multiple Companies](finance-consolidated-company-reporting.md)
-### [Report Usage Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
+## Vestavěné analytické nástroje
+### [Přehled](reports-built-in-analytics.md)
+### [Váš přístup k inteligentnímu cloudu pomocí Business Central](about-intelligent-cloud.md)
+### [Pracujte se sestavami Power BI](across-working-with-powerbi.md)
+### [Přehled BI](bi.md)
+### [Analýza finančních výkazů v aplikaci Excel](finance-analyze-excel.md)
+### [Konsolidace společnosti](finance-consolidated-company-reporting.md)
+### [Telemetrie používání sestav](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
 
 
-## Analyze Data in Business Intelligence Tools
-### [Overview](reports-external-analysis.md)
-### [Using Power BI with Business Central](admin-powerbi.md)
-### [Analyze Financial Statements with Excel](finance-analyze-excel.md)
-### [Extracting data to data warehouses or data lakes](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
-### [Reading data with the Business Central API](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
+## Analýza dat v nástrojích Business Inteligence
+### [Přehled](reports-external-analysis.md)
+### [Používejte Power BI s Business Central](admin-powerbi.md)
+### [Analýza finančních výkazů v aplikaci Excel](finance-analyze-excel.md)
+### [Extrakce dat do datových skladů nebo datových jezer](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
+### [Čtení dat s Business Central API](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
 
-## Developing reports
-### [Overview](reports-develop-reports.md)
-### Developing report layouts
-#### [Layout types (Word, Excel, RDLC)](ui-manage-report-layouts.md)
-#### [Create and Modify Layouts](ui-get-started-layouts.md)
+## Vývoj sestav
+### [Přehled](reports-develop-reports.md)
+### Vývoj rozvržení sestav
+#### [Typy rozvržení (Word, Excel, RDLC)](ui-manage-report-layouts.md)
+#### [Vytvářejte a upravujte rozvržení](ui-get-started-layouts.md)
 <!--#### [Create a New Layout](ui-how-create-custom-report-layout.md)-->
-#### [Work with Word Layouts](ui-how-add-fields-word-report-layout.md)
-#### [Work with Excel Layouts](ui-excel-report-layouts.md)
-#### [Work with RDLC Layouts](ui-rdlc-report-layouts.md)
-#### [Using Fonts in Layouts](ui-fonts.md)  
+#### [Pracujte s Word rozvržením](ui-how-add-fields-word-report-layout.md)
+#### [Pracujte s Excel rozvržením](ui-excel-report-layouts.md)
+#### [Pracujte s RDLC rozvržením](ui-rdlc-report-layouts.md)
+#### [Dostupné fonty](ui-fonts.md)  
 <!--#### [Import/Export a Layout](ui-how-import-and-export-report-layout.md)
 #### [Update a Layout](ui-update-report-layouts.md)-->
-#### [Set the Default Layout](ui-set-report-layout.md)
+#### [Nastavte výchozí uspořádání](ui-set-report-layout.md)
 <!--#### [Set the Layout (legacy)](ui-how-change-layout-currently-used-report.md)-->
-### Developing report datasets
-#### [Report Development Guide](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
-#### [Report Performance Tuning Guide](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
+### Vývoj sestav datových sad
+#### [Průvodce vývojem sestavy](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
+#### [Průvodce laděním výkonu sestavy](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
 
 
 # Zabezpečení, soukromí, dodržování přepisů
