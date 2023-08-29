@@ -157,13 +157,13 @@
 ### [Změna výchozího nastavení](ui-change-basic-settings.md)
 ### [Přechod na jinou společnost nebo prostředí](ui-organization-switch.md)
 ### [Správa notifikací](ui-smart-notifications.md)
-### [Performance Tips for Business Users](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
-### [Analyze Performance](/dynamics365/business-central/dev-itpro/administration/performance-profiler-overview?toc=/dynamics365/business-central/toc.json)
-### [Warnings and Error Messages](product-error-messages.md)
-### Personalize Business Central
-#### [Personalize Your Workspace](ui-personalization-user.md)
-#### [Why a Page is Locked from Personalizing](ui-personalization-locked.md)
-#### [Save and Personalize List Views](ui-views.md)
+### [Tipy na zlepšení výkonu pro firemní uživatele](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
+### [Analýza vylepšení](/dynamics365/business-central/dev-itpro/administration/performance-profiler-overview?toc=/dynamics365/business-central/toc.json)
+### [Varování a chybové správy](product-error-messages.md)
+### Přispůsobení Business Central
+#### [Přispůsobte si pracovní prostor](ui-personalization-user.md)
+#### [Proč je stránka uzamčena pro přizpůsobení](ui-personalization-locked.md)
+#### [Ukládání a přispůsobení zobrazení seznamu](ui-views.md)
 #### [Bookmark a Page or Report on Your Role Center](ui-bookmarks.md)
 #### [Display Lists in Different Ways](across-display-lists-different-views.md)
 ### Run and Print Reports
