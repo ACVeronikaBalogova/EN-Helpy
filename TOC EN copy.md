@@ -927,22 +927,22 @@
 #### Payroll
 ##### [Payroll Data Definitions (DK)](LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk.md)
 
-### Finland
-#### [Local Functionality in the Finnish Version](LocalFunctionality/Finland/finland-local-functionality.md)
-#### VAT
-##### [Print Finnish Intrastat Reports](LocalFunctionality/Finland/how-to-print-finnish-intrastat-reports.md)
-##### [Print VAT Information on Invoices](LocalFunctionality/Finland/how-to-print-vat-information-on-invoices.md)
-##### [VAT-VIES Declaration in Finland](LocalFunctionality/Finland/vat-vies-declaration-in-finland.md)
-#### Banking & Payments
-##### [Electronic Banking in Finland](LocalFunctionality/Finland/electronic-banking-in-finland.md)
-##### [Generate Payment Files](LocalFunctionality/Finland/how-to-generate-payment-files.md)
-##### [Set Up Bank Reference Files](LocalFunctionality/Finland/how-to-set-up-bank-reference-files.md)
-##### [SEPA Credit Transfer Payments](LocalFunctionality/Finland/sepa-credit-transfer-payments.md)
-##### [Disregard Payment Discounts](LocalFunctionality/Finland/how-to-disregard-payment-discounts.md)
-#### Core Finance
-##### [Set Up Automatic Account Posting Groups](LocalFunctionality/Finland/how-to-set-up-automatic-account-posting-groups.md)
-##### [Automatic Account Codes](LocalFunctionality/Finland/automatic-account-codes.md)
-##### [Post Depreciation Differences](LocalFunctionality/Finland/posting-depreciation-differences.md)
+### Finsko
+#### [Lokální funkcionalita ve finské verzi](LocalFunctionality/Finland/finland-local-functionality.md)
+#### DPH
+##### [Tisk finských sestav Intrastatu](LocalFunctionality/Finland/how-to-print-finnish-intrastat-reports.md)
+##### [Tisk informací o DPH na fakturách](LocalFunctionality/Finland/how-to-print-vat-information-on-invoices.md)
+##### [Prohlášení DPH-VIES ve Finsku](LocalFunctionality/Finland/vat-vies-declaration-in-finland.md)
+#### Bankovnictví a platby
+##### [Elektronické bankovnictví ve Finsku](LocalFunctionality/Finland/electronic-banking-in-finland.md)
+##### [Generování souborů plateb](LocalFunctionality/Finland/how-to-generate-payment-files.md)
+##### [Nastavení referenčních souborů banky](LocalFunctionality/Finland/how-to-set-up-bank-reference-files.md)
+##### [Platby SEPA – peněžní převod](LocalFunctionality/Finland/sepa-credit-transfer-payments.md)
+##### [Ignorování skonta](LocalFunctionality/Finland/how-to-disregard-payment-discounts.md)
+#### Základ financí
+##### [Nastavení automatických účto skupin](LocalFunctionality/Finland/how-to-set-up-automatic-account-posting-groups.md)
+##### [Automatické kódy účtů](LocalFunctionality/Finland/automatic-account-codes.md)
+##### [Účtování odpisových rozdílů](LocalFunctionality/Finland/posting-depreciation-differences.md)
 
 ### Francie
 #### [Lokální funckionalita ve francouzské verzi](LocalFunctionality/France/france-local-functionality.md)
