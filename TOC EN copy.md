@@ -505,7 +505,7 @@
 ## Nákup
 ### [Přehled: Nákup](purchasing-manage-purchasing.md)
 ### [Sestavy pro nákupy](purchase-reports.md)
-### [Přehled: Nastavení a používání pracovního postupu schvalování nákupu](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
+### [Návod: Nastavení a používání pracovního postupu schvalování nákupu](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 ### [Záznamy nákupů](purchasing-how-record-purchases.md)
 ### [Vyžádat nabídky](purchasing-how-request-quotes.md)
 ### [Nákup položek pro prodej](purchasing-how-purchase-products-sale.md)
@@ -644,288 +644,289 @@
 ### [Dávka po spotřebě](production-how-to-post-consumption.md)
 ### [Dávkový výstup a časy běhu](production-how-to-post-output-quantity.md)
 ### [Reverzní vysílání výstupů](production-how-to-reverse-output-posting.md)
-### [Post Scrap](production-how-to-post-scrap.md)
-### [View the Load in Work and Machine Centers](production-how-to-view-the-load-on-work-centers.md)
-### [Post Capacities](production-how-to-post-capacities.md)
-### [About Finished Production Order Costs](finance-about-finished-production-order-costs.md)
+### [Účtování zmetků](production-how-to-post-scrap.md)
+### [Zobrazení zatížení v pracovních a strojních centrech](production-how-to-view-the-load-on-work-centers.md)
+### [Účtování kapacit](production-how-to-post-capacities.md)
+### [O nákladech na dokončenou výrobní zakázku](finance-about-finished-production-order-costs.md)
 
-## Warehouse Management
-### [Warehouse Management Overview](design-details-warehouse-management.md)
+## Správa skladu
+### [Přehled správa skladu](design-details-warehouse-management.md)
 <!-- ### [Warehouse Management](warehouse-manage-warehouse.md) -->
-### [Inventory and Warehouse Reports](inventory-WMS-reports.md)
+### [Sestavy zásob a skladu](inventory-WMS-reports.md)
 
-### Inbound warehouse processes
-#### [Inbound Warehouse Processes](design-details-inbound-warehouse-flow.md)
-#### [Find Your Work Assignments](warehouse-how-to-find-your-warehouse-assignments.md) 
-#### [Receive Items](warehouse-how-receive-items.md)
+### Vstupní procesy skladu
+#### [Detaily návrhu: Vstupní procesy skladu](design-details-inbound-warehouse-flow.md)
+#### [Vyhledání vašeho přidělení skladu](warehouse-how-to-find-your-warehouse-assignments.md) 
+#### [Příjem zboží](warehouse-how-receive-items.md)
 <!-- #### [Put Items Away](warehouse-put-away-items.md) -->
-#### [Put Items Away with Inventory Put-aways](warehouse-how-to-put-items-away-with-inventory-put-aways.md)
-#### [Put Items Away with Warehouse Put-aways](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)
+#### [Zaskladnění zboží pomocí zaskladnění zásob](warehouse-how-to-put-items-away-with-inventory-put-aways.md)
+#### [Zaskladnění zboží pomocí skladového zaskladnění](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)
 <!-- #### [Plan Bulk Put-Aways Using Worksheets](warehouse-how-to-plan-put-aways-in-worksheets.md) -->
-#### [Cross-Dock Items](warehouse-how-to-cross-dock-items.md)
-#### [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)
-#### [Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
+#### [Přeložení zboží](warehouse-how-to-cross-dock-items.md)
+#### [Návod: Příjem a zaskladnění v základních konfiguracích skladu](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)
+#### [Návod: Příjem a zaskladnění v rozšířených konfiguracích skladu](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
 
-### Outbound warehouse processes
-#### [Outbound Warehouse Processes](design-details-outbound-warehouse-flow.md)
-#### [Find Your Work Assignments](warehouse-how-to-find-your-warehouse-assignments.md)
-#### [Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md)
-#### [Pick Items for Warehouse Shipment](warehouse-how-to-pick-items-for-warehouse-shipment.md)
-#### [Ship Items](warehouse-how-ship-items.md)
-#### [Cross-Dock Items](warehouse-how-to-cross-dock-items.md)
-#### [Walkthrough: Picking and Shipping in Basic Warehouse Configurations](walkthrough-picking-and-shipping-in-basic-warehousing.md)
+### Výstupní procesy skladu
+#### [Detaily návrhu: Výstupní procesy skladu](design-details-outbound-warehouse-flow.md)
+#### [Vyhledání vašeho přidělení skladu](warehouse-how-to-find-your-warehouse-assignments.md)
+#### [Vyskladnění zboží pomocí vyskladnění zásob](warehouse-how-to-pick-items-with-inventory-picks.md)
+#### [Vyskladnění zboží pro dodávku ze skladu](warehouse-how-to-pick-items-for-warehouse-shipment.md)
+#### [Odesílání zboží](warehouse-how-ship-items.md)
+#### [Přeložení zboží](warehouse-how-to-cross-dock-items.md)
+#### [Návod: Vyskladnění a odesílání v základních konfiguracích skladu](walkthrough-picking-and-shipping-in-basic-warehousing.md)
 
-### Internal Warehouse Processes
-#### Production, Assembly, and Job Activities
-##### [Flows for Production, Assembly, and Jobs](design-details-internal-warehouse-flows.md)
-##### [Pick for Production, Assembly, or Jobs in Basic Warehouse Configurations](warehouse-how-to-pick-for-production.md)
-##### [Pick for Production, Assembly, or Jobs in Advanced Warehouse Configurations](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
-##### [Put Away Production Output](warehouse-how-to-put-away-production-output.md)
-#### Move Items
-##### [Move Items](warehouse-move-items.md)
-##### [Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)
-##### [Move Items Internally in Basic Warehouse Configurations](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)
-##### [Move Items in Advanced Warehouse Configurations with Directed Pick and Put-away](warehouse-how-to-move-items-in-advanced-warehousing.md)
+### Interní skladové procesy
+#### Produkce, montáž a projektové aktivity
+##### [Detaily návrhu: Vnitřní procesy skladu](design-details-internal-warehouse-flows.md)
+##### [Vyskladnění pro výrobu nebo montáž v základních konfiguracích skladu](warehouse-how-to-pick-for-production.md)
+##### [Vyskladnění pro výrobu nebo montáž v rozšířených konfiguracích skladu](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
+##### [Zaskladnění výstupu výroby nebo montáže](warehouse-how-to-put-away-production-output.md)
+#### Přesouvání zboží
+##### [Přesun zboží](warehouse-move-items.md)
+##### [Převádění zásob mezi lokacemi](inventory-how-transfer-between-locations.md)
+##### [Ad Hoc přesun zboží v základních konfiguracích skladu](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)
+##### [Přesouvání zboží v rozšířených konfiguracích skladu](warehouse-how-to-move-items-in-advanced-warehousing.md)
 
-#### Warehouse Counting
-##### [Design Details: Integration with Inventory](design-details-integration-with-inventory.md)
-##### [Count and Adjust Inventory Using Documents](inventory-how-count-inventory-with-documents.md)
-##### [Count, adjust, and reclassify inventory](inventory-how-count-adjust-reclassify.md)
+#### Skladové výpočty
+##### [Detaily návrhu: Integrace se zásobami](design-details-integration-with-inventory.md)
+##### [Výpočet zásob pomocí dokumentů](inventory-how-count-inventory-with-documents.md)
+##### [Výpočet, úprava a překlasifikování zásob pomocí deníků](inventory-how-count-adjust-reclassify.md)
 
-## Service Management
-### [Service Management](service-service.md)
-### Planning Service
-#### [Planning Service Management](service-plan-service.md)
-#### [Service Price Management](service-service-price-management.md)
-#### [Service Order Status and Repair Status](service-service-order-status-and-repair-status.md)
-#### [Allocation Status and Repair Status of Service Items](service-allocation-status-and-repair-status.md)
-#### [View Service Statistics](service-service-statistics.md)
-### Fulfill Service Contracts
-#### [Fulfill Service Contracts](service-fulfill-service-contracts.md)
-#### [Multiple Contracts](service-multiple-contracts.md)
-#### [Work with Service Contracts and Service Contract Quotes](service-how-to-create-service-contracts-and-service-contract-quotes.md)
-#### [Change the Annual Amount on Service Contracts or Contract Quotes](service-how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes.md)
-### Deliver Service
-#### [Deliver Service](service-deliver-service.md)
-#### [Create Service Quotes](service-how-to-create-service-quotes.md)
-#### [Create Service Orders](service-how-to-create-service-orders.md)
-#### [Create Service Invoices or Credit Memos](service-how-create-invoices.md)
-#### [Allocate Resources](service-how-to-allocate-resources.md)
-#### [Work on Service Tasks](service-how-to-work-on-service-tasks.md)
-#### [Service Posting](service-service-posting.md)
-#### [Post Service Orders and Credit Memos](service-how-to-post-service-orders.md)
-#### [Lend and Receive Loaners](service-how-to-lend-receive-loaners.md)
+## Správa servisu
+### [Správa servisu](service-service.md)
+### Plánování servisu
+#### [Správa plánování servisu](service-plan-service.md)
+#### [Správa cen servisu](service-service-price-management.md)
+#### [Stav servisní zakázky a stav opravy](service-service-order-status-and-repair-status.md)
+#### [Stav přidělení a stav opravy předmětů servisu](service-allocation-status-and-repair-status.md)
+#### [Zobrazení statistiky servisu](service-service-statistics.md)
+### Plnění smluv o poskytování servisu
+#### [Plnění smluv o poskytování servisu](service-fulfill-service-contracts.md)
+#### [Více smluv](service-multiple-contracts.md)
+#### [Práce se servisními smlouvami a nabídkami servisních smluv](service-how-to-create-service-contracts-and-service-contract-quotes.md)
+#### [Změna roční částky na servisních smlouvách nebo nabídkách smluv](service-how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes.md)
+### Poskytování servisu
+#### [Poskytování servisu](service-deliver-service.md)
+#### [Vytvoření servisní nabídky](service-how-to-create-service-quotes.md)
+#### [Vytvoření servisní objednávky](service-how-to-create-service-orders.md)
+#### [Vytvoření servisních faktur nebo do](service-how-create-invoices.md)
+#### [Přidělení zdrojů](service-how-to-allocate-resources.md)
+#### [Práce na servisních úkolech](service-how-to-work-on-service-tasks.md)
+#### [Účtování servisu](service-service-posting.md)
+#### [Účtování servisních objednávek a dobropisů](service-how-to-post-service-orders.md)
+#### [Půjčování a příjem zápůjček](service-how-to-lend-receive-loaners.md)
 <!--Shopify-->
-## Online Store with Shopify
-### [Get Started with the Shopify Connector](shopify/get-started.md)
-#### [Create and Set Up a Shopify Account](shopify/shopify-account.md)
-### [Synchronize Items with Shopify](shopify/synchronize-items.md)
-### [Synchronize Customers with Shopify](shopify/synchronize-customers.md)
-### [Synchronize and Fulfill Sales Orders with Shopify](shopify/synchronize-orders.md)
-### [Synchronize Transactions and Payouts](shopify/transactions-and-payouts.md)
-### [Set Up Taxes for the Shopify Connection](shopify/setup-taxes.md)
-### [Run Tasks in the Background](shopify/background.md)
-### [Troubleshoot the Shopify Connector](shopify/troubleshoot.md)
-### [FAQ for the Shopify Connector](shopify/shopify-faq.md)
-### [Walkthrough: Set Up and Use the Shopify Connector](shopify/walkthrough-setting-up-and-using-shopify.md)
+## Online obchod s Shopify
+### [Začínáme s konektorem Shopify](shopify/get-started.md)
+#### [Vytvoření a nastavení Shopify účtu](shopify/shopify-account.md)
+### [Synchronizace zboží s Shopify](shopify/synchronize-items.md)
+### [Synchronizace zákazníky s Shopify](shopify/synchronize-customers.md)
+### [Synchronizace a plnění prodejních objednávek se službou Shopify](shopify/synchronize-orders.md)
+### [Synchronizace transakcí a výplat](shopify/transactions-and-payouts.md)
+### [Nastavení daní pro konektor Shopify](shopify/setup-taxes.md)
+### [Spouštění úloh na pozadí](shopify/background.md)
+### [Řešení problémů s konektorem Shopify](shopify/troubleshoot.md)
+### [Nejčastější dotazy pro konektor Shopify](shopify/shopify-faq.md)
+### [Návod: Nastavení a použití konektoru Shopify](shopify/walkthrough-setting-up-and-using-shopify.md)
 
 <!--Company Hub-->
-## Company Hub
-### [Manage Work across Companies with the Company Hub](company-hub.md)
-### [Add Companies to Your Company Hub](company-hub-add-company.md)
-### [Troubleshoot Your Company Hub](company-hub-troubleshooting.md)
+## Firemní centrum
+### [Správa práce napříč společnotmi pomocí firemního centra](company-hub.md)
+### [Přidání společností do vašeho firemního centra](company-hub-add-company.md)
+### [Poradce při potížích s firemním centrem](company-hub-troubleshooting.md)
 <!--LF-->
-## Local Functionality
-### [Local Functionality Overview](about-localization.md)
+## Lokální funkcionality
+### [Přehled lokálních funckionalit](about-localization.md)
 
-### Australia
-#### [Overview of the Australian Version](LocalFunctionality/Australia/australia-local-functionality.md)
-#### Tax
-##### [Tax in the Australian Version](LocalFunctionality/Australia/tax.md)
-##### [Withholding Tax](LocalFunctionality/Australia/withholding-tax.md)
-##### [Set Up Withholding Tax](LocalFunctionality/Australia/how-to-set-up-withholding-tax.md)
-##### [Set Up Revenue Types for Withholding Tax](LocalFunctionality/Australia/how-to-set-up-revenue-types-for-withholding-tax.md)
-##### [Set Up Vendors Without ABN for Calculating the Withholding Tax](LocalFunctionality/Australia/how-to-set-up-vendors-without-abn-for-calculating-the-withholding-tax.md)
-##### [Calculate and Post Withholding Tax Settlements](LocalFunctionality/Australia/how-to-calculate-and-post-withholding-tax-settlements.md)
-##### [View Withholding Tax Entries](LocalFunctionality\Australia\how-to-view-withholding-tax-entries.md)
-##### [View Posted Tax Invoices](LocalFunctionality\Australia\how-to-view-posted-tax-invoices.md)
-##### [View Posted Tax Credit Memos](LocalFunctionality\Australia\how-to-view-posted-tax-credit-memos.md)
-##### [Set Up Goods and Service Tax Posting](LocalFunctionality/Australia/how-to-set-up-goods-and-service-tax-posting.md)
-##### [Calculate Goods and Services Tax on Prepayments](LocalFunctionality/Australia/how-to-calculate-goods-and-services-tax-on-prepayments.md)
-##### [Adjust Settlement Exchange Rates for VAT Entries](LocalFunctionality/Australia/how-to-adjust-settlement-exchange-rates-for-vat-entries.md)
-##### [Print Goods and Service Tax Settlement Reports](LocalFunctionality/Australia/how-to-print-goods-and-service-tax-settlement-reports.md)
-#### Banking & Payments
-##### [Compare Bank Cash Flow](LocalFunctionality/Australia/how-to-compare-bank-cash-flow.md)
-##### [Create Check Installments](LocalFunctionality/Australia/how-to-create-check-installments.md)
-##### [Electronic Funds Transfer (EFT)](LocalFunctionality/Australia/electronic-funds-transfer-eft-.md)
-##### [Print Bank Account Reconciliation Reports](LocalFunctionality/Australia/how-to-print-bank-account-reconciliation-reports.md)
-##### [Print Deposit Slip Reports](LocalFunctionality/Australia/how-to-print-deposit-slip-reports.md)
-#### Core Finance
-##### [Set Up Business Units for Business Activity Statements](LocalFunctionality/Australia/how-to-set-up-business-units-for-business-activity-statements.md)
-##### [Print Balance Sheet Reports](LocalFunctionality/Australia/how-to-print-balance-sheet-reports.md)
-##### [Print Income Statements](LocalFunctionality/Australia/how-to-print-income-statements.md)
-##### [Calculate Distribution Amounts](LocalFunctionality/Australia/calculating-distribution-amounts.md)
+### Austrálie
+#### [Přehled australské verze](LocalFunctionality/Australia/australia-local-functionality.md)
+#### Daň
+##### [Daň v australské verzi](LocalFunctionality/Australia/tax.md)
+##### [Srážková daň](LocalFunctionality/Australia/withholding-tax.md)
+##### [Nastavení srážkové daně](LocalFunctionality/Australia/how-to-set-up-withholding-tax.md)
+##### [Nastavení typů výnosl pro srážkovou daň](LocalFunctionality/Australia/how-to-set-up-revenue-types-for-withholding-tax.md)
+##### [Nastavení dodavatelů bez ABN pro výpočet srážkové daně](LocalFunctionality/Australia/how-to-set-up-vendors-without-abn-for-calculating-the-withholding-tax.md)
+##### [Výpočet a zaúčtování vyrovnání srážkové daně](LocalFunctionality/Australia/how-to-calculate-and-post-withholding-tax-settlements.md)
+##### [Zobrazení položek srážkové daně](LocalFunctionality\Australia\how-to-view-withholding-tax-entries.md)
+##### [Zobrazení zaúčtovaných daňových faktur](LocalFunctionality\Australia\how-to-view-posted-tax-invoices.md)
+##### [Zobrazení zaúčtovaných daňových dobropisů](LocalFunctionality\Australia\how-to-view-posted-tax-credit-memos.md)
+##### [Nastavení účtování daně ze zboží a služeb](LocalFunctionality/Australia/how-to-set-up-goods-and-service-tax-posting.md)
+##### [Výpočet daně ze zboží a služeb při platbách záloh](LocalFunctionality/Australia/how-to-calculate-goods-and-services-tax-on-prepayments.md)
+##### [Úprava vyrovnání směnných kurzů pro položky DPH](LocalFunctionality/Australia/how-to-adjust-settlement-exchange-rates-for-vat-entries.md)
+##### [Tisk sestav vyrovnání daně ze zboží a služeb](LocalFunctionality/Australia/how-to-print-goods-and-service-tax-settlement-reports.md)
+#### Bankovnictví a platby
+##### [Porovnání peněžních bankovních toků](LocalFunctionality/Australia/how-to-compare-bank-cash-flow.md)
+##### [Vytváření kontroly splátek](LocalFunctionality/Australia/how-to-create-check-installments.md)
+##### [Elektronický převod peněžních prostředků (EFT)](LocalFunctionality/Australia/electronic-funds-transfer-eft-.md)
+##### [Tisk sestav odsouhlasení bankovního účtu](LocalFunctionality/Australia/how-to-print-bank-account-reconciliation-reports.md)
+##### [Tisk sestav vkladové složenky](LocalFunctionality/Australia/how-to-print-deposit-slip-reports.md)
+#### Základ financí
+##### [Nastavení organizačních jednotek pro výkazy obchodních aktivit](LocalFunctionality/Australia/how-to-set-up-business-units-for-business-activity-statements.md)
+##### [Tisk rozvahy](LocalFunctionality/Australia/how-to-print-balance-sheet-reports.md)
+##### [Tisk výsledovky](LocalFunctionality/Australia/how-to-print-income-statements.md)
+##### [Výpočet distribučních částek](LocalFunctionality/Australia/calculating-distribution-amounts.md)
 #### General
-##### [Addresses](LocalFunctionality/Australia/addresses.md)
-##### [Determine Sales Price by Cost Plus Percentage](LocalFunctionality/Australia/how-to-determine-sales-price-by-cost-plus-percentage.md)
-##### [Australian Business Numbers and Adjustment Notes](LocalFunctionality/Australia/australian-business-numbers-and-adjustment-notes.md)
-##### [Enter Australian Business Numbers](LocalFunctionality/Australia/how-to-enter-australian-business-numbers.md)
-##### [Payment Times Reporting](LocalFunctionality/Australia/payment-times-reporting.md)
+##### [Adresy](LocalFunctionality/Australia/addresses.md)
+##### [Určení prodejní ceny podle nákladů a procentuální části](LocalFunctionality/Australia/how-to-determine-sales-price-by-cost-plus-percentage.md)
+##### [Australská obchodní čísla a poznámky adjustaci](LocalFunctionality/Australia/australian-business-numbers-and-adjustment-notes.md)
+##### [Zadání australských obchodních čísel](LocalFunctionality/Australia/how-to-enter-australian-business-numbers.md)
+##### [Hlášení o časech plateb](LocalFunctionality/Australia/payment-times-reporting.md)
 
-### Austria
-#### [Local Functionality in the Austrian Version](LocalFunctionality/Austria/austria-local-functionality.md)
-#### VAT
-##### [Create a VAT Statement](LocalFunctionality/Austria/how-to-create-a-vat-statement.md)
-##### [VAT Reporting](LocalFunctionality/Austria/vat-reporting.md)
-#### Banking & Payments
-##### [Print Vendor Payments List Reports](LocalFunctionality/Austria/how-to-print-vendor-payments-list-reports.md)
-#### Purchasing
-##### [Delivery Reminders](LocalFunctionality/Austria/delivery-reminders.md)
-##### [Set Up Delivery Reminders](LocalFunctionality/Austria/how-to-set-up-delivery-reminders.md)
-##### [Set Up Delivery Reminder Terms, Levels, and Text](LocalFunctionality/Austria/how-to-set-up-delivery-reminder-terms-levels-and-text.md)
-##### [Assign Delivery Reminder Codes to Vendors](LocalFunctionality/Austria/how-to-assign-delivery-reminder-codes-to-vendors.md)
-##### [Generate Delivery Reminders](LocalFunctionality/Austria/how-to-generate-delivery-reminders.md)
-##### [Create Delivery Reminders Manually](LocalFunctionality/Austria/how-to-create-delivery-reminders-manually.md)
-##### [Issue Delivery Reminders](LocalFunctionality\Austria\how-to-issue-delivery-reminders.md)
-##### [Print Test Reports for Delivery Reminders](LocalFunctionality/Austria/how-to-print-test-reports-for-delivery-reminders.md)
-#### General
-##### [Print General Ledger Setup Information](LocalFunctionality/Austria/how-to-print-general-ledger-setup-information.md)
+### Rakousko
+#### [Lokální funkcionalita v rakouské verzi](LocalFunctionality/Austria/austria-local-functionality.md)
+#### DPH
+##### [Vytvoření výkazu DPH](LocalFunctionality/Austria/how-to-create-a-vat-statement.md)
+##### [Vykazování DPH](LocalFunctionality/Austria/vat-reporting.md)
+#### Bankovnictví a platby
+##### [Tisk sestav seznamů plateb dodavatele](LocalFunctionality/Austria/how-to-print-vendor-payments-list-reports.md)
+#### Nákup
+##### [Upomínky doručení](LocalFunctionality/Austria/delivery-reminders.md)
+##### [Nastavení upomínek doručení](LocalFunctionality/Austria/how-to-set-up-delivery-reminders.md)
+##### [Nastavení podmínek, úrovní a textu upomínky doručení](LocalFunctionality/Austria/how-to-set-up-delivery-reminder-terms-levels-and-text.md)
+##### [Přiřazení kódu upomínek k dodavatelů](LocalFunctionality/Austria/how-to-assign-delivery-reminder-codes-to-vendors.md)
+##### [Přiřazení kódu upomínek k dodavatelům](LocalFunctionality/Austria/how-to-generate-delivery-reminders.md)
+##### [Ruční generování upoomínky dodání](LocalFunctionality/Austria/how-to-create-delivery-reminders-manually.md)
+##### [Vydání upomínek](LocalFunctionality\Austria\how-to-issue-delivery-reminders.md)
+##### [Tisk testovacíc sestavy upomínek](LocalFunctionality/Austria/how-to-print-test-reports-for-delivery-reminders.md)
+#### Obecné
+##### [Tisk testovací sestavy upomínek](LocalFunctionality/Austria/how-to-print-general-ledger-setup-information.md)
 
-### Belgium
-#### [Local Functionality in the Belgian Version](LocalFunctionality/Belgium/belgium-local-functionality.md)
-#### VAT
-##### [Belgian VAT](LocalFunctionality/Belgium/belgian-vat.md)
-##### [Set Up Non-Deductible VAT](LocalFunctionality/Belgium/how-to-set-up-non-deductible-vat.md)
-##### [Make Manual Corrections to VAT](LocalFunctionality/Belgium/how-to-make-manual-corrections-to-vat.md)
-##### [Print Periodic VAT Reports](LocalFunctionality/Belgium/how-to-print-periodic-vat-reports.md)
-##### [Set Up Belgian Tariff Numbers](LocalFunctionality/Belgium/how-to-set-up-belgian-tariff-numbers.md)
-##### [Belgian Intrastat Reporting](LocalFunctionality/Belgium/belgian-intrastat-reporting.md)
-##### [Set Up Intrastat Establishment Numbers](LocalFunctionality/Belgium/how-to-set-up-intrastat-establishment-numbers.md)
-##### [Print the Intrastat Form Report](LocalFunctionality/Belgium/how-to-print-the-intrastat-form-report.md)
-##### [Set Up Declaration Types](LocalFunctionality/Belgium/how-to-set-up-declaration-types.md)
-##### [Export Intrastat Third-Party Declarations](LocalFunctionality/Belgium/how-to-export-intrastat-third-party-declararations.md)
-#### Banking & Payments
-##### [Electronic Banking (BE](LocalFunctionality/Belgium/belgian-electronic-banking.md)
-##### [Electronic Payments (BE)](LocalFunctionality/Belgium/belgian-electronic-payments.md)
-##### [Set Up Export Protocols](LocalFunctionality/Belgium/how-to-set-up-export-protocols.md)
-##### [Summarize Payment Lines and General Journal Lines](LocalFunctionality/Belgium/summarizing-payment-lines-and-general-journal-lines.md)
-##### [Set Up Vendors for Automatic Payment Suggestions](LocalFunctionality/Belgium/how-to-set-up-vendors-for-automatic-payment-suggestions.md)
-##### [Create Payment Journal Templates and Batches](LocalFunctionality/Belgium/how-to-create-payment-journal-templates-and-batches.md)
-##### [Test Electronic Payments](LocalFunctionality/Belgium/how-to-test-electronic-payments.md)
-##### [Export Payment Files](LocalFunctionality/Belgium/how-to-print-payment-files.md)
-##### [Direct Debit Use Domiciliation](LocalFunctionality/Belgium/direct-debit-using-domiciliation.md)
-##### [CODA Bank Statements](LocalFunctionality/Belgium/coda-bank-statements.md)
-##### [Apply CODA Statements](LocalFunctionality/Belgium/how-to-apply-coda-statements.md)
-##### [Automatically Transfer and Post CODA Statements](LocalFunctionality/Belgium/how-to-automatically-transfer-and-post-coda-statements.md)
-##### [Manually Transfer and Post CODA Statements](LocalFunctionality/Belgium/how-to-manually-transfer-and-post-coda-statements.md)
-##### [Import CODA Statements](LocalFunctionality/Belgium/how-to-import-coda-statements.md)
-#### Core Finance
-##### [Apply and Unapply General Ledger Entries](LocalFunctionality/Belgium/how-to-apply-and-unapply-general-ledger-entries.md)
-##### [Create Financial Journals](LocalFunctionality/Belgium/how-to-create-financial-journals.md)
-##### [Export to Accon](LocalFunctionality/Belgium/how-to-export-to-accon.md)
-#### General
-##### [Enterprise Numbers and Branch Numbers](LocalFunctionality/Belgium/enterprise-numbers-and-branch-numbers.md)
-##### [Limit the Posting Period](LocalFunctionality/Belgium/how-to-limit-the-posting-period.md)
-##### [Set the Work Date as the Posting Date](LocalFunctionality/Belgium/how-to-set-the-work-date-as-the-posting-date.md)
-##### [Make Journal Templates Mandatory](LocalFunctionality/Belgium/specify-journal-template-mandatory.md)
+### Belgie
+#### [Lokální funckionalita v belgické verzi](LocalFunctionality/Belgium/belgium-local-functionality.md)
+#### DPH
+##### [Belgická DPH](LocalFunctionality/Belgium/belgian-vat.md)
+##### [Nastavení neodčitatelné DPH](LocalFunctionality/Belgium/how-to-set-up-non-deductible-vat.md)
+##### [Provedení ručních oprav DPH](LocalFunctionality/Belgium/how-to-make-manual-corrections-to-vat.md)
+##### [Tisk periodických sestav DPH](LocalFunctionality/Belgium/how-to-print-periodic-vat-reports.md)
+##### [Nastavení belgických čísel sazebníku](LocalFunctionality/Belgium/how-to-set-up-belgian-tariff-numbers.md)
+##### [Belgické hlášení Intrastatu](LocalFunctionality/Belgium/belgian-intrastat-reporting.md)
+##### [Nastavení čísel založení Intrastatu](LocalFunctionality/Belgium/how-to-set-up-intrastat-establishment-numbers.md)
+##### [Tisk sestavy formuláře Intrastat](LocalFunctionality/Belgium/how-to-print-the-intrastat-form-report.md)
+##### [Nastavení typů deklarací](LocalFunctionality/Belgium/how-to-set-up-declaration-types.md)
+##### [Export deklarace třetích stran Intrastatu](LocalFunctionality/Belgium/how-to-export-intrastat-third-party-declararations.md)
+#### Bankovnictví a platby
+##### [Elektronické bankovnictví (BE)](LocalFunctionality/Belgium/belgian-electronic-banking.md)
+##### [Elektronické platby (BE)](LocalFunctionality/Belgium/belgian-electronic-payments.md)
+##### [Nastavení exportních protokolů](LocalFunctionality/Belgium/how-to-set-up-export-protocols.md)
+##### [Shrnutí platebních řádků a řádků finančních deníků](LocalFunctionality/Belgium/summarizing-payment-lines-and-general-journal-lines.md)
+##### [Nastavení dodavatelů pro automatické návrhy plateb](LocalFunctionality/Belgium/how-to-set-up-vendors-for-automatic-payment-suggestions.md)
+##### [Vytvoření šablon a dávek deníku plateb](LocalFunctionality/Belgium/how-to-create-payment-journal-templates-and-batches.md)
+##### [Testování elektronických plateb](LocalFunctionality/Belgium/how-to-test-electronic-payments.md)
+##### [Tisk platebních dokumentů](LocalFunctionality/Belgium/how-to-print-payment-files.md)
+##### [Inkaso pomocí domiciliace](LocalFunctionality/Belgium/direct-debit-using-domiciliation.md)
+##### [Bankovní výpisy CODA](LocalFunctionality/Belgium/coda-bank-statements.md)
+##### [Vyrovnání výpisů CODA](LocalFunctionality/Belgium/how-to-apply-coda-statements.md)
+##### [Automatický převod a zaúčtování CODA](LocalFunctionality/Belgium/how-to-automatically-transfer-and-post-coda-statements.md)
+##### [Ruční převod a zaúčtování CODA](LocalFunctionality/Belgium/how-to-manually-transfer-and-post-coda-statements.md)
+##### [Importovázní výkazů CODA](LocalFunctionality/Belgium/how-to-import-coda-statements.md)
+#### Základ financí
+##### [Vyrovnání a zrušení položek hlavní knihy](LocalFunctionality/Belgium/how-to-apply-and-unapply-general-ledger-entries.md)
+##### [Vytváření finančních deníků](LocalFunctionality/Belgium/how-to-create-financial-journals.md)
+##### [Export do Accon](LocalFunctionality/Belgium/how-to-export-to-accon.md)
+#### Obecné
+##### [Podniková čísla a čísla poboček](LocalFunctionality/Belgium/enterprise-numbers-and-branch-numbers.md)
+##### [Omezení zúčtovacího období](LocalFunctionality/Belgium/how-to-limit-the-posting-period.md)
+##### [Nastavení pracovního data jako zúčtovací datum](LocalFunctionality/Belgium/how-to-set-the-work-date-as-the-posting-date.md)
+##### [Povinné šablony deníku](LocalFunctionality/Belgium/specify-journal-template-mandatory.md)
 ##### [Deferrals in Sales and Purchase Ledger reports](LocalFunctionality/Belgium/how-to-use-deferrals.md}
 
-### Canada
-#### [Local Functionality in the Canadian Version](LocalFunctionality/Canada/canada-local-functionality.md)
-#### Tax
-##### [Report Sales Tax and Goods/Services Tax in Canada](LocalFunctionality/Canada/sales-tax-goods-services.md)
-##### [Report Sales Tax in Canada](LocalFunctionality/Canada/ca-sales-tax.md)
-##### [Set Up Unrealized Sales Tax and Sales Payment Discounts](LocalFunctionality/Canada/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
-##### [Set Up Use Tax and Purchase Tax](LocalFunctionality/Canada/how-to-set-up-use-tax-and-purchase-tax.md)
-#### Banking & Payments
-##### [Create Deposits](LocalFunctionality/Canada/how-to-create-deposits.md)
-##### [Make Electronic Payments](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
-#### General
-##### [Print Troubleshoot Reports](LocalFunctionality/Canada/how-to-print-troubleshooting-reports.md)
-##### [Work With GIFI Codes](LocalFunctionality/Canada/work-gifi-codes.md)
+### Kanada
+#### [Lokální funkcionalita v kanadské verzi](LocalFunctionality/Canada/canada-local-functionality.md)
+#### Daň
+##### [Vykazování DPH a daně ze zboží/služeb v Kanadě](LocalFunctionality/Canada/sales-tax-goods-services.md)
+##### [Vykazování DPH v Kanadě](LocalFunctionality/Canada/ca-sales-tax.md)
+##### [Nastavení nerealizované DPH a prodejního skonta](LocalFunctionality/Canada/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
+##### [Nastavení importní DPH a DPH](LocalFunctionality/Canada/how-to-set-up-use-tax-and-purchase-tax.md)
+#### Bankovnictví a platby
+##### [Vytváření vkladů](LocalFunctionality/Canada/how-to-create-deposits.md)
+##### [Provádění elektronické platby](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
+#### Obecné
+##### [Tisk sestav - poradce při potížích](LocalFunctionality/Canada/how-to-print-troubleshooting-reports.md)
+##### [Práce s GIFI kódy](LocalFunctionality/Canada/work-gifi-codes.md)
 
-### Czech Republic
-#### [Local Functionality in the Czech Version](LocalFunctionality/Czech/czech-local-functionality.md)
-#### [Core Localization Pack for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-core-localization-pack-cz.md)
-#### [Advanced Localization Pack for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-advanced-localization-pack-cz.md)
-#### Core Finance  
-##### [Correction Posting (Red Storno)](LocalFunctionality/Czech/how-to-use-corrections-posting.md)
-##### [Statutory Information About Company](LocalFunctionality/Czech/statutory-company-information.md)
-##### [Internal Financial Documents](LocalFunctionality/Czech/internal-financial-documents.md)
-##### [Accounting Output Documents](LocalFunctionality/Czech/accounting-output-documents.md)
-##### [Statutory Statements](LocalFunctionality/Czech/statutory-statements.md)
-##### [Year Close Operations](LocalFunctionality/Czech/year-close-operations.md)
-##### [General Ledger Entries Application](LocalFunctionality/Czech/general-ledger-entries-application.md)
-##### [Exchange Rate Update](LocalFunctionality/Czech/exchange-rate-update.md)
-##### [Multi-circuit Accounting](LocalFunctionality/Czech/how-to-use-multi-circuit-accounting.md)
-#### VAT
-##### [VAT Date](LocalFunctionality/Czech/how-to-setup-vat-date.md)
-##### [VAT Statement](LocalFunctionality/Czech/vat-statement.md)
-##### [Supplementary VAT Statement](LocalFunctionality/Czech/supplementary-vat-statement.md)
-##### [VIES](LocalFunctionality/Czech/vies-cz.md)
-##### [VIES – CZ Export](LocalFunctionality/Czech/how-to-use-vies-cz-export.md)
-##### [Unreliable Payer](LocalFunctionality/Czech/unreliable-payer.md)
-##### [VAT Exchange Rate](LocalFunctionality/Czech/how-to-setup-vat-exchange-rate.md)
-##### [Set Up and Post Reverse Charge](LocalFunctionality/Czech/how-to-setup-and-post-reverse-charge.md)
-##### [VAT Control Report](LocalFunctionality/Czech/vat-control-report.md)
-##### [VAT Reports](LocalFunctionality/Czech/vat-reports-cz.md)
-##### [VAT Correction in Local Currency](LocalFunctionality/Czech/how-to-setup-vat-correction-local-currency.md)
+### Česká republika
+#### [Lokální funkcionalita v české verzi](LocalFunctionality/Czech/czech-local-functionality.md)
+#### [Základní lokalizační balíček pro Česko (rozšíření)](LocalFunctionality/Czech/ui-extensions-core-localization-pack-cz.md)
+#### [Rozšířený lokalizační balíček pro Česko (rozšíření)](LocalFunctionality/Czech/ui-extensions-advanced-localization-pack-cz.md)
+#### Základ financí  
+##### [Opravné účtování (červené storno)](LocalFunctionality/Czech/how-to-use-corrections-posting.md)
+##### [Statutární informace o společnosti](LocalFunctionality/Czech/statutory-company-information.md)
+##### [Interní účetní doklady](LocalFunctionality/Czech/internal-financial-documents.md)
+##### [Účetní tiskové doklady](LocalFunctionality/Czech/accounting-output-documents.md)
+##### [Účetní schémata - rozšíření](LocalFunctionality/Czech/how-to-use-accounting-schedule-feature.md)
+##### [Statutární výkazy](LocalFunctionality/Czech/statutory-statements.md)
+##### [Uzávěrkové operace](LocalFunctionality/Czech/year-close-operations.md)
+##### [Vyrovnání věcných položek](LocalFunctionality/Czech/general-ledger-entries-application.md)
+##### [Aktualizace směnného kurzu](LocalFunctionality/Czech/exchange-rate-update.md)
+##### [Skupiny finančních účtů - Více-okruhové účtování](LocalFunctionality/Czech/how-to-use-multi-circuit-accounting.md)
+#### DPH
+##### [Datum DPH](LocalFunctionality/Czech/how-to-setup-vat-date.md)
+##### [Výkaz DPH](LocalFunctionality/Czech/vat-statement.md)
+##### [Dodatečná hlášení DPH](LocalFunctionality/Czech/supplementary-vat-statement.md)
+##### [Souhrnné hlášení](LocalFunctionality/Czech/vies-cz.md)
+##### [Souhrnné hlášení – CZ Export](LocalFunctionality/Czech/how-to-use-vies-cz-export.md)
+##### [Institut nespolehlivého plátce](LocalFunctionality/Czech/unreliable-payer.md)
+##### [Směnný kurz pro DPH](LocalFunctionality/Czech/how-to-setup-vat-exchange-rate.md)
+##### [Přenesení daňové povinnosti – nastavení a účtování](LocalFunctionality/Czech/how-to-setup-and-post-reverse-charge.md)
+##### [Kontrolní hlášení DPH](LocalFunctionality/Czech/vat-control-report.md)
+##### [Sestavy DPH](LocalFunctionality/Czech/vat-reports-cz.md)
+##### [Korekce DPH v lokální měně](LocalFunctionality/Czech/how-to-setup-vat-correction-local-currency.md)
 ##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
-#### Fixed Assets
-##### [Fixed Asset Localization for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-fixed-asset-localization-cz.md)
-#### Banking and Payments
-##### [Banking Documents Localization for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-banking-documents-localization-cz.md)
-##### [Cash Desk Localization for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-cash-desk-localization-cz.md)
-##### [Registration of Sales (EET)](LocalFunctionality/Czech/eet.md)
-##### [Advance Payments Localization for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-advance-payments-localization-cz.md)
-#### Payables and Receivables
-##### [Exchange Rates Adjustment Feature)](LocalFunctionality/Czech/how-to-use-exchange-rates-adjustment-feature.md)
-##### [Multiple Payables and Receivables Accounts](LocalFunctionality/Czech/how-to-use-multiple-payables-receivables-accounts.md)
-##### [Customer and Vendor Reconciliations](LocalFunctionality/Czech/customers-vendors-reconciliations.md)
-##### [Sales Correcting Documents](LocalFunctionality/Czech/sales-correcting-documents.md)
-##### [Update Contacts from ARES](LocalFunctionality/Czech/how-to-update-contacts-from-ares.md)
-##### [New Design of Output Documents](LocalFunctionality/Czech/new-design-of-output-documents.md)
-##### [Compensations](LocalFunctionality/Czech/ui-extensions-compensations-localization-cz.md)
-#### Inventory
-##### [Round Accounting in Inventory](LocalFunctionality/Czech/how-to-setup-round-account-in-inventory.md)
-##### [Inventory General Ledger Reconciliation Enhacements](LocalFunctionality/Czech/how-to-use-inventory-gl-reconciliation-enhancements.md)
-##### [Advanced Feature of Physical Inventory](LocalFunctionality/Czech/advanced-features-physical-inventory.md)
-##### [Inventory Counting Documents](LocalFunctionality/Czech/how-to-use-inventory-counting-documents.md)
-##### [Inventory Operations Documemt](LocalFunctionality/Czech/how-to-use-inventory-operations-document.md)
-##### [Posting Groups in Transfer Orders](LocalFunctionality/Czech/how-to-use-posting-groups-in-transfer-orders.md)
-#### General
-##### [Extended User Control](LocalFunctionality/Czech/general.md)
-##### [Control of Posting Group Changes](LocalFunctionality/Czech/check-of-posting-group-changing.md)
-##### [Control of Output Inventory Time Sequence](LocalFunctionality/Czech/check-output-inventory-time-sequence.md)
-##### [Inventory Movement Templates](LocalFunctionality/Czech/inventory-movement-templates.md)
-##### [Stockkeeping Unit Templates](LocalFunctionality/Czech/stockkeeping-unit-templates.md)
-##### [Mandatory Exact Cost Return in Manufacturing](LocalFunctionality/Czech/how-to-setup-mandatory-return-exact-costs-manufacturing.md)
-##### [Default Bus Post Group in Manufacturing](LocalFunctionality/Czech/how-to-setup-default-bus-post-group-manufacturing.md)
-##### [Default Bus Post Group in Assembly Orders](LocalFunctionality/Czech/how-to-setup-default-bus-post-group-assembly-orders.md)
-##### [Automatic Creation and Update Dimensions](LocalFunctionality/Czech/how-to-setup-automatic-creation-and-update-dimensions.md)
-##### [Add Fields in Item Entries](LocalFunctionality/Czech/how-to-use-add-fields-item-entries.md)
-##### [General Production Posting Group in Stockkeeping Unit](LocalFunctionality/Czech/how-to-setup-gen-prod-posting-group-from-sku.md)
-##### [Skip Update for Stockkeeping Unit at Posting](LocalFunctionality/Czech/how-to-setup-skip-update-sku-on-posting.md)
-##### [Nonstock Item Nummbering](LocalFunctionality/Czech/how-to-setup-nonstock-item-numbering.md)
-##### [Best Practices](LocalFunctionality/Czech/best-practices.md)
+#### Dlouhodobý majetek
+##### [Dlouhodobý majetek pro Česko (rozšíření)](LocalFunctionality/Czech/ui-extensions-fixed-asset-localization-cz.md)
+#### Bankovnictví a platby
+##### [Bankovní doklady pro Česko (rozšíření)](LocalFunctionality/Czech/ui-extensions-banking-documents-localization-cz.md)
+##### [Pokladny pro Česko (rozšíření)](LocalFunctionality/Czech/ui-extensions-cash-desk-localization-cz.md)
+##### [Elektronická Evidence Tržeb (EET)](LocalFunctionality/Czech/eet.md)
+##### [Zálohové platby pro Česko (rozšíření)](LocalFunctionality/Czech/ui-extensions-advance-payments-localization-cz.md)
+#### Závazky a pohledávky
+##### [Úprava směnných kurzů (Přepočet pohledávek a závazků)](LocalFunctionality/Czech/how-to-use-exchange-rates-adjustment-feature.md)
+##### [Více účtů pohledávek a závazků](LocalFunctionality/Czech/how-to-use-multiple-payables-receivables-accounts.md)
+##### [Odsouhlasení pohledávek a závazků](LocalFunctionality/Czech/customers-vendors-reconciliations.md)
+##### [Opravné prodejní doklady](LocalFunctionality/Czech/sales-correcting-documents.md)
+##### [Aktualizace kontaktů z ARES](LocalFunctionality/Czech/how-to-update-contacts-from-ares.md)
+##### [Nový design výstupních dokladů](LocalFunctionality/Czech/new-design-of-output-documents.md)
+##### [Zápočty pro Česko (rozšíření)](LocalFunctionality/Czech/ui-extensions-compensations-localization-cz.md)
+#### Zásoby
+##### [Účtování zaokrouhlení v zásobách](LocalFunctionality/Czech/how-to-setup-round-account-in-inventory.md)
+##### [Odsouhlasení zásob proti účetnictví](LocalFunctionality/Czech/how-to-use-inventory-gl-reconciliation-enhancements.md)
+##### [Rozšíření přípravy fyzické inventury](LocalFunctionality/Czech/advanced-features-physical-inventory.md)
+##### [Doklady fyzické inventury](LocalFunctionality/Czech/how-to-use-inventory-counting-documents.md)
+##### [Skladové účetní doklady](LocalFunctionality/Czech/how-to-use-inventory-operations-document.md)
+##### [Účto skupiny v Objednávkách transferu](LocalFunctionality/Czech/how-to-use-posting-groups-in-transfer-orders.md)
+#### Obecné
+##### [Rozšířená uživatelská kontrola](LocalFunctionality/Czech/how-to-setup-extended-user-control.md)
+##### [Kontrola změn účto skupin - zákazník, dodavatel, zboží, bankovní účet](LocalFunctionality/Czech/check-of-posting-group-changing.md)
+##### [Kontrola výdejů v zásobách - časová posloupnost](LocalFunctionality/Czech/check-output-inventory-time-sequence.md)
+##### [Šablony pohybů zásob](LocalFunctionality/Czech/inventory-movement-templates.md)
+##### [Šablony skladových jednotek](LocalFunctionality/Czech/stockkeeping-unit-templates.md)
+##### [Povinné vrácení přesných nákladů ve výrobě](LocalFunctionality/Czech/how-to-setup-mandatory-return-exact-costs-manufacturing.md)
+##### [Výchozí Obecná obchodní účto skupina ve výrobě](LocalFunctionality/Czech/how-to-setup-default-bus-post-group-manufacturing.md)
+##### [Výchozí Obchodní účto skupina pro montážní objednávky](LocalFunctionality/Czech/how-to-setup-default-bus-post-group-assembly-orders.md)
+##### [Automatické vytváření a aktualizace dimenzí](LocalFunctionality/Czech/how-to-setup-automatic-creation-and-update-dimensions.md)
+##### [Kódy původu v položce zboží a položce ocenění](LocalFunctionality/Czech/how-to-use-add-fields-item-entries.md)
+##### [Obecná účto skupina zboží ze skladové jednotky](LocalFunctionality/Czech/how-to-setup-gen-prod-posting-group-from-sku.md)
+##### [Přeskočení aktualizace skladových jednotek při účtování](LocalFunctionality/Czech/how-to-setup-skip-update-sku-on-posting.md)
+##### [Číslování neskladovaného zboží](LocalFunctionality/Czech/how-to-setup-nonstock-item-numbering.md)
 
-### Denmark
-#### [Local Functionality in the Danish Version](LocalFunctionality/Denmark/denmark-local-functionality.md)
-#### VAT
-##### [Print VAT Reconciliation Reports](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
-##### [VAT-VIES Reporting](LocalFunctionality/Denmark/vat-vies-reporting.md)
-##### [VAT Registration Number Setup for Intrastat](LocalFunctionality/Denmark/vat-registration-no-intrastat.md)
-#### Banking & Payments
-##### [FIK Details in the Payment Reconciliation Journal](LocalFunctionality/Denmark/fik-details-in-the-payment-reconciliation-journal.md)
-##### [The Payments and Reconciliations (DK) Extension](ui-extensions-payments-reconciliation-formats-dk.md)
-#### Electronic Invoicing
-##### [Overview of OIOUBL Electronic Invoicing](LocalFunctionality/Denmark/oioubl-electronic-invoicing-overview.md)
-##### [Set Up Customers for OIOUBL](LocalFunctionality/Denmark/how-to-set-up-customers-for-oioubl.md)
-##### [Set Up OIOUBL Electronic Invoicing](LocalFunctionality/Denmark/how-to-set-up-oioubl.md)
-##### [The OIOUBL Extension for Electronic Invoicing](LocalFunctionality/Denmark/ui-extensions-oioubl.md)
-##### [Create Electronic Documents in an OIOUBL Format](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md)
-#### Payroll
-##### [Payroll Data Definitions (DK)](LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk.md)
+### Dánsko
+#### [Lokální funckionalita pro Dánsko](LocalFunctionality/Denmark/denmark-local-functionality.md)
+#### DPH
+##### [Tisk sestav - Odsouhlasení DPH](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
+##### [Hlášení - DPH-VIES](LocalFunctionality/Denmark/vat-vies-reporting.md)
+##### [Nastavení registračního čísla DPH pro Intrastat](LocalFunctionality/Denmark/vat-registration-no-intrastat.md)
+#### Bankovnictví a platby
+##### [Detaily FIK v deníku odsouhlasení plateb](LocalFunctionality/Denmark/fik-details-in-the-payment-reconciliation-journal.md)
+##### [Rozšíření Platby a odsouhlasení (DK)](ui-extensions-payments-reconciliation-formats-dk.md)
+#### Elektronická fakturace
+##### [Přehled elektronické fakturace OIOUBL](LocalFunctionality/Denmark/oioubl-electronic-invoicing-overview.md)
+##### [Nastavení zákazníků pro OIOBL](LocalFunctionality/Denmark/how-to-set-up-customers-for-oioubl.md)
+##### [Nastavení elektronické fakturace OIOUBL](LocalFunctionality/Denmark/how-to-set-up-oioubl.md)
+##### [Rozšíření OIOUBL pro elektronickou fakturaci](LocalFunctionality/Denmark/ui-extensions-oioubl.md)
+##### [Vytváření elektronických dokumentů ve formátu OIOUBL](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md)
+
+#### Mzdy
+##### [definice mzdových dat (DK)](LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk.md)
 
 ### Finsko
 #### [Lokální funkcionalita ve finské verzi](LocalFunctionality/Finland/finland-local-functionality.md)
@@ -1796,7 +1797,7 @@
 ### Projekty
 #### [Sestavy projetků](project-reports.md)
 #### [Zobrazit odhady využití úloh](projects-how-record-job-usage.md#to-view-job-usage-estimates-and-post-updates)
-#### [Sledování průbehu a výkonu projektu](projects-how-monitor-progress-performance.md)
+#### [Sledování průběhu a výkonu projektu](projects-how-monitor-progress-performance.md)
 
 ### Dlouhodobý majetek
 #### [Sestavy dlouhodobého majetku](fa-reports.md)
