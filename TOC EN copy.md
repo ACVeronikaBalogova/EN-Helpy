@@ -348,6 +348,11 @@
 #### [Práce s tolerancemi plateb a tolerancemi slev plateb](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Rozšíření predikce opožděných plateb](ui-extensions-late-payment-prediction.md)
 
+### Správa elektronických dokumentů
+#### [Nastavení elektronických dokumentů](finance-how-setup-edocuments.md)
+#### [Využití elektronických dokumentů pri prodeji a nákupu](finance-how-use-edocuments.md)
+#### [Rozšiření funkcií elektronických dokumentů](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
+
 ### Správa DPH
 #### [přehled správy DPH](finance-manage-vat.md)
 #### [Nákupní transakce třetích stran v EU](finance-how-to-eu3party-trade-purchase.md)
