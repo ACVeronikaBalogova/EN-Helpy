@@ -228,7 +228,7 @@
 ### Resources for a Developer
 #### [Learning catalog](readiness/readiness-learning-developers.md)
 #### [Documentation](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)-->
-# Podnikové Funkcionality
+# Podnikové funkcionality
 ## [Přehled podnikových funkcionalit](across-business-functionality.md)
 <!--general-->
 ## Základní podnikové funkcionality
@@ -934,7 +934,6 @@
 
 #### Mzdy
 ##### [definice mzdových dat (DK)](LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk.md)
-
 ### Finsko
 #### [Lokální funkcionalita ve finské verzi](LocalFunctionality/Finland/finland-local-functionality.md)
 #### DPH
@@ -969,7 +968,6 @@
 ##### [Exportování nebo importování parametrů nastavení řízení plateb](LocalFunctionality/France/how-to-export-or-import-payment-management-setup-parameters.md)
 ##### [Řízení plateb](LocalFunctionality/France/payment-management.md)
 ##### [Účtování platebních dokladů](LocalFunctionality/France/how-to-post-payment-slips.md)
-
 #### Základ financí
 ##### [Hlavní kniha](LocalFunctionality/France/general-ledger.md)
 ##### [Vyrovnávání věcných položek](LocalFunctionality/France/how-to-apply-general-ledger-entries.md)
