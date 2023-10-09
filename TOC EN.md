@@ -348,6 +348,11 @@
 #### [Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [The Late Payment Prediction Extension](ui-extensions-late-payment-prediction.md)
 
+### Manage E-documents
+#### [Set up E-documents](finance-how-setup-edocuments.md)
+#### [Use e-documents in sales and purchases](finance-how-use-edocuments.md)
+#### [Extending e-documents functionality](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
+
 ### Manage VAT
 #### [VAT management overview](finance-manage-vat.md)
 #### [EU third-party purchase transactions](finance-how-to-eu3party-trade-purchase.md)
@@ -447,9 +452,10 @@
 ### [Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)
 ### [Reverse Journal Postings and Undo Receipts/Shipments](finance-how-reverse-journal-posting.md)
 ### [Audit file export](finance-how-to-export-audit-files.md)
-### [Allocate Costs and Income](year-allocate-costs-income.md)
 ### [Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)
 ### [Defer Revenues and Expenses](finance-how-defer-revenue-expenses.md)
+### [Allocate recurring costs and income](year-allocate-costs-income.md)
+### [Allocate revenue and costs to multiple G/L accounts](finance-allocate-revenue-costs.md)
 ### [Update Currency Exchange Rates](finance-how-update-currencies.md)
 ### [Import Payroll Transactions](finance-how-import-payroll-transactions.md)
 ### [Work with VAT on Sales and Purchases](finance-work-with-vat.md)

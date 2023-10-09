@@ -452,9 +452,10 @@
 ### [Přímé zaúčtování transakcí do účetní knihy](finance-how-post-transactions-directly.md)
 ### [Zpětné zaúčtování do deníku a zrušení příjmu/odeslání](finance-how-reverse-journal-posting.md)
 ### [Export souboru pro audit](finance-how-to-export-audit-files.md)
-### [Rozdělení výnosů a nákladů](year-allocate-costs-income.md)
 ### [Evidence a úhrada výdajů zaměstnanců](finance-how-record-reimburse-employee-expenses.md)
 ### [Příjmy a výdaje příštích období](finance-how-defer-revenue-expenses.md)
+### [Rozdělení opakujících se nákladů a výnosů](year-allocate-costs-income.md)
+### [Přiřazení výnosů a nákladů k více účtům](finance-allocate-revenue-costs.md)
 ### [Aktualizace směnných kurzů](finance-how-update-currencies.md)
 ### [Import mzdových transakcí](finance-how-import-payroll-transactions.md)
 ### [Práce s DPH při prodeji a nákupu](finance-work-with-vat.md)
@@ -469,7 +470,7 @@
 ### [Organizace s více pracovišti a mezinárodní organizace](finance-multi-site-organizations.md)
 
 ## Finanční podnikové analýzy a výkaznictví
-### [Přehled: Finanční podnikové analýzy a výkaznictví](bi.md)
+### [Finanční podnikové analýzy a výkaznictví](bi.md)
 ### [Finanční výkazy](finance-reports.md)
 ### [Analýza dat pomocí statistických účtů](bi-use-statistical-accounts.md)
 ### [Analýza skutečných částek oproti rozpočtovaným částkám](bi-how-analyze-actual-versus-budget.md)
@@ -526,7 +527,7 @@
 ### [Zadávání čísla externích dokumentů](across-enter-external-document-numbers.md)
 ### [Vytvoření opakujících se nákupních řádků](purchasing-how-work-recurring-purchase-lines.md)
 
-## zásoby
+## Zásoby
 ### [Přehled Zásob](inventory-manage-inventory.md)
 ### [Inventurní a skladové sestavy](inventory-WMS-reports.md)
 ### [Přidání nového zboží](inventory-how-register-new-items.md)
@@ -590,6 +591,7 @@
 #### [Správa interakcí segmentů](marketing-interaction-segments.md)
 ### Správa interakcí
 #### [Interakce](marketing-interactions-overview.md)
+#### [Přílohy pro interakce](marketing-interaction-attachments.md)
 #### [Záznam interakcí s kontakty](marketing-interactions.md)
 #### [Vytváření interakcí na kontakty a segmenty](marketing-how-create-interactions.md)
 #### [Automatické zaznamenávání interakcí s kontakty](marketing-auto-record-interactions.md)
