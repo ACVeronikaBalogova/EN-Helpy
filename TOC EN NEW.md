@@ -860,6 +860,7 @@
 ##### [Statutory Information About Company](LocalFunctionality/Czech/statutory-company-information.md)
 ##### [Internal Financial Documents](LocalFunctionality/Czech/internal-financial-documents.md)
 ##### [Accounting Output Documents](LocalFunctionality/Czech/accounting-output-documents.md)
+##### [Accounting schedule feature](LocalFunctionality/Czech/how-to-use-accounting-schedule-feature.md)
 ##### [Statutory Statements](LocalFunctionality/Czech/statutory-statements.md)
 ##### [Year Close Operations](LocalFunctionality/Czech/year-close-operations.md)
 ##### [General Ledger Entries Application](LocalFunctionality/Czech/general-ledger-entries-application.md)
