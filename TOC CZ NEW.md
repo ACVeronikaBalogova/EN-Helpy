@@ -115,19 +115,13 @@
 ### [Řešení problémů s automatickým přihlašováním](ui-troubleshoot-self-signup.md)
 ### [Rozšiřte svou skušební verzi](admin-extend-trial.md)
 ### [Zrušení předplatního anebo zrušení Business Central](admin-cancel.md)
-### Marketingový text s umělou inteligencí pomocí služby Copilot
-#### [Přehled](ai-overview.md)
-#### [Získejte verzi pro přehled](ai-preview-getstarted.md)
-#### [Konfugurace marketingového textu s umělou inteligencí](enable-ai.md)
-#### [Tvorba markerketingového textu pomocou umělé inteligence](item-marketing-text.md)
-#### [Často klazené otázky](ai-faq.md)
 
 ## Nákup
 ### [Začátek předplatního](trial-signup.md#get-started-with-a-subscription)
 ### [Příprava pro podnikání](ui-get-ready-business.md)
 
-## Rýchly štart
-### [Business Central Rýchly štart](quick-start-business-central.md)
+## Rychlý start
+### [Business Central Rychlý start](quick-start-business-central.md)
 ### [Informace o společnosti](quick-start-company-information.md)
 ### [Zadání finančních údajů](quick-start-financial-information.md)
 ### [Prodej zboží a služeb](quick-start-sell-products-and-services.md)
@@ -215,19 +209,6 @@
 ### [Video knihovna](across-videos.md)
 ### [Technická podpora](/dynamics365/business-central/dev-itpro/administration/manage-technical-support?toc=/dynamics365/business-central/toc.json)
 
-<!--## Microsoft Learn training
-### [Dynamics 365 Business Central on Microsoft Learn](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
-### [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)
-### [Business Functionality Learning Paths](/training/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
-### Resources for a Business Decision Maker
-#### [Learning catalog](readiness/readiness-learning-bus-decision-makers.md)
-#### [Get Ready for Doing Business](ui-get-ready-business.md)
-### Resources for a Business User
-#### [Learning catalog](readiness/readiness-learning-bus-users.md)
-#### [Get Ready for Doing Business](ui-get-ready-business.md)
-### Resources for a Developer
-#### [Learning catalog](readiness/readiness-learning-developers.md)
-#### [Documentation](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)-->
 # Podnikové funkcionality
 ## [Přehled podnikových funkcionalit](across-business-functionality.md)
 <!--general-->
@@ -349,8 +330,10 @@
 #### [Rozšíření predikce opožděných plateb](ui-extensions-late-payment-prediction.md)
 
 ### Správa elektronických dokumentů
+#### [Přehled elektronických dokumentů](finance-edocuments-overview.md)
 #### [Nastavení elektronických dokumentů](finance-how-setup-edocuments.md)
 #### [Využití elektronických dokumentů pri prodeji a nákupu](finance-how-use-edocuments.md)
+#### [Nastavení konektorů elektronických dokumentů s externími konečnými body](finance-how-to-setup-edocuments-external.md)
 #### [Rozšiření funkcií elektronických dokumentů](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
 
 ### Správa DPH
@@ -377,6 +360,7 @@
 ### Odsouhlasení bankovních účtů
 #### [Přehled Odsouhlasení bankovních účtů](bank-manage-bank-accounts.md)
 #### [Odsouhlasení bankovních účtů](bank-how-reconcile-bank-accounts-separately.md)
+#### [Odsouhlasení bankovních účtů s Copilot (náhled)](bank-reconciliation-with-copilot.md)
 #### [Automatické provádění plateb a vyrovnávání bankovních účtů](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 
 ### Správa mezipodnikových transakcí
