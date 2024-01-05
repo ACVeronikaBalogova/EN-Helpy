@@ -899,7 +899,6 @@
 ##### [General Production Posting Group in Stockkeeping Unit](LocalFunctionality/Czech/how-to-setup-gen-prod-posting-group-from-sku.md)
 ##### [Skip Update for Stockkeeping Unit at Posting](LocalFunctionality/Czech/how-to-setup-skip-update-sku-on-posting.md)
 ##### [Nonstock Item Nummbering](LocalFunctionality/Czech/how-to-setup-nonstock-item-numbering.md)
-##### [Best Practices](LocalFunctionality/Czech/best-practices.md)
 
 ### Denmark
 #### [Local functionality in the Danish version](LocalFunctionality/Denmark/denmark-local-functionality.md)
