@@ -1,4 +1,7 @@
-﻿
+﻿---
+ms.service: dynamics-365-business-central
+---
+
 # [Business Central Dokumentace](index.yml)
 # [Vítejte v Business Central](welcome.md)
 # [Novinky a plánované novinky](product-news.md)
@@ -25,7 +28,7 @@
 #### [Návod: Vytváření prognóz peněžních toků pomocí finančních výkazů](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 #### [Návod: Tvorba prognóz cashflow pomocí účetních schémat](shopify/walkthrough-setting-up-and-using-shopify.md)
 <!-- Contoso-->
-### Contoso Coffee Demo Dáta
+### Contoso Coffee Demo Data
 #### [Úvod do demo dát Contoso Coffee](contoso-coffee/contoso-coffee-intro.md)
 #### Výroba
 ##### [Úvod do výroby  Contoso Coffee](contoso-coffee/manufacturing/contoso-coffee-manufacturing-intro.md)
@@ -42,6 +45,10 @@
 ##### [Průběh příchozího a odchozího toku v základních konfiguracích skladu](contoso-coffee/warehousing/warehouse-basic-flow-putaway-pick.md)
 ##### [Průběh příchozího a odchozího toku ve smíšených skladových konfiguracích](contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship.md)
 ##### [Průběh příchozího a odchozího toku v pokročilé konfiguraci skladu s řízenou expedicí a vychystáním](contoso-coffee/warehousing/warehouse-directed-flow.md)
+#### Služby
+##### [Úvod do správy služeb Contoso Coffee](contoso-coffee/service/contoso-coffee-service-intro.md)
+##### [Průběh servisními objednávkami pro servisní zboží](contoso-coffee/service/service-basic-flow-order.md)
+##### [Průběh smluv o poskytování služeb pro položky služeb](contoso-coffee/service/service-contract-flow.md)
 
 ### Detaily návrhů
 #### [Přehled Detailů návrhů](design-details-application-design.md)
@@ -115,7 +122,6 @@
 ### [Řešení problémů s automatickým přihlašováním](ui-troubleshoot-self-signup.md)
 ### [Rozšiřte svou skušební verzi](admin-extend-trial.md)
 ### [Zrušení předplatního anebo zrušení Business Central](admin-cancel.md)
-
 ## Nákup
 ### [Začátek předplatního](trial-signup.md#get-started-with-a-subscription)
 ### [Příprava pro podnikání](ui-get-ready-business.md)
@@ -231,8 +237,9 @@
 ### [Použití front úloh k plánování úloh](admin-job-queues-schedule-tasks.md)
 ### [Nechte Business Central navrhovat hodnoty](ui-let-system-suggest-values.md)
 ### [Využití online map](across-online-maps.md)
+### [Nastavení digitálního poukazu](across-how-setup-digital-vouchers.md)
 
-### Příchozí dokuemnty
+### Příchozí dokumenty
 #### [Přehled příchozích dokumentů](across-income-documents.md)
 #### [Nastavení příchozích dokumentů](across-how-setup-income-documents.md)
 #### [Tvorba záznamu příchozích dokumentů](across-how-create-income-document-records.md)
@@ -282,6 +289,7 @@
 ## Finance
 ### [Přehled financí](finance.md)
 ### [Účetní výkazy](finance-reports.md)
+
 ### Správa pohledávek
 #### [Přehled pohledávek](receivables-manage-receivables.md)
 #### [Výkazy pohledávek](receivables-reports.md)
@@ -294,6 +302,7 @@
 ##### [Nastavení pravidel pro automatické použití plateb](receivables-how-set-up-payment-application-rules.md)
 #### [Vyrovnání plateb zákazníků ze seznamu nezaplacených prodejních dokladů](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
 #### [Odsouhlasení plateb zákazníků](receivables-how-apply-sales-transactions-manually.md)
+#### [Konsolidace zůstatků pro společnost, která je zákazníkem a dodavatelem.](finance-consolidate-customer-vendor-balances.md)
 #### [Vymáhání nesplacených zůstatků](receivables-collect-outstanding-balances.md)
 #### [Inkaso plateb pomocí přímého inkasa SEPA](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Odesílání upomínek o nezaplacených zůstatcích](receivables-send-reminders.md)
@@ -322,88 +331,63 @@
 ##### [Vyrovnání plateb, které nelze použít automaticky](receivables-how-reconcile-payments-cannot-apply-auto.md)
 ##### [Text mapy opakujících se plateb na účty pro automatické odsouhlasení](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
 #### [Odsouhlasení plateb prodejců s Deníkem plateb nebo ze záznamů v účetní knize prodejců.](payables-how-apply-purchase-transactions-manually.md)
-#### [Vymáhání nesplacených zůstatků](receivables-collect-outstanding-balances.md)
+#### [Konsolidace zůstatků pro společnost, která je zákazníkem a dodavatelem.](finance-consolidate-customer-vendor-balances.md)
+#### [Vymáhání neuhrazených pohledávek](receivables-collect-outstanding-balances.md)
 #### [Inkaso plateb pomocí přímého inkasa SEPA](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Blokování dodavatelů](payables-how-block-vendors.md)
 #### [Použití poplatků za položky k zaúčtování dodatečných obchodních nákladů](payables-how-assign-item-charges.md)
 #### [Práce s tolerancemi plateb a tolerancemi slev plateb](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Rozšíření predikce opožděných plateb](ui-extensions-late-payment-prediction.md)
 
-### Správa elektronických dokumentů
-#### [Přehled elektronických dokumentů](finance-edocuments-overview.md)
-#### [Nastavení elektronických dokumentů](finance-how-setup-edocuments.md)
-#### [Využití elektronických dokumentů pri prodeji a nákupu](finance-how-use-edocuments.md)
-#### [Nastavení konektorů elektronických dokumentů s externími konečnými body](finance-how-to-setup-edocuments-external.md)
-#### [Rozšiření funkcií elektronických dokumentů](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
-
-### Správa DPH
-#### [přehled správy DPH](finance-manage-vat.md)
-#### [Nákupní transakce třetích stran v EU](finance-how-to-eu3party-trade-purchase.md)
-#### Nastavení DPH
-##### [Nastavení daně z přidané hodnoty](finance-setup-vat.md)
-##### [Nastavení účto skupiny](finance-posting-groups.md#tax-posting-groups)
-##### [Nastavení neodpočitatelné DPH](finance-setup-nondeductible-vat.md)
-##### [Nastavení nerealizované daně z přidané hodnoty](finance-setup-unrealized-vat.md)
-##### [Nastavení výkazu DPH](finance-how-setup-vat-statement.md)
-#### [Práce s DPH při prodeji a nákupu](finance-work-with-vat.md)
-#### [Použití neodpočitatelné DPH](finance-how-use-non-deductible-vat.md)
-#### [Podávání hlášení o DPH daňovým úřadům](finance-how-report-vat.md)
-#### [Správa změn sazeb DPH](finance-how-use-vat-rate-change-tool.md)
-#### [Ověření registračních čísel DPH](finance-how-validate-vat-registration-number.md)
-
 ### Fakturace záloh
-#### [Přehled zálohových plateb](finance-invoice-prepayments.md)
-#### [Nastavení zálohových plateb](finance-set-up-prepayments.md)
-#### [Tvorba zálohové faktury](finance-how-to-create-prepayment-invoices.md)
-#### [Správné zálohové platby](finance-how-to-correct-prepayments.md)
+#### [Přehled zálohy](finance-invoice-prepayments.md)
+#### [Nastavení záloh](finance-set-up-prepayments.md)
+#### [Vytvoření zálohových faktur](finance-how-to-create-prepayment-invoices.md)
+#### [Opravné zálohy](finance-how-to-correct-prepayments.md)
 
 ### Odsouhlasení bankovních účtů
-#### [Přehled Odsouhlasení bankovních účtů](bank-manage-bank-accounts.md)
+#### [Přehled odsouhlaseí bankovních účtů](bank-manage-bank-accounts.md)
 #### [Odsouhlasení bankovních účtů](bank-how-reconcile-bank-accounts-separately.md)
-#### [Odsouhlasení bankovních účtů s Copilot (náhled)](bank-reconciliation-with-copilot.md)
-#### [Automatické provádění plateb a vyrovnávání bankovních účtů](receivables-apply-payments-auto-reconcile-bank-accounts.md)
-
-### Správa mezipodnikových transakcí
-#### [Přehled mezipodnikových vztahů](intercompany-manage.md)
-#### [Nastavení mezipodnikových vztahů](intercompany-how-setup.md)
-#### [Práce s mezipodnikovými dokumenty a deníky](intercompany-how-work-documents-journals.md)
-#### [Správa mezipodnikové doručené a odeslané pošty](intercompany-how-manage-intercompany-inbox.md)
-#### [Alokace nákladů na mezipodnikové partnery](intercompany-allocate-costs.md)
+#### [Odsouhlasení bankovních účtů s využitím Copilot (náhled)](bank-reconciliation-with-copilot.md)
+#### [Automatické aplikování platby a odsouhlasení bankovních účtů](receivables-apply-payments-auto-reconcile-bank-accounts.md)
+#### [Převod bankovních prostředků](bank-how-transfer-bank-funds.md)
+#### [Vytvoření bankovních vkladů](bank-create-bank-deposits.md)
 
 ### Účtování nákladů
-#### [Přehled Účtování nákladů](finance-manage-cost-accounting.md)
-#### [Terminologie v oblasti nákladového účetnictví](finance-terminology-in-cost-accounting.md)
+#### [Přehled účtování nákladů](finance-manage-cost-accounting.md)
+#### [Terminologie v nákladovém účetnictví](finance-terminology-in-cost-accounting.md)
 #### [O nákladovém účetnictví](finance-about-cost-accounting.md)
-#### [Nastavení nákladového účetníctví](finance-set-up-cost-accounting.md)
-#### [Přenos a účtování nákladových položek](finance-transfer-and-post-cost-entries.md)
-#### [Rozdělení a alokace nákladů](finance-define-and-allocate-costs.md)
-#### [Tvorba nákladových rozpočtů](finance-create-cost-budgets.md)
-#### [Odstranění položek nákladového rozpočtu](finance-how-to-delete-cost-budget-entries.md)
+#### [Nastavení nákladového účetnictví](finance-set-up-cost-accounting.md)
+#### [Převod a zaúčtování položek nákladů](finance-transfer-and-post-cost-entries.md)
+#### [Definice a rozdělení nákladů](finance-define-and-allocate-costs.md)
+#### [Vytvoření rozpočtů nákladů](finance-create-cost-budgets.md)
+#### [Odstranění položek rozpočtu nákladů](finance-how-to-delete-cost-budget-entries.md)
 
-### Správa nákladů na zásoby
-#### [Přehled nákladů na zásoby](finance-manage-inventory-costs.md)
-#### [O účtování nákladů na zásoby](finance-learn-about-costing.md)
-#### [Použití poplatků za položky k zaúčtování dodatečných obchodních nákladů](payables-how-assign-item-charges.md)
-#### [O výpočtu standardních nákladů](finance-about-calculating-standard-cost.md)
-#### [O výpočtu jednotkových nákladů](finance-about-calculating-unit-cost.md)
-#### [Detaily návrhu: Kalkulace nákladů na zásoby](design-details-inventory-costing.md)
-#### [Práce s intervaly inventur](finance-how-to-work-with-inventory-periods.md)
-#### [Set Up Inventory Valuation and Costing](finance-set-up-inventory-valuation-and-costing.md)
-#### [Přehodnocení zásob](inventory-how-revalue-inventory.md)
-#### [Úprava nákladů na položky](inventory-how-adjust-item-costs.md)
-#### [Manipulace se zásobami a výrobními náklady](finance-handle-inventory-and-manufacturing-costs.md)
+### Správa skladových nákladů
+#### [Přehled skladové náklady](finance-manage-inventory-costs.md)
+#### [O skladových nákladech](finance-learn-about-costing.md)
+#### [K zaúčtování dodatečných obchodních nákladů se použijí poplatky za zboží](payables-how-assign-item-charges.md)
+#### [O standardním výpočtu nákladů](finance-about-calculating-standard-cost.md)
+#### [Výpočet jednotkových nákladů](finance-about-calculating-unit-cost.md)
+#### [Návrh: Náklady na skladování](design-details-inventory-costing.md)
+#### [Práce s inventárními obdobími](finance-how-to-work-with-inventory-periods.md)
+#### [Nastavení ocenění zásob a nákladů](finance-set-up-inventory-valuation-and-costing.md)
+#### [Přecenění zásob](inventory-how-revalue-inventory.md)
+#### [Úprava nákladů na zboží](inventory-how-adjust-item-costs.md)
+#### [Správa zásob a výrobních nákladů](finance-handle-inventory-and-manufacturing-costs.md)
 #### [Aktualizace standardních nákladů](finance-how-to-update-standard-costs.md)
-#### [Odstranění a opětovné použití záznamů v hlavní knize](finance-how-to-remove-and-reapply-item-entries.md)
-#### [Uzavření otevřených záznamů ve finančním deníku](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
+#### [Odstranění a opětovné použití položek zboží](finance-how-to-remove-and-reapply-item-entries.md)
+#### [Uzavření otevřených záznamů v položkách zboží, které vznikly v důsledku opravného použití v deníku zboží.](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
 #### Vykazování nákladů a odsouhlasení s hlavní knihou
-##### [Zpráva o nákladech](finance-report-costs-and-reconcile-with-the-general-ledger.md)
-##### [Odsouhlasení nákladů na zásoby s hlavní knihou](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
-##### [Sledování postupu a výkonu práce](projects-how-monitor-progress-performance.md)
+##### [Vykazování nákladů](finance-report-costs-and-reconcile-with-the-general-ledger.md)
+##### [Odsouhlasení nákladů s hlavní knihou](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
+##### [Sledování průběhu a výkonu projektů](projects-how-monitor-progress-performance.md)
 #### [Úprava a odsouhlasení skladových nákladů s hlavní knihou pomocí fronty úloh](finance-adjust-reconcile-inventory-cost-job-queue.md)
 
 ### Správa Cash Flow
 #### [Přehled Cash Flow](finance-cash-flow-overview.md)
-#### [Analýza peněžních toků ve vaší společnosti](finance-analyze-cash-flow.md)
+#### [Analyzování Cash Flow ve vaší společnosti](finance-analyze-cash-flow.md)
+#### [Průběh: Využívání finančních výkazů k vytvoření předpovědi Cash Flow](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 
 ### Uzávěrky a období
 #### [Přehled uzávěrky](year-close-years-periods.md)
@@ -420,38 +404,61 @@
 #### [Uzavření účtů výkazu zisku a ztráty](year-close-income-statement.md)
 #### [Zaúčtování závěrečného záznamu na konci roku](year-how-post-year-end-close-entry.md)
 
-### Konsolidace finančních dat z více společností
-#### [Konsolidace spoolečnosti](finance-consolidated-company-reporting.md)
-#### [Nastavení konsolidace společnosti](finance-consolidated-company-reporting-setup.md)
-
 ### Práce s grafmi o účtů a účetní knihy
 #### [Porozumění účetní knize a účtové osnově](finance-general-ledger.md)
 #### [Kontrola účtů](finance-review-accounts.md)
+#### [Přímé zaúčtování transakcí do účetní knihy](finance-how-post-transactions-directly.md)
+#### [Zpětné zaúčtování do deníku a zrušení příjmu/odeslání](finance-how-reverse-journal-posting.md)
+#### [Evidence a úhrada výdajů zaměstnanců](finance-how-record-reimburse-employee-expenses.md)
+#### [Tvorba rozpočtů](finance-how-create-budgets.md)
+#### [Export souboru pro audit](finance-how-to-export-audit-files.md)
+#### [Příjmy a výdaje příštích období](finance-how-defer-revenue-expenses.md)
+#### [Rozdělení opakujících se nákladů a výnosů](year-allocate-costs-income.md)
+#### [Přiřazení výnosů a nákladů k více účtům](finance-allocate-revenue-costs.md)
 
-### [Konsolidace zůstatků pro společnost, která je zákazníkem a dodavatelem](finance-consolidate-customer-vendor-balances.md)
-### [Práce s dimenzemi](finance-dimensions.md)
-### [Odstraňování problémů a úprava dimenzí](finance-troubleshooting-correcting-dimensions.md)
-### [Měny v Business Central](finance-currencies.md)
-### [Tvorba rozpočtů](finance-how-create-budgets.md)
-### [Přímé zaúčtování transakcí do účetní knihy](finance-how-post-transactions-directly.md)
-### [Zpětné zaúčtování do deníku a zrušení příjmu/odeslání](finance-how-reverse-journal-posting.md)
-### [Export souboru pro audit](finance-how-to-export-audit-files.md)
-### [Evidence a úhrada výdajů zaměstnanců](finance-how-record-reimburse-employee-expenses.md)
-### [Příjmy a výdaje příštích období](finance-how-defer-revenue-expenses.md)
-### [Rozdělení opakujících se nákladů a výnosů](year-allocate-costs-income.md)
-### [Přiřazení výnosů a nákladů k více účtům](finance-allocate-revenue-costs.md)
-### [Aktualizace směnných kurzů](finance-how-update-currencies.md)
-### [Import mzdových transakcí](finance-how-import-payroll-transactions.md)
-### [Práce s DPH při prodeji a nákupu](finance-work-with-vat.md)
-### [Hlášení DPH finančním úřadům](finance-how-report-vat.md)
-### [Převod smluv o poskytování služeb, které obsahují částky DPH](service-how-to-convert-service-contracts.md)
-### [Správa změn sazeb DPH](finance-how-use-vat-rate-change-tool.md)
-### [Přehled: Vytváření prognóz peněžních toků pomocí finančních výkazů](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
-### [Analýza finančních výkazů v aplikaci Excel](finance-analyze-excel.md)
-### [Převod bankovních prostředků](bank-how-transfer-bank-funds.md)
-### [Vytvoření bankovních vkladů](bank-create-bank-deposits.md)
+### Práce s dimenzemi
+#### [Přehled Dimenze](finance-dimensions.md)
+#### [Odstraňování problémů a úprava dimenzí](finance-troubleshooting-correcting-dimensions.md)
+#### [Import mzdových transakcí](finance-how-import-payroll-transactions.md)
+
+### Práce s měnami
+#### [Měny v Business Central](finance-currencies.md)
+#### [Aktualizace směnných kurzů](finance-how-update-currencies.md)
+
+### Správa s DPH
+#### [Přehled správy DPH](finance-manage-vat.md)
+#### [Nákupní transakce třetích stran v EU](finance-how-to-eu3party-trade-purchase.md)
+#### Nastavení DPH
+##### [Nastavení daně z přidané hodnoty](finance-setup-vat.md)
+##### [Nastavení účto skupiny](finance-posting-groups.md#tax-posting-groups)
+##### [Nastavení neodpočitatelné DPH](finance-setup-nondeductible-vat.md)
+##### [Nastavení nerealizované daně z přidané hodnoty](finance-setup-unrealized-vat.md)
+##### [Nastavení výkazu DPH](finance-how-setup-vat-statement.md)
+#### [Práce s DPH při prodeji a nákupu](finance-work-with-vat.md)
+#### [Použití neodpočitatelné DPH](finance-how-use-non-deductible-vat.md)
+#### [Podávání hlášení o DPH daňovým úřadům](finance-how-report-vat.md)
+#### [Správa změn sazeb DPH](finance-how-use-vat-rate-change-tool.md)
+#### [Ověření registračních čísel DPH](finance-how-validate-vat-registration-number.md)
+#### [Převod smluv o poskytování služeb, které obsahují částky DPH](service-how-to-convert-service-contracts.md)
+
+### Správa elektronických dokumentů
+#### [Přehled elektronických dokumentů](finance-edocuments-overview.md)
+#### [Nastavení elektronických dokumentů](finance-how-setup-edocuments.md)
+#### [Využití elektronických dokumentů pri prodeji a nákupu](finance-how-use-edocuments.md)
+#### [Nastavení konektorů elektronických dokumentů s externími konečnými body](finance-how-to-setup-edocuments-external.md)
+#### [Rozšiření funkcií elektronických dokumentů](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
+
+### [Organizace s více lokalitami a mezinárodní organizace](finance-multi-site-organizations.md)
+#### Konsolidace finančních dat z více společností
+##### [Konsolidace spoolečnosti](finance-consolidated-company-reporting.md)
+##### [Nastavení konsolidace společnosti](finance-consolidated-company-reporting-setup.md)
+#### Správa vnitropodnikových transakcí
+#### [Přehled mezipodnikových vztahů](intercompany-manage.md)
+#### [Nastavení mezipodnikových vztahů](intercompany-how-setup.md)
+#### [Práce s mezipodnikovými dokumenty a deníky](intercompany-how-work-documents-journals.md)
+#### [Správa mezipodnikové doručené a odeslané pošty](intercompany-how-manage-intercompany-inbox.md)
+#### [Alokace nákladů na mezipodnikové partnery](intercompany-allocate-costs.md)
 ### [Zkušenosti účetních v Business Central](finance-accounting.md)
-### [Organizace s více pracovišti a mezinárodní organizace](finance-multi-site-organizations.md)
 
 ## Finanční podnikové analýzy a výkaznictví
 ### [Finanční podnikové analýzy a výkaznictví](bi.md)
@@ -462,8 +469,10 @@
 ### [Nastavení a publikování webových služeb KPI na základě finančních výkazů](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
 ### [Analýza dat podle dimenzí](bi-how-analyze-data-dimension.md)
 ### [Tvorba analytických sestav](bi-how-create-analysis-views-reports.md)
-### [Tvorba sestav za pomoci XBRL](bi-create-reports-with-xbrl.md)
-### [Správa záměru přístupu k databázi](admin-data-access-intent.md)
+### [Analyze financial statements in Excel](finance-analyze-excel.md)
+### [Vytváření sestav s XBRL](bi-create-reports-with-xbrl.md)
+### [Správa přístupu k databázi](admin-data-access-intent.md)
+### [Přehled: Vytváření prognóz peněžních toků pomocí finančních výkazů](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 
 ## Prodej
 ### [Přehled: Prodej](sales-manage-sales.md)
@@ -1571,6 +1580,8 @@
 #### [Nastavení způsobu přepravy](sales-how-set-up-shipment-methods.md)
 #### [Nastavení přepravců](sales-how-to-set-up-shipping-agents.md)
 #### [Definování zásad účtování faktur](admin-setup-invoice-posting-policy.md)
+#### [Aktualizujte data dokumentů za pomocí zúčtovacího data](across-link-doc-dates-to-posting-dates.md)
+#### [Zobrazení varování před vyprodáním zásob](sales-setup-show-stockout-warning.md)
 ### Nastavení nákupu
 #### [Nastavení nákupu](purchasing-setup-purchasing.md)
 #### [Registrace nových dodavatelů](purchasing-how-register-new-vendors.md)
@@ -1617,8 +1628,8 @@
 #### [Nastavení zaměstnanců skladu](warehouse-how-to-set-up-warehouse-employees.md)
 #### [Nastavení lokací pro použití přihrádek](warehouse-how-to-set-up-locations-to-use-bins.md)
 #### [Převod existujících lokací na lokace skladu](warehouse-how-to-convert-existing-locations-to-warehouse-locations.md)
-#### [[Nastavení základních skladů s provozními oblastmi](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)
-#### [[Nastavení zboží a lokací pro přímé zaskladnění a vyskladnění](warehouse-how-to-set-up-items-for-directed-put-away-and-pick.md)
+#### [Nastavení základních skladů s provozními oblastmi](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)
+#### [Nastavení zboží a lokací pro přímé zaskladnění a vyskladnění](warehouse-how-to-set-up-items-for-directed-put-away-and-pick.md)
 #### [Povolení automatického rozdělení zboží s řízeným zaskladněním a vyskladněním](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)
 #### [Povolení vyskladnění pomocí FEFO](warehouse-picking-by-fefo.md)
 <!-- #### [Enable Automated Data Capture Systems (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md) -->
@@ -1908,6 +1919,7 @@
 ### [Předčasné povolení nových funkcí](admin-feature-management.md)
 ### [Onboard uživatelé s kontrolními seznamy](admin-checklist.md)
 ### [Sandbox prostředí](admin-sandbox-environments.md)
+## [Copilot a možnosti umělé inteligence](enable-ai.md)
 ## Přizpůsobení Business Central
 ### [Přehled přizpůsobení](ui-customizing-overview.md)
 ### [Přizpůsobení stránek pro profily](ui-personalization-manage.md)
@@ -2033,3 +2045,19 @@
 ## [Zabezpečení a Ochrana](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## [Výkon](/dynamics365/business-central/dev-itpro/performance/performance-overview?toc=/dynamics365/business-central/toc.json)
 ## [Odebrané nebo zastaralé funkce](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1?toc=/dynamics365/business-central/toc.json)
+# Copilot a umělé inteligence
+## Práva Copilot a umělé inteligence
+### [Konfigurace Copilot a umělé inteligence](enable-ai.md)
+### [Copilot pohybu dat napříč geografickými oblastmi](ai-copilot-data-movement.md)
+### [Řešení problémů s funkcemi systému Copilot a umělé inteligence](ai-copilot-troubleshooting.md)
+## Bank account reconciliation assist (preview)
+### [Odsouhlasení bankovních účtů s Copilot](bank-reconciliation-with-copilot.md)
+### [Často kladené dotazy k asistenci při odsouhlasování bankovních účtů](faqs-bank-reconciliation.md)
+## Marketing text suggestions
+### [Přehled návrhů marketingových textů](ai-overview.md)
+### [Vytvářejte marketingové texty pomocí Copilot](item-marketing-text.md)
+### [Často kladené dotazy k návrhům marketingových textů](faqs-marketing-text.md)
+# Zodpovědná umělá inteligence
+## [Přehled](responsible-ai-overview.md)
+## [Často kladené dotazy k asistenci při odsouhlasování bankovních účtů (náhled)](faqs-bank-reconciliation.md)
+## [Často kladené dotazy k návrhům marketingových textů](faqs-marketing-text.md)
